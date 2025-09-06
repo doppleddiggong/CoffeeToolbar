@@ -183,7 +183,7 @@ void FCoffeeToolbar::RegisterMenus()
 	Section.AddEntry(FToolMenuEntry::InitToolBarButton(
 		"CoffeeToolbar_PlayPIE",
 		FUIAction(FExecuteAction::CreateRaw(this, &FCoffeeToolbar::OnSelectedMap_PlayInEditor)),
-		NSLOCTEXT("CoffeeToolbar","PlayPIE","Play In Editor`"),
+		NSLOCTEXT("CoffeeToolbar","PlayPIE","Play In Editor"),
 		NSLOCTEXT("CoffeeToolbar","PlayPIE_Tip","Selected Editor Play In Editor"),
 		FSlateIcon(FAppStyle::GetAppStyleSetName(), "GraphEditor.PadEvent_16x")
 	));
@@ -191,16 +191,16 @@ void FCoffeeToolbar::RegisterMenus()
 	Section.AddEntry(FToolMenuEntry::InitToolBarButton(
 		"CoffeeToolbar_Screenshot",
 		FUIAction(FExecuteAction::CreateRaw(this, &FCoffeeToolbar::OnCaptureScreenshot)),
-		LOCTEXT("CoffeeToolbar", "Screenshot", "Screenshot"),
-		LOCTEXT("CoffeeToolbar", "Screenshot_Tip", "Take a screenshot of the active viewport (PIE or Editor)"),
+		NSLOCTEXT("CoffeeToolbar", "Screenshot", "Screenshot"),
+		NSLOCTEXT("CoffeeToolbar", "Screenshot_Tip", "Take a screenshot of the active viewport (PIE or Editor)"),
 		FSlateIconFinder::FindIconForClass(ACameraActor::StaticClass()) // ← 카메라 아이콘
 	));
 
 	Section.AddEntry(FToolMenuEntry::InitToolBarButton(
 		"DoppleToolbar_OpenShotDir",
 		FUIAction(FExecuteAction::CreateRaw(this, &FCoffeeToolbar::OnOpenScreenShotDir)),
-		LOCTEXT("CoffeeToolbar", "OpenShotDir", "Open Screenshot Folder"),
-		LOCTEXT("CoffeeToolbar", "OpenShotDir_Tip", "Open the project's screenshot directory"),
+		NSLOCTEXT("CoffeeToolbar", "OpenShotDir", "Open Screenshot Folder"),
+		NSLOCTEXT("CoffeeToolbar", "OpenShotDir_Tip", "Open the project's screenshot directory"),
 		FSlateIcon(FAppStyle::GetAppStyleSetName(), "Icons.FolderOpen")
 	));
 
@@ -212,8 +212,8 @@ void FCoffeeToolbar::RegisterMenus()
 				FCanExecuteAction(),
 				FIsActionChecked::CreateRaw(this, &FCoffeeToolbar::IsStatFPSChecked)
 			),
-			LOCTEXT("CoffeeToolbar", "StatFPS", "STAT FPS"),
-			LOCTEXT("CoffeeToolbar", "StatFPS_Tip", "Toggle 'stat fps' on active viewport (PIE or Editor)"),
+			NSLOCTEXT("CoffeeToolbar", "StatFPS", "STAT FPS"),
+			NSLOCTEXT("CoffeeToolbar", "StatFPS_Tip", "Toggle 'stat fps' on active viewport (PIE or Editor)"),
 			FSlateIcon(FAppStyle::GetAppStyleSetName(), "LevelEditor.Tabs.StatsViewer")
 		);
 		StatEntry.UserInterfaceActionType = EUserInterfaceActionType::ToggleButton;
