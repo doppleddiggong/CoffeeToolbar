@@ -55,6 +55,11 @@ bool FCoffeeToolbar::IsStatFPSChecked() const
 	return bStatFPSEnabled;
 }
 
+bool FCoffeeToolbar::IsStatUnitChecked() const
+{
+	return bStatUnitEnabled;
+}
+
 void FCoffeeToolbar::EnsureDefaultSelection()
 {
 	if (!SelectedMapPackage.IsEmpty())
@@ -220,6 +225,23 @@ void FCoffeeToolbar::RegisterMenus()
 		Section.AddEntry(StatEntry);
 	}
 
+	{
+		FToolMenuEntry StatEntry = FToolMenuEntry::InitToolBarButton(
+			"DoppleToolbar_ToggleStatUnit",
+			FUIAction(
+				FExecuteAction::CreateRaw(this, &FCoffeeToolbar::OnToggleStatUnit),
+				FCanExecuteAction(),
+				FIsActionChecked::CreateRaw(this, &FCoffeeToolbar::IsStatUnitChecked)
+			),
+			NSLOCTEXT("CoffeeToolbar", "StatUnit", "STAT Unit"),
+			NSLOCTEXT("CoffeeToolbar", "StatUnit_Tip", "Toggle 'stat Unit' on active viewport (PIE or Editor)"),
+			FSlateIcon(FAppStyle::GetAppStyleSetName(), "Profiler.Tab")
+		);
+		StatEntry.UserInterfaceActionType = EUserInterfaceActionType::ToggleButton;
+		Section.AddEntry(StatEntry);
+	}
+	
+
 	UToolMenus::Get()->RefreshAllWidgets();
 }
 
@@ -370,6 +392,15 @@ void FCoffeeToolbar::OnToggleStatFPS()
 	{
 		const TCHAR* Cmd = bStatFPSEnabled ? TEXT("stat fps 1") : TEXT("stat fps 0");
 		GEditor->Exec(W, Cmd);
+	}
+}
+
+void FCoffeeToolbar::OnToggleStatUnit()
+{
+	bStatUnitEnabled = !bStatUnitEnabled;
+	if (UWorld* W = GetActiveTargetWorld())
+	{
+		GEditor->Exec(W, TEXT("stat unit"));
 	}
 }
 #undef LOCTEXT_NAMESPACE
