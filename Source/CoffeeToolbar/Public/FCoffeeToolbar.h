@@ -7,14 +7,11 @@
 class FCoffeeToolbar : public IModuleInterface
 {
 public:
-	bool IsStatFPSChecked() const;
-	bool IsStatUnitChecked() const;
-	bool IsStatSceneRenderingChecked() const;
-
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
 
 	TSharedRef<class SWidget> GenerateLevelMenu();
+	TSharedRef<class SWidget> GenerateCommandsMenu();
 	
 private:
 	void RegisterMenus();
@@ -32,13 +29,11 @@ private:
 
 	void OnCaptureScreenshot();
 	void OnOpenScreenShotDir();
-	void OnToggleStatFPS();
-	void OnToggleStatUnit();
-	void OnToggleStatSceneRendering();
-	
-	FString SelectedMapPackage;
 
-	bool bStatFPSEnabled = false;
-	bool bStatUnitEnabled = false;
-	bool bStatSceneRenderingEnabled = false;
+	void OnExecuteButtonCommand(FName ButtonId);
+	bool IsButtonToggled(FName ButtonId) const;
+	const FSlateIcon GetIcon(FName IconName) const;
+
+	FString SelectedMapPackage;
+	TMap<FName, bool> ToggleButtonState;
 };

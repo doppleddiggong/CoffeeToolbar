@@ -1,6 +1,7 @@
 // Copyright (c) 2025 Doppleddiggong. All rights reserved. Unauthorized copying, modification, or distribution of this file, via any medium is strictly prohibited. Proprietary and confidential.
 
 #include "FCoffeeToolbarStyle.h"
+#include "UCoffeeToolbarSettings.h"
 #include "Framework/Application/SlateApplication.h"
 #include "Styling/SlateStyleRegistry.h"
 #include "Interfaces/IPluginManager.h"
@@ -44,6 +45,16 @@ TSharedRef<FSlateStyleSet> FCoffeeToolbarStyle::Create()
 {
 	TSharedRef< FSlateStyleSet > Style = MakeShareable(new FSlateStyleSet("CoffeeToolbarStyle"));
 	Style->SetContentRoot(IPluginManager::Get().FindPlugin("CoffeeToolbar")->GetBaseDir() / TEXT("Resources"));
+
+	const UCoffeeToolbarSettings* Settings = GetDefault<UCoffeeToolbarSettings>();
+	for (const auto& Button : Settings->ToolbarButtons)
+	{
+		if (!Button.Icon.IsNone() && !Button.Icon.ToString().Contains(TEXT(".")))
+		{
+			FString IconPath = Button.Icon.ToString();
+			Style->Set(Button.Icon, new IMAGE_BRUSH(IconPath, Icon20x20));
+		}
+	}
 
 	Style->Set("CoffeeToolbar.PluginAction", new IMAGE_BRUSH_SVG(TEXT("PlaceholderButtonIcon"), Icon20x20));
 	return Style;

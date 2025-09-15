@@ -50,21 +50,6 @@ void FCoffeeToolbar::ShutdownModule()
 	FCoffeeToolbarCommands::Unregister();
 }
 
-bool FCoffeeToolbar::IsStatFPSChecked() const
-{
-	return bStatFPSEnabled;
-}
-
-bool FCoffeeToolbar::IsStatUnitChecked() const
-{
-	return bStatUnitEnabled;
-}
-
-bool FCoffeeToolbar::IsStatSceneRenderingChecked() const
-{
-	return bStatSceneRenderingEnabled;
-}
-
 void FCoffeeToolbar::EnsureDefaultSelection()
 {
 	if (!SelectedMapPackage.IsEmpty())
@@ -214,60 +199,16 @@ void FCoffeeToolbar::RegisterMenus()
 		FSlateIcon(FAppStyle::GetAppStyleSetName(), "Icons.FolderOpen")
 	));
 
-	{
-		FToolMenuEntry StatEntry = FToolMenuEntry::InitToolBarButton(
-			"DoppleToolbar_ToggleStatFPS",
-			FUIAction(
-				FExecuteAction::CreateRaw(this, &FCoffeeToolbar::OnToggleStatFPS),
-				FCanExecuteAction(),
-				FIsActionChecked::CreateRaw(this, &FCoffeeToolbar::IsStatFPSChecked)
-			),
-			NSLOCTEXT("CoffeeToolbar", "StatFPS", "STAT FPS"),
-			NSLOCTEXT("CoffeeToolbar", "StatFPS_Tip", "Toggle 'stat fps' on active viewport (PIE or Editor)"),
-			FSlateIcon(FAppStyle::GetAppStyleSetName(), "LevelEditor.Tabs.StatsViewer")
-		);
-		StatEntry.UserInterfaceActionType = EUserInterfaceActionType::ToggleButton;
-		Section.AddEntry(StatEntry);
-	}
-
-	{
-		FToolMenuEntry StatEntry = FToolMenuEntry::InitToolBarButton(
-			"DoppleToolbar_ToggleStatUnit",
-			FUIAction(
-				FExecuteAction::CreateRaw(this, &FCoffeeToolbar::OnToggleStatUnit),
-				FCanExecuteAction(),
-				FIsActionChecked::CreateRaw(this, &FCoffeeToolbar::IsStatUnitChecked)
-			),
-			NSLOCTEXT("CoffeeToolbar", "StatUnit", "STAT Unit"),
-			NSLOCTEXT("CoffeeToolbar", "StatUnit_Tip", "Toggle 'stat Unit' on active viewport (PIE or Editor)"),
-			FSlateIcon(FAppStyle::GetAppStyleSetName(), "Profiler.Tab")
-		);
-		StatEntry.UserInterfaceActionType = EUserInterfaceActionType::ToggleButton;
-		Section.AddEntry(StatEntry);
-	}
-
-	{
-		FToolMenuEntry StatEntry = FToolMenuEntry::InitToolBarButton(
-			"DoppleToolbar_ToggleStatSceneRendering",
-			FUIAction(
-				FExecuteAction::CreateRaw(this, &FCoffeeToolbar::OnToggleStatSceneRendering),
-				FCanExecuteAction(),
-				FIsActionChecked::CreateRaw(this, &FCoffeeToolbar::IsStatSceneRenderingChecked)
-			),
-			NSLOCTEXT("CoffeeToolbar", "StatSceneRendering", "STAT SceneRendering"),
-			NSLOCTEXT("CoffeeToolbar", "StatSceneRendering_Tip", "Toggle 'stat scenerendering' on active viewport (PIE or Editor)"),
-			FSlateIcon(FAppStyle::GetAppStyleSetName(), "Profiler.Tab")
-		);
-		StatEntry.UserInterfaceActionType = EUserInterfaceActionType::ToggleButton;
-		Section.AddEntry(StatEntry);
-	}
-	
-	
-	{
-
-	}
-	
-	
+	FToolMenuEntry CommandsComboButton = FToolMenuEntry::InitComboButton(
+		"CommandsComboButton",
+		FUIAction(),
+		FOnGetContent::CreateRaw(this, &FCoffeeToolbar::GenerateCommandsMenu),
+		NSLOCTEXT("CoffeeToolbar", "CommandsMenu", "Commands"),
+		NSLOCTEXT("CoffeeToolbar", "CommandsMenu_Tooltip", "Execute custom commands"),
+		FSlateIcon(FAppStyle::GetAppStyleSetName(), "Icons.Settings")
+	);
+	CommandsComboButton.StyleNameOverride = "CalloutToolbar";
+	Section.AddEntry(CommandsComboButton);
 
 	UToolMenus::Get()->RefreshAllWidgets();
 }
@@ -318,6 +259,32 @@ TSharedRef<SWidget> FCoffeeToolbar::GenerateLevelMenu()
 		MenuBuilder.AddMenuEntry(
 			Label, Tooltip, FSlateIcon(),
 			FUIAction(FExecuteAction::CreateRaw(this, &FCoffeeToolbar::OnSelectedMap, PackagePath))
+		);
+	}
+
+	return MenuBuilder.MakeWidget();
+}
+
+TSharedRef<SWidget> FCoffeeToolbar::GenerateCommandsMenu()
+{
+	FMenuBuilder MenuBuilder(true, nullptr);
+
+	const UCoffeeToolbarSettings* Settings = GetDefault<UCoffeeToolbarSettings>();
+	for (const auto& ButtonInfo : Settings->ToolbarButtons)
+	{
+		FUIAction Action(
+			FExecuteAction::CreateRaw(this, &FCoffeeToolbar::OnExecuteButtonCommand, ButtonInfo.Id),
+			FCanExecuteAction(),
+			FIsActionChecked::CreateRaw(this, &FCoffeeToolbar::IsButtonToggled, ButtonInfo.Id)
+		);
+
+		MenuBuilder.AddMenuEntry(
+			FText::FromString(ButtonInfo.Label),
+			FText::FromString(ButtonInfo.Tooltip),
+			GetIcon(ButtonInfo.Icon),
+			Action,
+			NAME_None,
+			ButtonInfo.bIsToggleButton ? EUserInterfaceActionType::ToggleButton : EUserInterfaceActionType::Button
 		);
 	}
 
@@ -412,33 +379,47 @@ void FCoffeeToolbar::OnOpenScreenShotDir()
 	FPlatformProcess::ExploreFolder(*AbsoluteDir);
 }
 
-void FCoffeeToolbar::OnToggleStatFPS()
+void FCoffeeToolbar::OnExecuteButtonCommand(FName ButtonId)
 {
-	bStatFPSEnabled = !bStatFPSEnabled;
+	const UCoffeeToolbarSettings* Settings = GetDefault<UCoffeeToolbarSettings>();
+	const FCoffeeToolbarButtonInfo* ButtonInfo = Settings->ToolbarButtons.FindByPredicate([&](const FCoffeeToolbarButtonInfo& Button){ return Button.Id == ButtonId; });
+
+	if (!ButtonInfo)
+		return;
+
 	if (UWorld* W = GetActiveTargetWorld())
 	{
-		const TCHAR* Cmd = bStatFPSEnabled ? TEXT("stat fps 1") : TEXT("stat fps 0");
-		GEditor->Exec(W, Cmd);
+		FString Command = ButtonInfo->Command;
+		if (ButtonInfo->bIsToggleButton)
+		{
+			bool& bIsToggled = ToggleButtonState.FindOrAdd(ButtonId);
+			bIsToggled = !bIsToggled;
+
+			if (Command.Contains(TEXT(" ")))
+			{
+				Command.Append(bIsToggled ? TEXT(" 1") : TEXT(" 0"));
+			}
+		}
+		UE_LOG(LogTemp, Log, TEXT("Executing command: %s"), *Command);
+		GEditor->Exec(W, *Command);
 	}
 }
 
-void FCoffeeToolbar::OnToggleStatUnit()
+bool FCoffeeToolbar::IsButtonToggled(FName ButtonId) const
 {
-	bStatUnitEnabled = !bStatUnitEnabled;
-	if (UWorld* W = GetActiveTargetWorld())
-	{
-		GEditor->Exec(W, TEXT("stat unit"));
-	}
+	return ToggleButtonState.FindRef(ButtonId);
 }
 
-void FCoffeeToolbar::OnToggleStatSceneRendering()
+const FSlateIcon FCoffeeToolbar::GetIcon(FName IconName) const
 {
-	bStatSceneRenderingEnabled = !bStatSceneRenderingEnabled;
-	if (UWorld* W = GetActiveTargetWorld())
+	if (IconName.ToString().Contains(TEXT(".")))
 	{
-		GEditor->Exec(W, TEXT("stat scenerendering"));
+		return FSlateIcon(FAppStyle::GetAppStyleSetName(), IconName);
 	}
+	
+	return FSlateIcon(FCoffeeToolbarStyle::GetStyleSetName(), IconName);
 }
+
 #undef LOCTEXT_NAMESPACE
 	
 IMPLEMENT_MODULE(FCoffeeToolbar, CoffeeToolbar)
