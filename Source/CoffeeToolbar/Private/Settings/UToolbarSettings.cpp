@@ -1,15 +1,17 @@
 ﻿// Copyright (c) 2025 Doppleddiggong. All rights reserved. Unauthorized copying, modification, or distribution of this file, via any medium is strictly prohibited. Proprietary and confidential.
 
-#include "UCoffeeToolbarSettings.h"
+#include "Settings/UToolbarSettings.h"
 #include "AssetRegistry/AssetRegistryModule.h"
 #include "AssetRegistry/IAssetRegistry.h"
 
-UCoffeeToolbarSettings::UCoffeeToolbarSettings(const FObjectInitializer& ObjectInitializer)
+UToolbarSettings::UToolbarSettings(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
 {
 	FDirectoryPath P;
 	P.Path = TEXT("Game/CustomContents/Levels");
 	ExtraSearchPaths.Add(P);
+
+	ReloadConfig(); // Ensure default values from INI are loaded
 }
 
 static bool NormalizeUserPath(const FString& In, FName& OutRoot)
@@ -32,12 +34,12 @@ static bool NormalizeUserPath(const FString& In, FName& OutRoot)
 	return true;
 }
 
-TArray<FName> UCoffeeToolbarSettings::GetSearchRoots(const bool bFallbackToGame)
+TArray<FName> UToolbarSettings::GetSearchRoots(const bool bFallbackToGame)
 {
 	TArray<FName> Paths;
 	bool bAdded = false;
 
-	if (const UCoffeeToolbarSettings* S = GetDefault<UCoffeeToolbarSettings>())
+	if (const UToolbarSettings* S = GetDefault<UToolbarSettings>())
 	{
 		for (const FDirectoryPath& Dir : S->ExtraSearchPaths)
 		{

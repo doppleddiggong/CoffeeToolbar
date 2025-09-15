@@ -4,7 +4,7 @@
 
 #include "Styling/SlateStyle.h"
 
-class FCoffeeToolbarStyle
+class FToolbarStyle
 {
 public:
 	static void Initialize();

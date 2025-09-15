@@ -1,7 +1,7 @@
 // Copyright (c) 2025 Doppleddiggong. All rights reserved. Unauthorized copying, modification, or distribution of this file, via any medium is strictly prohibited. Proprietary and confidential.
 
-#include "FCoffeeToolbarStyle.h"
-#include "UCoffeeToolbarSettings.h"
+#include "Common/FToolbarStyle.h"
+#include "Settings/UToolbarSettings.h"
 #include "Framework/Application/SlateApplication.h"
 #include "Styling/SlateStyleRegistry.h"
 #include "Interfaces/IPluginManager.h"
@@ -12,14 +12,14 @@
 const FVector2D Icon16x16(16.0f, 16.0f);
 const FVector2D Icon20x20(20.0f, 20.0f);
 
-TSharedPtr<FSlateStyleSet> FCoffeeToolbarStyle::Instance = nullptr;
+TSharedPtr<FSlateStyleSet> FToolbarStyle::Instance = nullptr;
 
-const ISlateStyle& FCoffeeToolbarStyle::Get()
+const ISlateStyle& FToolbarStyle::Get()
 {
 	return *Instance;
 }
 
-void FCoffeeToolbarStyle::Initialize()
+void FToolbarStyle::Initialize()
 {
 	if (!Instance.IsValid())
 	{
@@ -28,25 +28,25 @@ void FCoffeeToolbarStyle::Initialize()
 	}
 }
 
-void FCoffeeToolbarStyle::Shutdown()
+void FToolbarStyle::Shutdown()
 {
 	FSlateStyleRegistry::UnRegisterSlateStyle(*Instance);
 	ensure(Instance.IsUnique());
 	Instance.Reset();
 }
 
-FName FCoffeeToolbarStyle::GetStyleSetName()
+FName FToolbarStyle::GetStyleSetName()
 {
 	static FName StyleSetName(TEXT("FCoffeeToolbarStyle"));
 	return StyleSetName;
 }
 
-TSharedRef<FSlateStyleSet> FCoffeeToolbarStyle::Create()
+TSharedRef<FSlateStyleSet> FToolbarStyle::Create()
 {
-	TSharedRef< FSlateStyleSet > Style = MakeShareable(new FSlateStyleSet("CoffeeToolbarStyle"));
+	TSharedRef< FSlateStyleSet > Style = MakeShareable(new FSlateStyleSet("ToolbarStyle"));
 	Style->SetContentRoot(IPluginManager::Get().FindPlugin("CoffeeToolbar")->GetBaseDir() / TEXT("Resources"));
 
-	const UCoffeeToolbarSettings* Settings = GetDefault<UCoffeeToolbarSettings>();
+	const UToolbarSettings* Settings = GetDefault<UToolbarSettings>();
 	for (const auto& Button : Settings->ToolbarButtons)
 	{
 		if (!Button.Icon.IsNone() && !Button.Icon.ToString().Contains(TEXT(".")))
@@ -60,7 +60,7 @@ TSharedRef<FSlateStyleSet> FCoffeeToolbarStyle::Create()
 	return Style;
 }
 
-void FCoffeeToolbarStyle::ReloadTextures()
+void FToolbarStyle::ReloadTextures()
 {
 	if (FSlateApplication::IsInitialized())
 	{

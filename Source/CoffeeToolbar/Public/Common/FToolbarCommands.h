@@ -3,17 +3,17 @@
 #pragma once
 
 #include "Framework/Commands/Commands.h"
-#include "FCoffeeToolbarStyle.h"
+#include "Common/FToolbarStyle.h"
 
-class FCoffeeToolbarCommands : public TCommands<FCoffeeToolbarCommands>
+class FToolbarCommands : public TCommands<FToolbarCommands>
 {
 public:
-	FCoffeeToolbarCommands()
-		: TCommands<FCoffeeToolbarCommands>(
+	FToolbarCommands()
+		: TCommands<FToolbarCommands>(
 			TEXT("CoffeeToolbar"),
 			NSLOCTEXT("Contexts", "CoffeeToolbar", "CoffeeToolbar Plugin"),
 			NAME_None,
-			FCoffeeToolbarStyle::GetStyleSetName())
+			FToolbarStyle::GetStyleSetName())
 	{
 	}
 

@@ -1,13 +1,10 @@
-﻿// Copyright (c) 2025 Doppleddiggong. All rights reserved. Unauthorized copying, modification, or distribution of this file, via any medium is strictly prohibited. Proprietary and confidential.
-
-#pragma once
+﻿#pragma once
 
 #include "CoreMinimal.h"
-#include "Engine/DeveloperSettings.h"
-#include "UCoffeeToolbarSettings.generated.h"
+#include "FToolbarButtonInfo.generated.h"
 
 USTRUCT(BlueprintType)
-struct FCoffeeToolbarButtonInfo
+struct FToolbarButtonInfo
 {
 	GENERATED_BODY()
 
@@ -37,25 +34,4 @@ struct FCoffeeToolbarButtonInfo
 	/** true로 설정하면 껐다 켰다 할 수 있는 토글 버튼이 됩니다. */
 	UPROPERTY(EditAnywhere, Category="Button Info")
 	bool bIsToggleButton = false;
-};
-
-UCLASS(Config=CoffeeToolbar, DefaultConfig, meta=(DisplayName="CoffeeToolbar"))
-class COFFEETOOLBAR_API UCoffeeToolbarSettings : public UDeveloperSettings
-{
-	GENERATED_BODY()
-
-public:
-	UCoffeeToolbarSettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
-	
-	virtual FName GetCategoryName() const override { return TEXT("Plugins"); }
-	virtual FName GetSectionName()  const override { return TEXT("Level Selector"); }
-
-	static TArray<FName> GetSearchRoots(const bool bFallbackToGame = true);
-
-	
-	UPROPERTY(EditAnywhere, Config, Category="Search")
-	TArray<FDirectoryPath> ExtraSearchPaths;
-
-	UPROPERTY(EditAnywhere, Config, Category="Toolbar")
-	TArray<FCoffeeToolbarButtonInfo> ToolbarButtons;
 };
