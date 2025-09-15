@@ -9,6 +9,7 @@ class FCoffeeToolbar : public IModuleInterface
 public:
 	bool IsStatFPSChecked() const;
 	bool IsStatUnitChecked() const;
+	bool IsStatSceneRenderingChecked() const;
 
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
@@ -33,9 +34,11 @@ private:
 	void OnOpenScreenShotDir();
 	void OnToggleStatFPS();
 	void OnToggleStatUnit();
+	void OnToggleStatSceneRendering();
 	
 	FString SelectedMapPackage;
 
 	bool bStatFPSEnabled = false;
 	bool bStatUnitEnabled = false;
+	bool bStatSceneRenderingEnabled = false;
 };

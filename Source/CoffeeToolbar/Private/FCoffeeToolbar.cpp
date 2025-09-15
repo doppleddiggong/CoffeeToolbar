@@ -60,6 +60,11 @@ bool FCoffeeToolbar::IsStatUnitChecked() const
 	return bStatUnitEnabled;
 }
 
+bool FCoffeeToolbar::IsStatSceneRenderingChecked() const
+{
+	return bStatSceneRenderingEnabled;
+}
+
 void FCoffeeToolbar::EnsureDefaultSelection()
 {
 	if (!SelectedMapPackage.IsEmpty())
@@ -240,6 +245,28 @@ void FCoffeeToolbar::RegisterMenus()
 		StatEntry.UserInterfaceActionType = EUserInterfaceActionType::ToggleButton;
 		Section.AddEntry(StatEntry);
 	}
+
+	{
+		FToolMenuEntry StatEntry = FToolMenuEntry::InitToolBarButton(
+			"DoppleToolbar_ToggleStatSceneRendering",
+			FUIAction(
+				FExecuteAction::CreateRaw(this, &FCoffeeToolbar::OnToggleStatSceneRendering),
+				FCanExecuteAction(),
+				FIsActionChecked::CreateRaw(this, &FCoffeeToolbar::IsStatSceneRenderingChecked)
+			),
+			NSLOCTEXT("CoffeeToolbar", "StatSceneRendering", "STAT SceneRendering"),
+			NSLOCTEXT("CoffeeToolbar", "StatSceneRendering_Tip", "Toggle 'stat scenerendering' on active viewport (PIE or Editor)"),
+			FSlateIcon(FAppStyle::GetAppStyleSetName(), "Profiler.Tab")
+		);
+		StatEntry.UserInterfaceActionType = EUserInterfaceActionType::ToggleButton;
+		Section.AddEntry(StatEntry);
+	}
+	
+	
+	{
+
+	}
+	
 	
 
 	UToolMenus::Get()->RefreshAllWidgets();
@@ -401,6 +428,15 @@ void FCoffeeToolbar::OnToggleStatUnit()
 	if (UWorld* W = GetActiveTargetWorld())
 	{
 		GEditor->Exec(W, TEXT("stat unit"));
+	}
+}
+
+void FCoffeeToolbar::OnToggleStatSceneRendering()
+{
+	bStatSceneRenderingEnabled = !bStatSceneRenderingEnabled;
+	if (UWorld* W = GetActiveTargetWorld())
+	{
+		GEditor->Exec(W, TEXT("stat scenerendering"));
 	}
 }
 #undef LOCTEXT_NAMESPACE
