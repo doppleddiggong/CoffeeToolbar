@@ -6,7 +6,7 @@
 #include "Engine/DeveloperSettings.h"
 #include "UToolbarSettings.generated.h"
 
-UCLASS(Config=CoffeeToolbar, DefaultConfig, meta=(DisplayName="CoffeeToolbar"))
+UCLASS(Config=ToolbarSettings)
 class COFFEETOOLBAR_API UToolbarSettings : public UDeveloperSettings
 {
 	GENERATED_BODY()
