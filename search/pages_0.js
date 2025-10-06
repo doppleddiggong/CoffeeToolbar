@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['coffee_20toolbar_0',['Coffee Toolbar',['../index.html',1,'']]]
+  ['coffeetoolbar_0',['CoffeeToolbar',['../index.html',1,'']]]
 ];
