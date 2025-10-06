@@ -73,6 +73,8 @@
 
 **Custom Commands** 섹션에서 새로운 요소를 추가하여 원하는 콘솔 명령어 또는 에디터 기능을 툴바 버튼으로 등록할 수 있습니다.
 
+![커맨드 설정](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_command.png?raw=true)
+
 ### 4. 레벨 셀렉터 설정 (Level Selector Configuration)
 
 **Level Selector** 기능을 통해 자주 사용하는 레벨들을 등록하고 툴바에서 빠르게 로드할 수 있습니다.
