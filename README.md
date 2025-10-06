@@ -9,7 +9,7 @@
 
 **Version: 1.0.0**
 
-`Coffee Toolbar`는 언리얼 엔진 에디터의 개발 편의성을 향상시키기 위해 제작된 유틸리티 툴바 플러그인입니다. 자주 사용하는 기능들을 원클릭으로 실행하여 반복적인 작업을 줄이고 개발 속도를 높이는 것을 목표로 합니다.
+`CoffeeToolbar`는 언리얼 엔진 에디터의 개발 편의성을 향상시키기 위해 제작된 유틸리티 툴바 플러그인입니다. 자주 사용하는 기능들을 원클릭으로 실행하여 반복적인 작업을 줄이고 개발 속도를 높이는 것을 목표로 합니다.
 
 ## 주요 기능 (Features)
 
@@ -53,11 +53,11 @@
 
 ## 설정 가이드 (Configuration Guide)
 
-`Coffee Toolbar` 플러그인은 언리얼 엔진의 **Project Settings**를 통해 다양한 기능을 설정하고 커스터마이징할 수 있습니다.
+`CoffeeToolbar` 플러그인은 언리얼 엔진의 **Project Settings**를 통해 다양한 기능을 설정하고 커스터마이징할 수 있습니다.
 
 ### 1. 플러그인 설정 접근
 
-언리얼 에디터에서 **Edit > Project Settings**로 이동한 후, 왼쪽 메뉴의 **Plugins** 섹션에서 **Coffee Toolbar**를 선택합니다.
+언리얼 에디터에서 **Edit > Project Settings**로 이동한 후, 왼쪽 메뉴의 **Plugins** 섹션에서 **CoffeeToolbar**를 선택합니다.
 
 ![플러그인 설정 접근](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_plugin_toolbarSettings.png?raw=true)
 
@@ -103,7 +103,7 @@
 
 ## 설정 상세 (Configuration Details)
 
-`Project Settings > Plugins > Coffee Toolbar` 메뉴를 통해 플러그인의 동작을 상세하게 설정할 수 있습니다.
+`Project Settings > Plugins > Toolbar Settings` 메뉴를 통해 플러그인의 동작을 상세하게 설정할 수 있습니다.
 
 *   **콘솔 명령어 등록**: 툴바를 통해 실행할 커스텀 콘솔 명령어 목록을 추가하거나 수정할 수 있습니다.
 *   **스크린샷 배율 설정**: 고해상도 스크린샷 촬영 시 사용될 배율을 지정합니다.
