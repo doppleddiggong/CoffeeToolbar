@@ -27,13 +27,20 @@ var NAVTREE =
   [ "Coffee Toolbar", "index.html", [
     [ "주요 기능 (Features)", "index.html#autotoc_md1", null ],
     [ "설치 방법 (Installation)", "index.html#autotoc_md2", [
-      [ "1. 프로젝트에 설치", "index.html#autotoc_md3", null ],
-      [ "2. 엔진에 설치", "index.html#autotoc_md4", null ]
+      [ "1. GitHub Release를 통한 설치 (권장)", "index.html#autotoc_md3", null ],
+      [ "2. 프로젝트에 수동 설치", "index.html#autotoc_md4", null ],
+      [ "3. 엔진에 수동 설치", "index.html#autotoc_md5", null ]
     ] ],
-    [ "사용법 (How to Use)", "index.html#autotoc_md5", null ],
-    [ "설정 (Configuration)", "index.html#autotoc_md6", null ],
-    [ "라이선스 (License)", "index.html#autotoc_md7", null ],
-    [ "제작자 (Author)", "index.html#autotoc_md8", null ],
+    [ "사용법 (How to Use)", "index.html#autotoc_md6", null ],
+    [ "설정 가이드 (Configuration Guide)", "index.html#autotoc_md7", [
+      [ "1. 플러그인 설정 접근", "index.html#autotoc_md8", null ],
+      [ "2. 기본 설정 (Default Settings)", "index.html#autotoc_md9", null ],
+      [ "3. 커스텀 명령어 추가 (Adding Custom Commands)", "index.html#autotoc_md10", null ],
+      [ "4. 레벨 셀렉터 설정 (Level Selector Configuration)", "index.html#autotoc_md11", null ]
+    ] ],
+    [ "설정 상세 (Configuration Details)", "index.html#autotoc_md13", null ],
+    [ "라이선스 (License)", "index.html#autotoc_md14", null ],
+    [ "제작자 (Author)", "index.html#autotoc_md15", null ],
     [ "클래스", "annotated.html", [
       [ "클래스 목록", "annotated.html", "annotated_dup" ],
       [ "클래스 색인", "classes.html", null ],

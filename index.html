@@ -104,7 +104,8 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
   <div class="headertitle"><div class="title">Coffee Toolbar </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md_README"></a> <b>Version: 1.0</b></p>
+<div class="textblock"><p><a class="anchor" id="md_README"></a> <a href="https://www.unrealengine.com/"><img src="https://img.shields.io/badge/Unreal%20Engine-5.6.0-blue.svg" alt="Unreal Engine" style="pointer-events: none;" class="inline"/></a> <a href="https://isocpp.org/"><img src="https://img.shields.io/badge/C%2B%2B-20-blue.svg" alt="Language" style="pointer-events: none;" class="inline"/></a> [<img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" style="pointer-events: none;" class="inline"/>](LICENSE) <a href="https://doppleddiggong.github.io/CoffeeToolbar/"><img src="https://img.shields.io/badge/Docs-GitHub%20Pages-lightgrey.svg" alt="Documentation" style="pointer-events: none;" class="inline"/></a></p>
+<p><b>Version: 1.0.0</b></p>
 <p><code>Coffee Toolbar</code>는 언리얼 엔진 에디터의 개발 편의성을 향상시키기 위해 제작된 유틸리티 툴바 플러그인입니다. 자주 사용하는 기능들을 원클릭으로 실행하여 반복적인 작업을 줄이고 개발 속도를 높이는 것을 목표로 합니다.</p>
 <h1><a class="anchor" id="autotoc_md1"></a>
 주요 기능 (Features)</h1>
@@ -117,30 +118,72 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <h1><a class="anchor" id="autotoc_md2"></a>
 설치 방법 (Installation)</h1>
 <h2><a class="anchor" id="autotoc_md3"></a>
-1. 프로젝트에 설치</h2>
+1. GitHub Release를 통한 설치 (권장)</h2>
+<ol type="1">
+<li><a href="https://github.com/doppleddiggong/CoffeeToolbar/releases">GitHub Releases 페이지</a>에서 최신 버전의 <code>CoffeeToolbar_X.X.X.zip</code> 파일을 다운로드합니다.</li>
+<li>다운로드한 ZIP 파일의 압축을 해제합니다.</li>
+<li>압축 해제된 <code>CoffeeToolbar</code> 폴더를 언리얼 엔진 프로젝트의 <code>Plugins</code> 폴더 (예: <code>YourProject/Plugins/</code>) 또는 언리얼 엔진 설치 경로의 <code>Engine/Plugins</code> 폴더 (예: <code>C:/Program Files/Epic Games/UE_5.X/Engine/Plugins/</code>) 안에 복사합니다.</li>
+<li>언리얼 엔진 에디터를 재시작합니다.</li>
+<li>에디터 상단 메뉴에서 <code>Edit &gt; Plugins</code>를 선택하고, "CoffeeToolbar"를 검색하여 활성화합니다.</li>
+<li>플러그인 활성화 후 에디터 재시작 메시지가 나타나면 재시작합니다.</li>
+</ol>
+<h2><a class="anchor" id="autotoc_md4"></a>
+2. 프로젝트에 수동 설치</h2>
 <ol type="1">
 <li>프로젝트 폴더 내에 <code>Plugins</code> 폴더가 없다면 생성합니다.</li>
 <li><code>CoffeeToolbar</code> 폴더를 <code>Plugins</code> 폴더 안으로 복사합니다.</li>
 <li>프로젝트를 재시작한 후, <code>Edit &gt; Plugins</code> 메뉴에서 <code>CoffeeToolbar</code>를 찾아 활성화합니다.</li>
 </ol>
 <p><b>경로 예시</b>: <code>[YourProjectDirectory]/Plugins/CoffeeToolbar</code></p>
-<h2><a class="anchor" id="autotoc_md4"></a>
-2. 엔진에 설치</h2>
+<h2><a class="anchor" id="autotoc_md5"></a>
+3. 엔진에 수동 설치</h2>
 <ol type="1">
 <li>언리얼 엔진 설치 경로의 <code>Engine/Plugins</code> 폴더로 이동합니다.</li>
 <li><code>CoffeeToolbar</code> 폴더를 <code>Engine/Plugins</code> 폴더 안으로 복사합니다.</li>
 <li>엔진을 재시작한 후, <code>Edit &gt; Plugins</code> 메뉴에서 <code>CoffeeToolbar</code>를 찾아 활성화합니다.</li>
 </ol>
 <p><b>경로 예시</b>: <code>C:/Program Files/Epic Games/UE_5.X/Engine/Plugins/CoffeeToolbar</code></p>
-<h1><a class="anchor" id="autotoc_md5"></a>
+<h1><a class="anchor" id="autotoc_md6"></a>
 사용법 (How to Use)</h1>
 <ol type="1">
 <li>플러그인이 활성화되면 에디터 상단 메인 툴바에 새로운 **커피 아이콘**이 나타납니다.</li>
 <li>툴바 아이콘을 클릭하면 등록된 기능 버튼들이 드롭다운 메뉴 형식으로 표시됩니다.</li>
 <li>원하는 기능의 버튼을 클릭하여 즉시 실행합니다.</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md6"></a>
-설정 (Configuration)</h1>
+<h1><a class="anchor" id="autotoc_md7"></a>
+설정 가이드 (Configuration Guide)</h1>
+<p><code>Coffee Toolbar</code> 플러그인은 언리얼 엔진의 **Project Settings**를 통해 다양한 기능을 설정하고 커스터마이징할 수 있습니다.</p>
+<h2><a class="anchor" id="autotoc_md8"></a>
+1. 플러그인 설정 접근</h2>
+<p>언리얼 에디터에서 <b>Edit &gt; Project Settings**로 이동한 후, 왼쪽 메뉴의 **Plugins</b> 섹션에서 **Coffee Toolbar**를 선택합니다.</p>
+<p><img src="https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_plugin_toolbarSettings.png?raw=true" alt="플러그인 설정 접근" class="inline"/></p>
+<h2><a class="anchor" id="autotoc_md9"></a>
+2. 기본 설정 (Default Settings)</h2>
+<p>여기서 툴바에 표시될 버튼의 순서, 아이콘, 실행할 명령어 등을 설정할 수 있습니다.</p>
+<p><img src="https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_defaultSetting.png?raw=true" alt="기본 설정" class="inline"/></p>
+<h2><a class="anchor" id="autotoc_md10"></a>
+3. 커스텀 명령어 추가 (Adding Custom Commands)</h2>
+<p><b>Custom Commands</b> 섹션에서 새로운 요소를 추가하여 원하는 콘솔 명령어 또는 에디터 기능을 툴바 버튼으로 등록할 수 있습니다.</p>
+<p><img src="https://github.doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_commnad.png?raw=true" alt="커스텀 명령어 추가" class="inline"/></p>
+<h2><a class="anchor" id="autotoc_md11"></a>
+4. 레벨 셀렉터 설정 (Level Selector Configuration)</h2>
+<p><b>Level Selector</b> 기능을 통해 자주 사용하는 레벨들을 등록하고 툴바에서 빠르게 로드할 수 있습니다.</p>
+<p><img src="https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_levelselector.png?raw=true" alt="레벨 셀렉터 설정" class="inline"/></p>
+<p><b>주요 버튼 설명:</b></p>
+<ul>
+<li><b>Add Current Level</b>: 현재 에디터에 로드된 레벨을 목록에 추가합니다.</li>
+<li><b>Load Selected Level</b>: 목록에서 선택된 레벨을 에디터에 로드합니다.</li>
+<li><b>Remove Selected Level</b>: 목록에서 선택된 레벨을 제거합니다.</li>
+<li><b>Clear All Levels</b>: 목록의 모든 레벨을 제거합니다.</li>
+</ul>
+<p><b>스크린샷 버튼 설명:</b></p>
+<ul>
+<li><b>Take Screenshot (1x, 2x, 4x)</b>: 현재 뷰포트의 스크린샷을 지정된 배율(1배, 2배, 4배)로 촬영합니다. 고해상도 스크린샷이 필요한 경우 유용합니다.</li>
+<li><b>Open Screenshot Folder</b>: 촬영된 스크린샷이 저장되는 폴더를 엽니다.</li>
+</ul>
+<hr  />
+<h1><a class="anchor" id="autotoc_md13"></a>
+설정 상세 (Configuration Details)</h1>
 <p><code>Project Settings &gt; Plugins &gt; Coffee Toolbar</code> 메뉴를 통해 플러그인의 동작을 상세하게 설정할 수 있습니다.</p>
 <ul>
 <li><b>콘솔 명령어 등록</b>: 툴바를 통해 실행할 커스텀 콘솔 명령어 목록을 추가하거나 수정할 수 있습니다.</li>
@@ -148,10 +191,10 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li><b>툴바 기능 활성화/비활성화</b>: 툴바에 표시할 개별 기능들을 선택적으로 켜고 끌 수 있습니다.</li>
 </ul>
 <p>설정된 내용은 프로젝트의 <code>Config/DefaultEditorPerProjectUserSettings.ini</code> 파일에 저장됩니다.</p>
-<h1><a class="anchor" id="autotoc_md7"></a>
+<h1><a class="anchor" id="autotoc_md14"></a>
 라이선스 (License)</h1>
 <p>본 플러그인은 MIT 라이선스 하에 배포됩니다. 자세한 내용은 <code>LICENSE</code> 파일을 참고하십시오.</p>
-<h1><a class="anchor" id="autotoc_md8"></a>
+<h1><a class="anchor" id="autotoc_md15"></a>
 제작자 (Author)</h1>
 <ul>
 <li>dopple </li>
@@ -162,7 +205,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">생성시간 : 월 10월 6 2025 04:40:30, 프로젝트명 : Coffee Toolbar, 생성자 :  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">생성시간 : 월 10월 6 2025 05:35:49, 프로젝트명 : Coffee Toolbar, 생성자 :  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

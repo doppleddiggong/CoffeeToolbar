@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['프로젝트에_20설치_0',['1. 프로젝트에 설치',['../index.html#autotoc_md3',1,'']]]
+  ['명령어_20추가_20adding_20custom_20commands_0',['3. 커스텀 명령어 추가 (Adding Custom Commands)',['../index.html#autotoc_md10',1,'']]]
 ];

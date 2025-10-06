@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['제작자_20author_0',['제작자 (Author)',['../index.html#autotoc_md8',1,'']]]
+  ['라이선스_20license_0',['라이선스 (License)',['../index.html#autotoc_md14',1,'']]]
 ];
