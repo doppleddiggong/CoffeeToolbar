@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['접근_0',['1. 플러그인 설정 접근',['../index.html#autotoc_md8',1,'']]]
+  ['스크린샷_20설정_20screenshot_20configuration_0',['5. 스크린샷 설정 (Screenshot Configuration)',['../index.html#autotoc_md12',1,'']]]
 ];

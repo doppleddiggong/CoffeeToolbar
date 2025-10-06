@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['수동_20설치_0',['수동 설치',['../index.html#autotoc_md4',1,'2. 프로젝트에 수동 설치'],['../index.html#autotoc_md5',1,'3. 엔진에 수동 설치']]]
+  ['셀렉터_20설정_20level_20selector_20configuration_0',['4. 레벨 셀렉터 설정 (Level Selector Configuration)',['../index.html#autotoc_md11',1,'']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['통한_20설치_20권장_0',['1. GitHub Release를 통한 설치 (권장)',['../index.html#autotoc_md3',1,'']]]
+  ['추가_20adding_20custom_20commands_0',['3. 커스텀 명령어 추가 (Adding Custom Commands)',['../index.html#autotoc_md10',1,'']]]
 ];

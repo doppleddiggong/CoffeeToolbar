@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['기능_20features_0',['주요 기능 (Features)',['../index.html#autotoc_md1',1,'']]],
-  ['기본_20설정_20default_20settings_1',['2. 기본 설정 (Default Settings)',['../index.html#autotoc_md9',1,'']]]
+  ['권장_0',['1. GitHub Release를 통한 설치 (권장)',['../index.html#autotoc_md3',1,'']]]
 ];

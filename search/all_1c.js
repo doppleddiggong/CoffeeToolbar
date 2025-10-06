@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['사용법_20how_20to_20use_0',['사용법 (How to Use)',['../index.html#autotoc_md6',1,'']]]
+  ['방법_20installation_0',['설치 방법 (Installation)',['../index.html#autotoc_md2',1,'']]]
 ];

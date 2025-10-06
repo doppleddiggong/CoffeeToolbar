@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['adding_20custom_20commands_0',['3. 커스텀 명령어 추가 (Adding Custom Commands)',['../index.html#autotoc_md10',1,'']]],
-  ['author_1',['제작자 (Author)',['../index.html#autotoc_md15',1,'']]]
+  ['5_20스크린샷_20설정_20screenshot_20configuration_0',['5. 스크린샷 설정 (Screenshot Configuration)',['../index.html#autotoc_md12',1,'']]]
 ];

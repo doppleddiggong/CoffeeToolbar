@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['방법_20installation_0',['설치 방법 (Installation)',['../index.html#autotoc_md2',1,'']]]
+  ['명령어_20추가_20adding_20custom_20commands_0',['3. 커스텀 명령어 추가 (Adding Custom Commands)',['../index.html#autotoc_md10',1,'']]]
 ];

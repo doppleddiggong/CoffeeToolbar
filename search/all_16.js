@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['권장_0',['1. GitHub Release를 통한 설치 (권장)',['../index.html#autotoc_md3',1,'']]]
+  ['가이드_20configuration_20guide_0',['설정 가이드 (Configuration Guide)',['../index.html#autotoc_md7',1,'']]]
 ];

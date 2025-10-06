@@ -36,11 +36,14 @@ var NAVTREE =
       [ "1. 플러그인 설정 접근", "index.html#autotoc_md8", null ],
       [ "2. 기본 설정 (Default Settings)", "index.html#autotoc_md9", null ],
       [ "3. 커스텀 명령어 추가 (Adding Custom Commands)", "index.html#autotoc_md10", null ],
-      [ "4. 레벨 셀렉터 설정 (Level Selector Configuration)", "index.html#autotoc_md11", null ]
+      [ "4. 레벨 셀렉터 설정 (Level Selector Configuration)", "index.html#autotoc_md11", null ],
+      [ "5. 스크린샷 설정 (Screenshot Configuration)", "index.html#autotoc_md12", [
+        [ "제공 기능", "index.html#autotoc_md13", null ]
+      ] ]
     ] ],
-    [ "설정 상세 (Configuration Details)", "index.html#autotoc_md13", null ],
-    [ "라이선스 (License)", "index.html#autotoc_md14", null ],
-    [ "제작자 (Author)", "index.html#autotoc_md15", null ],
+    [ "설정 상세 (Configuration Details)", "index.html#autotoc_md15", null ],
+    [ "라이선스 (License)", "index.html#autotoc_md16", null ],
+    [ "제작자 (Author)", "index.html#autotoc_md17", null ],
     [ "클래스", "annotated.html", [
       [ "클래스 목록", "annotated.html", "annotated_dup" ],
       [ "클래스 색인", "classes.html", null ],

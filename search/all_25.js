@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['추가_20adding_20custom_20commands_0',['3. 커스텀 명령어 추가 (Adding Custom Commands)',['../index.html#autotoc_md10',1,'']]]
+  ['제공_20기능_0',['제공 기능',['../index.html#autotoc_md13',1,'']]],
+  ['제작자_20author_1',['제작자 (Author)',['../index.html#autotoc_md17',1,'']]]
 ];

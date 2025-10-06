@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['ensuredefaultselection_0',['EnsureDefaultSelection',['../classFLevelFeature.html#abefcace2c5ea60b97089760e5c45ebb5',1,'FLevelFeature']]],
-  ['ensurevalidselectedmap_1',['EnsureValidSelectedMap',['../classFLevelFeature.html#aad2ad775628a12e462c1e85e90060415',1,'FLevelFeature']]],
-  ['extrasearchpaths_2',['ExtraSearchPaths',['../classUToolbarSettings.html#a78b489f3f1c8bdd76596ced194f25c3e',1,'UToolbarSettings']]]
+  ['default_20settings_0',['2. 기본 설정 (Default Settings)',['../index.html#autotoc_md9',1,'']]],
+  ['details_1',['설정 상세 (Configuration Details)',['../index.html#autotoc_md15',1,'']]]
 ];
