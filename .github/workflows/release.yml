@@ -5,7 +5,10 @@ on:
     tags:
       - 'v*.*.*'
   workflow_dispatch:
-
+    inputs:
+      version:
+        description: 'Version (e.g., v1.0.0)'
+        required: true
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,8 +17,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set version from tag
-        run: echo "VERSION=${GITHUB_REF##*/}" >> $GITHUB_ENV
+      - name: Set version
+        run: |
+        if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          echo "VERSION=${{ github.event.inputs.version }}" >> $GITHUB_ENV
+        else
+          echo "VERSION=${GITHUB_REF##*/}" >> $GITHUB_ENV
+        fi
 
       - name: Zip Plugin
         run: |

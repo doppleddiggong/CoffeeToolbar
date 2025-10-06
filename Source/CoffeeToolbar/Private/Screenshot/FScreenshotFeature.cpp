@@ -48,7 +48,7 @@ TSharedRef<SWidget> FScreenshotFeature::GenerateScreenshotMenu()
     MenuBuilder.AddMenuEntry(
         NSLOCTEXT("CoffeeToolbar", "Screenshot_Ultra", "x8"),
         NSLOCTEXT("CoffeeToolbar", "Screenshot_Ultra_Tooltip", "현재 활성 뷰포트를 8배 배율로 캡쳐합니다."),
-        FSlateIcon(FAppStyle::GetAppStyleSetName(), "Icons.FolderOpen"),
+        FSlateIcon(FAppStyle::GetAppStyleSetName(), "LevelEditor.TakeScreenshot"),
         FUIAction(FExecuteAction::CreateRaw(this, &FScreenshotFeature::CaptureActiveViewport, 8))
     );
 
