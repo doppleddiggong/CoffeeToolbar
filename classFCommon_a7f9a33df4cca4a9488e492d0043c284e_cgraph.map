@@ -1,0 +1,5 @@
+<map id="FCommon::GetIcon" name="FCommon::GetIcon">
+<area shape="rect" id="Node000001" title="전달된 이름으로 애플리케이션 스타일에서 Slate 아이콘을 조회합니다." alt="" coords="5,5,152,31"/>
+<area shape="rect" id="Node000002" href="$classFToolbarStyle.html#a3437f8f3e4dcd2c7b68de7b28fc2a95a" title="Slate 스타일 세트를 참조할 때 사용할 이름을 반환합니다." alt="" coords="200,5,433,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,15,186,15,186,21,153,21"/>
+</map>

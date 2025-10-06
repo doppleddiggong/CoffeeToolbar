@@ -1,0 +1,7 @@
+<map id="FToolbarStyle::Initialize" name="FToolbarStyle::Initialize">
+<area shape="rect" id="Node000001" title="스타일 세트를 Slate 스타일 레지스트리에 등록합니다." alt="" coords="5,5,179,31"/>
+<area shape="rect" id="Node000002" href="$classFToolbarStyle.html#ac15dcbb37ede65f4c248c0f10b71893c" title="기본 이미지와 아이콘 등록을 포함한 스타일 세트를 생성합니다." alt="" coords="227,5,387,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,15,213,15,213,21,179,21"/>
+<area shape="rect" id="Node000003" href="$FToolbarStyle_8cpp.html#a00bb33b9e673ad08782f7f01d6b75e7a" title=" " alt="" coords="435,5,524,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="387,15,421,15,421,21,387,21"/>
+</map>

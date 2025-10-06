@@ -1,0 +1,7 @@
+<map id="Source/CoffeeToolbar/Public/Screenshot/FScreenshotFeature.h" name="Source/CoffeeToolbar/Public/Screenshot/FScreenshotFeature.h">
+<area shape="rect" id="Node000001" title="툴바의 스크린샷 워크플로우 버튼을 위한 헬퍼를 선언합니다." alt="" coords="29,5,253,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,108,123,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,62,86,99,82,96,116,58"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="147,108,293,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="167,58,202,96,198,99,163,62"/>
+</map>

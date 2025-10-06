@@ -1,0 +1,24 @@
+<map id="Source/CoffeeToolbar/Public/FToolbar.h" name="Source/CoffeeToolbar/Public/FToolbar.h">
+<area shape="rect" id="Node000001" title="CoffeeToolbar 플러그인의 주요 모듈 구현을 선언합니다." alt="" coords="397,5,555,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,203,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="397,46,173,93,171,88,396,41"/>
+<area shape="rect" id="Node000003" href="$FCommandFeature_8h.html" title="명령형 버튼을 담당하는 툴바 기능을 선언합니다." alt="" coords="491,93,720,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="509,43,576,84,573,88,506,48"/>
+<area shape="rect" id="Node000007" href="$FLevelFeature_8h.html" title="툴바에 레벨 선택 컨트롤을 제공하는 기능을 선언합니다." alt="" coords="744,93,909,119"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="556,42,763,88,762,93,555,47"/>
+<area shape="rect" id="Node000009" href="$FScreenshotFeature_8h.html" title="툴바의 스크린샷 워크플로우 버튼을 위한 헬퍼를 선언합니다." alt="" coords="227,93,466,119"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="446,48,379,88,376,84,443,43"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="391,174,508,199"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="584,121,485,170,483,166,581,116"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="533,174,678,199"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="608,119,608,160,603,160,603,119"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="703,167,876,207"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="633,116,734,159,732,164,631,121"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="763,121,522,169,505,173,504,168,521,164,762,116"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="795,121,652,172,650,167,794,116"/>
+<area shape="poly" id="edge9_Node000007_Node000006" title=" " alt="" coords="824,120,807,155,802,153,819,118"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="900,174,1095,199"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="853,116,961,166,959,171,850,121"/>
+<area shape="poly" id="edge12_Node000009_Node000004" title=" " alt="" coords="363,117,425,163,421,167,360,121"/>
+<area shape="poly" id="edge13_Node000009_Node000005" title=" " alt="" coords="385,116,556,168,554,173,384,121"/>
+</map>

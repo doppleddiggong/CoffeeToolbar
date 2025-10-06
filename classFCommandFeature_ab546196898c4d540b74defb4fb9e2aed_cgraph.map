@@ -1,0 +1,13 @@
+<map id="FCommandFeature::GenerateCommandsMenu" name="FCommandFeature::GenerateCommandsMenu">
+<area shape="rect" id="Node000001" title="툴바용 명령 버튼 메뉴 위젯을 생성합니다." alt="" coords="5,55,220,95"/>
+<area shape="rect" id="Node000002" href="$classFCommon.html#a7f9a33df4cca4a9488e492d0043c284e" title="전달된 이름으로 애플리케이션 스타일에서 Slate 아이콘을 조회합니다." alt="" coords="306,5,453,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,53,306,31,307,36,207,58"/>
+<area shape="rect" id="Node000004" href="$classFCommandFeature.html#a08ab22cf9f7960c9b8f73c1f80eb981e" title="지정된 툴바 버튼이 현재 토글되어 있는지 반환합니다." alt="" coords="275,55,483,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="220,73,261,73,261,78,220,78"/>
+<area shape="rect" id="Node000005" href="$classFCommandFeature.html#a3ff8a0398db30ce422496f2281dd3b60" title="전달된 버튼 ID에 매핑된 명령을 실행합니다." alt="" coords="268,119,491,159"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="197,93,283,114,282,119,196,98"/>
+<area shape="rect" id="Node000003" href="$classFToolbarStyle.html#a3437f8f3e4dcd2c7b68de7b28fc2a95a" title="Slate 스타일 세트를 참조할 때 사용할 이름을 반환합니다." alt="" coords="539,5,772,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="453,15,525,15,525,21,453,21"/>
+<area shape="rect" id="Node000006" href="$classFCommon.html#ac247ef6e336abf6ca53b140d93ea07f9" title="툴바 액션이 대상으로 삼는 활성 에디터 월드를 반환합니다." alt="" coords="555,119,756,159"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="491,137,541,137,541,142,491,142"/>
+</map>

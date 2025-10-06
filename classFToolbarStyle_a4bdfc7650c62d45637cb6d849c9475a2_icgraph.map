@@ -1,0 +1,5 @@
+<map id="FToolbarStyle::Shutdown" name="FToolbarStyle::Shutdown">
+<area shape="rect" id="Node000001" title="스타일 세트를 제거하고 참조된 리소스를 해제합니다." alt="" coords="249,5,431,31"/>
+<area shape="rect" id="Node000002" href="$classFToolbar.html#a3581ddc79e115d018ae8609e7439d743" title="등록된 메뉴를 해제하고 툴바 기능을 정리합니다." alt="" coords="5,5,201,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,21,201,21,201,15,236,15"/>
+</map>

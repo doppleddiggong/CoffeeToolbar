@@ -1,0 +1,14 @@
+<map id="Source/CoffeeToolbar/Public/Common/FToolbarStyle.h" name="Source/CoffeeToolbar/Public/Common/FToolbarStyle.h">
+<area shape="rect" id="Node000001" title="Coffee Toolbar 플러그인이 사용하는 Slate 스타일 세트를 선언합니다." alt="" coords="356,5,587,45"/>
+<area shape="rect" id="Node000002" href="$FCommon_8cpp.html" title="Coffee Toolbar 플러그인을 위한 공용 헬퍼 유틸리티를 구현합니다." alt="" coords="5,93,239,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="382,51,199,96,198,91,381,46"/>
+<area shape="rect" id="Node000003" href="$FToolbarStyle_8cpp.html" title="Coffee Toolbar 플러그인의 Slate 스타일 등록을 구현합니다." alt="" coords="263,93,517,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="446,57,410,95,406,91,442,54"/>
+<area shape="rect" id="Node000004" href="$FToolbar_8cpp.html" title="Coffee Toolbar 모듈의 라이프사이클과 메뉴 등록 로직을 구현합니다." alt="" coords="475,181,633,221"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="504,54,531,92,547,139,555,180,550,181,542,140,526,95,499,57"/>
+<area shape="rect" id="Node000005" href="$FToolbarCommands_8h.html" title="Coffee Toolbar 플러그인에서 사용하는 명령 바인딩을 선언합니다." alt="" coords="591,93,863,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="541,47,672,91,670,96,540,52"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="678,142,593,184,591,179,676,137"/>
+<area shape="rect" id="Node000006" href="$FToolbarCommands_8cpp.html" title="Coffee Toolbar 플러그인의 Slate 명령 정의를 구현합니다." alt="" coords="657,181,952,221"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="755,142,790,179,786,183,751,145"/>
+</map>

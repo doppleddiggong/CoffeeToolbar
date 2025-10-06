@@ -1,0 +1,10 @@
+<map id="Source/CoffeeToolbar/Public/Command/FCommandFeature.h" name="Source/CoffeeToolbar/Public/Command/FCommandFeature.h">
+<area shape="rect" id="Node000001" title="명령형 버튼을 담당하는 툴바 기능을 선언합니다." alt="" coords="203,5,479,45"/>
+<area shape="rect" id="Node000002" href="$FCommandFeature_8cpp.html" title="Coffee Toolbar용 명령 실행 보조 기능을 구현합니다." alt="" coords="5,93,304,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="289,53,197,96,194,91,287,49"/>
+<area shape="rect" id="Node000003" href="$FToolbar_8cpp.html" title="Coffee Toolbar 모듈의 라이프사이클과 메뉴 등록 로직을 구현합니다." alt="" coords="321,181,479,221"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="350,58,371,132,392,180,387,182,365,134,345,60"/>
+<area shape="rect" id="Node000004" href="$FToolbar_8h.html" title="CoffeeToolbar 플러그인의 주요 모듈 구현을 선언합니다." alt="" coords="379,93,538,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="380,52,434,91,431,95,377,56"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="440,146,415,183,411,180,436,143"/>
+</map>

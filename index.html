@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Coffee Toolbar: Coffee Toolbar</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript">
+window.MathJax = {
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script type="text/javascript" src="darkmode_toggle.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Coffee Toolbar<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">언리얼 엔진 에디터용 유틸리티 툴바 플러그인</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 다음에 의해 생성됨 :  Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','검색');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('index.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">로딩중...</div>
+<div class="SRStatus" id="Searching">검색중...</div>
+<div class="SRStatus" id="NoMatches">일치하는것 없음</div>
+</div>
+</div>
+</div>
+</div>
+
+<div><div class="header">
+  <div class="headertitle"><div class="title">Coffee Toolbar </div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p><a class="anchor" id="md_README"></a> <b>Version: 1.0</b></p>
+<p><code>Coffee Toolbar</code>는 언리얼 엔진 에디터의 개발 편의성을 향상시키기 위해 제작된 유틸리티 툴바 플러그인입니다. 자주 사용하는 기능들을 원클릭으로 실행하여 반복적인 작업을 줄이고 개발 속도를 높이는 것을 목표로 합니다.</p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+주요 기능 (Features)</h1>
+<ul>
+<li><b>커스텀 콘솔 명령어 실행</b>: 설정 파일에 미리 정의된 다수의 콘솔 명령어들을 버튼 하나로 실행할 수 있습니다.</li>
+<li><b>레벨 관련 기능</b>: 현재 레벨의 모든 액터를 빌드하거나, 라이팅을 빌드하는 등 레벨 관리에 유용한 기능들을 제공합니다.</li>
+<li><b>고해상도 스크린샷</b>: 지정된 배율(예: 2x, 4x)로 고해상도 스크린샷을 간편하게 촬영하고 저장 폴더를 바로 열 수 있습니다.</li>
+<li><b>설정 기반 확장성</b>: <code>.ini</code> 파일을 통해 툴바에 표시될 기능과 순서를 사용자가 직접 커스터마이징할 수 있습니다.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md2"></a>
+설치 방법 (Installation)</h1>
+<h2><a class="anchor" id="autotoc_md3"></a>
+1. 프로젝트에 설치</h2>
+<ol type="1">
+<li>프로젝트 폴더 내에 <code>Plugins</code> 폴더가 없다면 생성합니다.</li>
+<li><code>CoffeeToolbar</code> 폴더를 <code>Plugins</code> 폴더 안으로 복사합니다.</li>
+<li>프로젝트를 재시작한 후, <code>Edit &gt; Plugins</code> 메뉴에서 <code>CoffeeToolbar</code>를 찾아 활성화합니다.</li>
+</ol>
+<p><b>경로 예시</b>: <code>[YourProjectDirectory]/Plugins/CoffeeToolbar</code></p>
+<h2><a class="anchor" id="autotoc_md4"></a>
+2. 엔진에 설치</h2>
+<ol type="1">
+<li>언리얼 엔진 설치 경로의 <code>Engine/Plugins</code> 폴더로 이동합니다.</li>
+<li><code>CoffeeToolbar</code> 폴더를 <code>Engine/Plugins</code> 폴더 안으로 복사합니다.</li>
+<li>엔진을 재시작한 후, <code>Edit &gt; Plugins</code> 메뉴에서 <code>CoffeeToolbar</code>를 찾아 활성화합니다.</li>
+</ol>
+<p><b>경로 예시</b>: <code>C:/Program Files/Epic Games/UE_5.X/Engine/Plugins/CoffeeToolbar</code></p>
+<h1><a class="anchor" id="autotoc_md5"></a>
+사용법 (How to Use)</h1>
+<ol type="1">
+<li>플러그인이 활성화되면 에디터 상단 메인 툴바에 새로운 **커피 아이콘**이 나타납니다.</li>
+<li>툴바 아이콘을 클릭하면 등록된 기능 버튼들이 드롭다운 메뉴 형식으로 표시됩니다.</li>
+<li>원하는 기능의 버튼을 클릭하여 즉시 실행합니다.</li>
+</ol>
+<h1><a class="anchor" id="autotoc_md6"></a>
+설정 (Configuration)</h1>
+<p><code>Project Settings &gt; Plugins &gt; Coffee Toolbar</code> 메뉴를 통해 플러그인의 동작을 상세하게 설정할 수 있습니다.</p>
+<ul>
+<li><b>콘솔 명령어 등록</b>: 툴바를 통해 실행할 커스텀 콘솔 명령어 목록을 추가하거나 수정할 수 있습니다.</li>
+<li><b>스크린샷 배율 설정</b>: 고해상도 스크린샷 촬영 시 사용될 배율을 지정합니다.</li>
+<li><b>툴바 기능 활성화/비활성화</b>: 툴바에 표시할 개별 기능들을 선택적으로 켜고 끌 수 있습니다.</li>
+</ul>
+<p>설정된 내용은 프로젝트의 <code>Config/DefaultEditorPerProjectUserSettings.ini</code> 파일에 저장됩니다.</p>
+<h1><a class="anchor" id="autotoc_md7"></a>
+라이선스 (License)</h1>
+<p>본 플러그인은 MIT 라이선스 하에 배포됩니다. 자세한 내용은 <code>LICENSE</code> 파일을 참고하십시오.</p>
+<h1><a class="anchor" id="autotoc_md8"></a>
+제작자 (Author)</h1>
+<ul>
+<li>dopple </li>
+</ul>
+</div></div><!-- PageDoc -->
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">생성시간 : 월 10월 6 2025 04:40:30, 프로젝트명 : Coffee Toolbar, 생성자 :  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

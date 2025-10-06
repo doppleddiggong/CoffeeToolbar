@@ -1,0 +1,15 @@
+<map id="Source/CoffeeToolbar/Private/Settings/UToolbarSettings.cpp" name="Source/CoffeeToolbar/Private/Settings/UToolbarSettings.cpp">
+<area shape="rect" id="Node000001" title="Coffee Toolbar 플러그인의 설정 헬퍼 기능을 구현합니다." alt="" coords="341,5,611,45"/>
+<area shape="rect" id="Node000002" href="$UToolbarSettings_8h.html" title="Coffee Toolbar 플러그인을 구성하기 위한 개발자 설정을 선언합니다." alt="" coords="147,101,349,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="427,48,292,98,290,93,425,43"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="373,93,579,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="479,46,479,79,473,79,473,46"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="603,101,823,126"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="529,43,670,94,668,99,527,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,181,123,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="222,128,104,179,102,174,220,124"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="147,181,349,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="251,126,251,167,245,167,245,126"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="374,181,589,207"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="283,123,436,175,434,180,281,129"/>
+</map>

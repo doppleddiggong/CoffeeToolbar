@@ -1,0 +1,10 @@
+<map id="Source/CoffeeToolbar/Public/Level/FLevelFeature.h" name="Source/CoffeeToolbar/Public/Level/FLevelFeature.h">
+<area shape="rect" id="Node000001" title="툴바에 레벨 선택 컨트롤을 제공하는 기능을 선언합니다." alt="" coords="36,5,248,45"/>
+<area shape="rect" id="Node000002" href="$FToolbar_8cpp.html" title="Coffee Toolbar 모듈의 라이프사이클과 메뉴 등록 로직을 구현합니다." alt="" coords="96,181,255,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,53,36,71,15,95,8,113,15,132,31,150,51,165,97,185,95,189,48,169,27,154,10,135,3,113,10,92,32,67,60,49"/>
+<area shape="rect" id="Node000003" href="$FLevelFeature_8cpp.html" title="Coffee Toolbar에서 레벨 선택을 돕는 헬퍼 기능을 구현합니다." alt="" coords="25,93,259,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,59,145,93,139,93,139,59"/>
+<area shape="rect" id="Node000004" href="$FToolbar_8h.html" title="CoffeeToolbar 플러그인의 주요 모듈 구현을 선언합니다." alt="" coords="284,93,443,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="204,48,316,91,314,96,202,53"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="311,141,218,184,215,179,309,137"/>
+</map>

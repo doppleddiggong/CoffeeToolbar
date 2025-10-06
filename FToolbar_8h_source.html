@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Coffee Toolbar: Source/CoffeeToolbar/Public/FToolbar.h 소스 파일</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript">
+window.MathJax = {
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script type="text/javascript" src="darkmode_toggle.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Coffee Toolbar<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">언리얼 엔진 에디터용 유틸리티 툴바 플러그인</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 다음에 의해 생성됨 :  Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','검색');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('FToolbar_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">로딩중...</div>
+<div class="SRStatus" id="Searching">검색중...</div>
+<div class="SRStatus" id="NoMatches">일치하는것 없음</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">FToolbar.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="FToolbar_8h.html">이 파일의 문서화 페이지로 가기</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// Copyright (c) 2025 Doppleddiggong. All rights reserved. Unauthorized copying, modification, or distribution of this file, via any medium is strictly prohibited. Proprietary and confidential.</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;Modules/ModuleManager.h&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="FCommandFeature_8h.html">Command/FCommandFeature.h</a>&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="FLevelFeature_8h.html">Level/FLevelFeature.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="FScreenshotFeature_8h.html">Screenshot/FScreenshotFeature.h</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="classFToolbar.html">   19</a></span><span class="keyword">class </span><a class="code hl_class" href="classFToolbar.html">FToolbar</a> : <span class="keyword">public</span> IModuleInterface</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFToolbar.html#a29b321398a59346e3df4870366f89245">StartupModule</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFToolbar.html#a3581ddc79e115d018ae8609e7439d743">ShutdownModule</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="classFToolbar.html#a2df7b59ad21cce1d2f0437add0d4c6a7">RegisterMenus</a>();</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="classFToolbar.html#a8a8448338249d16adc520e125def1cc5">   33</a></span>        TUniquePtr&lt;FCommandFeature&gt; <a class="code hl_variable" href="classFToolbar.html#a8a8448338249d16adc520e125def1cc5">CommandFeature</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classFToolbar.html#a35f064f62e56e1e72a66e76403f2caa1">   36</a></span>        TUniquePtr&lt;FLevelFeature&gt; <a class="code hl_variable" href="classFToolbar.html#a35f064f62e56e1e72a66e76403f2caa1">LevelFeature</a>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="classFToolbar.html#ae026dd2b2ac3de93e91cbb56221df7b5">   39</a></span>        TUniquePtr&lt;FScreenshotFeature&gt; <a class="code hl_variable" href="classFToolbar.html#ae026dd2b2ac3de93e91cbb56221df7b5">ScreenshotFeature</a>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>};</div>
+</div>
+<div class="ttc" id="aFCommandFeature_8h_html"><div class="ttname"><a href="FCommandFeature_8h.html">FCommandFeature.h</a></div><div class="ttdoc">명령형 버튼을 담당하는 툴바 기능을 선언합니다.</div></div>
+<div class="ttc" id="aFLevelFeature_8h_html"><div class="ttname"><a href="FLevelFeature_8h.html">FLevelFeature.h</a></div><div class="ttdoc">툴바에 레벨 선택 컨트롤을 제공하는 기능을 선언합니다.</div></div>
+<div class="ttc" id="aFScreenshotFeature_8h_html"><div class="ttname"><a href="FScreenshotFeature_8h.html">FScreenshotFeature.h</a></div><div class="ttdoc">툴바의 스크린샷 워크플로우 버튼을 위한 헬퍼를 선언합니다.</div></div>
+<div class="ttc" id="aclassFToolbar_html"><div class="ttname"><a href="classFToolbar.html">FToolbar</a></div><div class="ttdoc">Coffee Toolbar 기능을 에디터에 연결하는 모듈 구현입니다.</div><div class="ttdef"><b>Definition</b> <a href="FToolbar_8h_source.html#l00019">FToolbar.h:20</a></div></div>
+<div class="ttc" id="aclassFToolbar_html_a29b321398a59346e3df4870366f89245"><div class="ttname"><a href="classFToolbar.html#a29b321398a59346e3df4870366f89245">FToolbar::StartupModule</a></div><div class="ttdeci">virtual void StartupModule() override</div><div class="ttdoc">툴바 기능을 초기화하고 Slate 메뉴 확장을 등록합니다.</div><div class="ttdef"><b>Definition</b> <a href="FToolbar_8cpp_source.html#l00026">FToolbar.cpp:26</a></div></div>
+<div class="ttc" id="aclassFToolbar_html_a2df7b59ad21cce1d2f0437add0d4c6a7"><div class="ttname"><a href="classFToolbar.html#a2df7b59ad21cce1d2f0437add0d4c6a7">FToolbar::RegisterMenus</a></div><div class="ttdeci">void RegisterMenus()</div><div class="ttdoc">에디터 확장 프레임워크에 툴바 메뉴와 버튼을 등록합니다.</div><div class="ttdef"><b>Definition</b> <a href="FToolbar_8cpp_source.html#l00053">FToolbar.cpp:53</a></div></div>
+<div class="ttc" id="aclassFToolbar_html_a3581ddc79e115d018ae8609e7439d743"><div class="ttname"><a href="classFToolbar.html#a3581ddc79e115d018ae8609e7439d743">FToolbar::ShutdownModule</a></div><div class="ttdeci">virtual void ShutdownModule() override</div><div class="ttdoc">등록된 메뉴를 해제하고 툴바 기능을 정리합니다.</div><div class="ttdef"><b>Definition</b> <a href="FToolbar_8cpp_source.html#l00041">FToolbar.cpp:41</a></div></div>
+<div class="ttc" id="aclassFToolbar_html_a35f064f62e56e1e72a66e76403f2caa1"><div class="ttname"><a href="classFToolbar.html#a35f064f62e56e1e72a66e76403f2caa1">FToolbar::LevelFeature</a></div><div class="ttdeci">TUniquePtr&lt; FLevelFeature &gt; LevelFeature</div><div class="ttdoc">레벨 관련 유틸리티 버튼을 제공하는 기능입니다.</div><div class="ttdef"><b>Definition</b> <a href="FToolbar_8h_source.html#l00036">FToolbar.h:36</a></div></div>
+<div class="ttc" id="aclassFToolbar_html_a8a8448338249d16adc520e125def1cc5"><div class="ttname"><a href="classFToolbar.html#a8a8448338249d16adc520e125def1cc5">FToolbar::CommandFeature</a></div><div class="ttdeci">TUniquePtr&lt; FCommandFeature &gt; CommandFeature</div><div class="ttdoc">툴바에서 명령 단축 기능을 제공하는 모듈입니다.</div><div class="ttdef"><b>Definition</b> <a href="FToolbar_8h_source.html#l00033">FToolbar.h:33</a></div></div>
+<div class="ttc" id="aclassFToolbar_html_ae026dd2b2ac3de93e91cbb56221df7b5"><div class="ttname"><a href="classFToolbar.html#ae026dd2b2ac3de93e91cbb56221df7b5">FToolbar::ScreenshotFeature</a></div><div class="ttdeci">TUniquePtr&lt; FScreenshotFeature &gt; ScreenshotFeature</div><div class="ttdoc">스크린샷 캡처 헬퍼를 제공하는 기능입니다.</div><div class="ttdef"><b>Definition</b> <a href="FToolbar_8h_source.html#l00039">FToolbar.h:39</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_74389ed8173ad57b461b9d623a1f3867.html">Source</a></li><li class="navelem"><a class="el" href="dir_64d53782dd23c34e270e016cddcba0f2.html">CoffeeToolbar</a></li><li class="navelem"><a class="el" href="dir_a5a63c6c47d2305a2697a56793561ce2.html">Public</a></li><li class="navelem"><a class="el" href="FToolbar_8h.html">FToolbar.h</a></li>
+    <li class="footer">생성시간 : 월 10월 6 2025 04:40:30, 프로젝트명 : Coffee Toolbar, 생성자 :  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<map id="FCommon::GetActiveTargetWorld" name="FCommon::GetActiveTargetWorld">
+<area shape="rect" id="Node000001" title="툴바 액션이 대상으로 삼는 활성 에디터 월드를 반환합니다." alt="" coords="995,39,1196,79"/>
+<area shape="rect" id="Node000002" href="$classFScreenshotFeature.html#a8d4132d3529147e8b44ee904d94c1630" title="언리얼 자동화 라이브러리를 사용해 스크린샷을 촬영합니다." alt="" coords="483,5,654,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="980,54,654,33,654,28,981,49"/>
+<area shape="rect" id="Node000005" href="$classFCommandFeature.html#a3ff8a0398db30ce422496f2281dd3b60" title="전달된 버튼 ID에 매핑된 명령을 실행합니다." alt="" coords="724,67,947,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="981,74,947,77,947,72,981,68"/>
+<area shape="rect" id="Node000003" href="$classFToolbar.html#a2df7b59ad21cce1d2f0437add0d4c6a7" title="에디터 확장 프레임워크에 툴바 메뉴와 버튼을 등록합니다." alt="" coords="232,45,413,70"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="470,41,414,48,413,43,470,36"/>
+<area shape="rect" id="Node000004" href="$classFToolbar.html#a29b321398a59346e3df4870366f89245" title="툴바 기능을 초기화하고 Slate 메뉴 확장을 등록합니다." alt="" coords="5,45,184,70"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="218,60,184,60,184,55,218,55"/>
+<area shape="rect" id="Node000006" href="$classFCommandFeature.html#ab546196898c4d540b74defb4fb9e2aed" title="툴바용 명령 버튼 메뉴 위젯을 생성합니다." alt="" coords="461,69,676,109"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="711,91,676,91,676,86,710,85"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="448,76,413,72,414,66,448,71"/>
+</map>

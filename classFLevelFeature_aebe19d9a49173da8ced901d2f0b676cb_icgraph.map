@@ -1,0 +1,5 @@
+<map id="FLevelFeature::CollectWorlds" name="FLevelFeature::CollectWorlds">
+<area shape="rect" id="Node000001" title="설정된 검색 경로에서 발견 가능한 맵 에셋을 모두 수집합니다." alt="" coords="268,13,479,38"/>
+<area shape="rect" id="Node000002" href="$classFLevelFeature.html#abefcace2c5ea60b97089760e5c45ebb5" title="시작 이후에도 유효한 기본 맵 선택이 존재하도록 보장합니다." alt="" coords="5,5,220,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,28,220,28,220,23,254,23"/>
+</map>

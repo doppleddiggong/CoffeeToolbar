@@ -1,0 +1,5 @@
+<map id="FCommandFeature::OnExecuteButtonCommand" name="FCommandFeature::OnExecuteButtonCommand">
+<area shape="rect" id="Node000001" title="전달된 버튼 ID에 매핑된 명령을 실행합니다." alt="" coords="5,5,228,45"/>
+<area shape="rect" id="Node000002" href="$classFCommon.html#ac247ef6e336abf6ca53b140d93ea07f9" title="툴바 액션이 대상으로 삼는 활성 에디터 월드를 반환합니다." alt="" coords="276,5,477,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,23,262,23,262,28,228,28"/>
+</map>

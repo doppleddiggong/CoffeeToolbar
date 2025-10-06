@@ -1,0 +1,10 @@
+<map id="Source/CoffeeToolbar/Public/Screenshot/FScreenshotFeature.h" name="Source/CoffeeToolbar/Public/Screenshot/FScreenshotFeature.h">
+<area shape="rect" id="Node000001" title="툴바의 스크린샷 워크플로우 버튼을 위한 헬퍼를 선언합니다." alt="" coords="31,5,255,60"/>
+<area shape="rect" id="Node000002" href="$FToolbar_8cpp.html" title="Coffee Toolbar 모듈의 라이프사이클과 메뉴 등록 로직을 구현합니다." alt="" coords="96,211,254,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,69,35,87,17,109,8,136,10,148,17,161,33,179,52,194,96,213,94,218,49,198,29,183,13,164,5,149,3,135,13,107,32,83,56,65"/>
+<area shape="rect" id="Node000003" href="$FScreenshotFeature_8cpp.html" title="Coffee Toolbar의 스크린샷 캡처 헬퍼 기능을 구현합니다." alt="" coords="28,108,258,163"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="146,74,146,108,140,108,140,74"/>
+<area shape="rect" id="Node000004" href="$FToolbar_8h.html" title="CoffeeToolbar 플러그인의 주요 모듈 구현을 선언합니다." alt="" coords="282,115,441,155"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="213,63,322,113,320,118,211,68"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="313,164,214,213,212,208,310,159"/>
+</map>

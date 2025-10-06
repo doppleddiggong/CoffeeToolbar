@@ -1,0 +1,5 @@
+<map id="FToolbarStyle::Initialize" name="FToolbarStyle::Initialize">
+<area shape="rect" id="Node000001" title="스타일 세트를 Slate 스타일 레지스트리에 등록합니다." alt="" coords="232,5,405,31"/>
+<area shape="rect" id="Node000002" href="$classFToolbar.html#a29b321398a59346e3df4870366f89245" title="툴바 기능을 초기화하고 Slate 메뉴 확장을 등록합니다." alt="" coords="5,5,184,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,21,184,21,184,15,218,15"/>
+</map>
