@@ -1,63 +1,52 @@
 <map id="FToolbar::StartupModule" name="FToolbar::StartupModule">
-<area shape="rect" id="Node000001" title="툴바 기능을 초기화하고 Slate 메뉴 확장을 등록합니다." alt="" coords="5,469,184,495"/>
-<area shape="rect" id="Node000002" href="$classFToolbarStyle.html#a5b48d0a9f7254d082193b3932bbd55bb" title="스타일 세트를 Slate 스타일 레지스트리에 등록합니다." alt="" coords="254,240,427,265"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,467,314,273,317,277,112,471"/>
-<area shape="rect" id="Node000005" href="$classFToolbar.html#a2df7b59ad21cce1d2f0437add0d4c6a7" title="에디터 확장 프레임워크에 툴바 메뉴와 버튼을 등록합니다." alt="" coords="250,469,431,495"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="184,479,236,479,236,485,184,485"/>
-<area shape="rect" id="Node000028" href="$classFToolbarStyle.html#a25dc5cccc853a63c3a324728580732b4" title="디스크상의 리소스가 변경된 경우 텍스처를 다시 로드합니다." alt="" coords="232,519,449,544"/>
-<area shape="poly" id="edge33_Node000001_Node000028" title=" " alt="" coords="159,492,264,513,263,519,158,497"/>
-<area shape="rect" id="Node000003" href="$classFToolbarStyle.html#ac15dcbb37ede65f4c248c0f10b71893c" title="기본 이미지와 아이콘 등록을 포함한 스타일 세트를 생성합니다." alt="" coords="544,32,704,57"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="354,238,415,185,496,121,587,62,590,67,499,126,418,189,358,242"/>
+<area shape="rect" id="Node000001" title="툴바 기능을 초기화하고 Slate 메뉴 확장을 등록합니다." alt="" coords="5,357,184,383"/>
+<area shape="rect" id="Node000002" href="$classFToolbarStyle.html#a5b48d0a9f7254d082193b3932bbd55bb" title="스타일 세트를 Slate 스타일 레지스트리에 등록합니다." alt="" coords="254,185,427,211"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,355,308,217,311,221,116,359"/>
+<area shape="rect" id="Node000005" href="$classFToolbar.html#a2df7b59ad21cce1d2f0437add0d4c6a7" title="에디터 확장 프레임워크에 툴바 메뉴와 버튼을 등록합니다." alt="" coords="250,357,431,383"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="184,367,236,367,236,373,184,373"/>
+<area shape="rect" id="Node000024" href="$classFToolbarStyle.html#a25dc5cccc853a63c3a324728580732b4" title="디스크상의 리소스가 변경된 경우 텍스처를 다시 로드합니다." alt="" coords="232,407,449,432"/>
+<area shape="poly" id="edge26_Node000001_Node000024" title=" " alt="" coords="159,380,264,401,263,407,158,385"/>
+<area shape="rect" id="Node000003" href="$classFToolbarStyle.html#ac15dcbb37ede65f4c248c0f10b71893c" title="기본 이미지와 아이콘 등록을 포함한 스타일 세트를 생성합니다." alt="" coords="544,35,704,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="365,183,586,64,588,69,367,188"/>
 <area shape="rect" id="Node000004" href="$FToolbarStyle_8cpp.html#a00bb33b9e673ad08782f7f01d6b75e7a" title=" " alt="" coords="873,5,962,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="704,35,859,21,859,26,705,40"/>
-<area shape="rect" id="Node000006" href="$classFCommandFeature.html#ab546196898c4d540b74defb4fb9e2aed" title="툴바용 명령 버튼 메뉴 위젯을 생성합니다." alt="" coords="517,135,731,175"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="348,468,407,382,449,325,495,270,542,222,586,182,590,186,545,226,499,273,453,329,411,385,353,471"/>
-<area shape="rect" id="Node000012" href="$classFLevelFeature.html#aff2925b502a52156786e925c1bd2af90" title="레벨 선택 항목을 포함한 Slate 위젯을 구성합니다." alt="" coords="497,284,751,309"/>
-<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="360,467,590,315,593,319,363,471"/>
-<area shape="rect" id="Node000016" href="$classFScreenshotFeature.html#a56fc11b5f6023d5492e26d9354807082" title="스크린샷 옵션을 제공하는 메뉴 위젯을 생성합니다." alt="" coords="525,462,723,502"/>
-<area shape="poly" id="edge15_Node000005_Node000016" title=" " alt="" coords="432,479,511,479,511,485,432,485"/>
-<area shape="rect" id="Node000023" href="$classFLevelFeature.html#a536602356f4e9dcdfcfbe85094782bdb" title="선택된 맵 에셋을 에디터에서 엽니다." alt="" coords="526,531,722,571"/>
-<area shape="poly" id="edge26_Node000005_Node000023" title=" " alt="" coords="401,492,450,503,536,525,534,530,449,509,400,497"/>
-<area shape="rect" id="Node000026" href="$classFLevelFeature.html#a31e8a2482aafbc4082a996e3a5a7a0d9" title="선택된 맵으로 새로운 뷰포트에서 PIE를 실행합니다." alt="" coords="526,691,722,731"/>
-<area shape="poly" id="edge29_Node000005_Node000026" title=" " alt="" coords="433,492,451,504,467,523,475,542,478,580,480,618,486,637,499,656,516,671,536,683,533,688,513,675,495,660,481,640,474,619,472,580,470,543,462,526,448,508,430,496"/>
-<area shape="rect" id="Node000027" href="$classFLevelFeature.html#ad659ce46cd4d37948b219e9aa104c2b3" title="선택된 맵으로 현재 뷰포트에서 PIE를 시작합니다." alt="" coords="525,606,723,646"/>
-<area shape="poly" id="edge31_Node000005_Node000027" title=" " alt="" coords="430,492,451,504,469,523,476,543,483,563,499,581,526,598,524,603,496,585,479,565,471,545,464,526,448,508,427,497"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="704,37,859,21,859,26,705,42"/>
+<area shape="rect" id="Node000006" href="$classFCommandFeature.html#ab546196898c4d540b74defb4fb9e2aed" title="툴바용 명령 버튼 메뉴 위젯을 생성합니다." alt="" coords="517,141,731,181"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="358,355,583,187,586,191,361,359"/>
+<area shape="rect" id="Node000012" href="$classFLevelFeature.html#aff2925b502a52156786e925c1bd2af90" title="레벨 선택 항목을 포함한 Slate 위젯을 구성합니다." alt="" coords="497,357,751,383"/>
+<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="432,367,484,367,484,373,432,373"/>
+<area shape="rect" id="Node000016" href="$classFScreenshotFeature.html#a56fc11b5f6023d5492e26d9354807082" title="스크린샷 옵션을 제공하는 메뉴 위젯을 생성합니다." alt="" coords="525,293,723,333"/>
+<area shape="poly" id="edge15_Node000005_Node000016" title=" " alt="" coords="404,355,511,333,512,338,405,360"/>
+<area shape="rect" id="Node000019" href="$classFLevelFeature.html#a536602356f4e9dcdfcfbe85094782bdb" title="선택된 맵 에셋을 에디터에서 엽니다." alt="" coords="526,407,722,447"/>
+<area shape="poly" id="edge19_Node000005_Node000019" title=" " alt="" coords="405,380,513,402,512,407,404,385"/>
+<area shape="rect" id="Node000022" href="$classFLevelFeature.html#a31e8a2482aafbc4082a996e3a5a7a0d9" title="선택된 맵으로 새로운 뷰포트에서 PIE를 실행합니다." alt="" coords="526,535,722,575"/>
+<area shape="poly" id="edge22_Node000005_Node000022" title=" " alt="" coords="433,380,451,392,465,408,472,425,476,458,480,491,486,506,499,521,515,533,512,537,496,525,482,509,475,492,471,459,467,426,461,411,448,396,430,385"/>
+<area shape="rect" id="Node000023" href="$classFLevelFeature.html#ad659ce46cd4d37948b219e9aa104c2b3" title="선택된 맵으로 현재 뷰포트에서 PIE를 시작합니다." alt="" coords="525,471,723,511"/>
+<area shape="poly" id="edge24_Node000005_Node000023" title=" " alt="" coords="428,380,451,392,468,408,476,425,484,442,499,457,514,466,511,470,496,461,479,445,471,428,463,411,448,396,426,385"/>
 <area shape="rect" id="Node000007" href="$classFCommon.html#a7f9a33df4cca4a9488e492d0043c284e" title="전달된 이름으로 애플리케이션 스타일에서 Slate 아이콘을 조회합니다." alt="" coords="844,55,991,80"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="674,133,798,90,836,80,837,86,799,95,676,138"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="670,138,730,114,798,90,834,81,835,86,799,95,732,119,672,143"/>
 <area shape="rect" id="Node000009" href="$classFCommandFeature.html#a08ab22cf9f7960c9b8f73c1f80eb981e" title="지정된 툴바 버튼이 현재 토글되어 있는지 반환합니다." alt="" coords="813,105,1021,145"/>
-<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="731,141,799,134,800,140,732,147"/>
-<area shape="rect" id="Node000010" href="$classFCommandFeature.html#a3ff8a0398db30ce422496f2281dd3b60" title="전달된 버튼 ID에 매핑된 명령을 실행합니다." alt="" coords="1089,162,1312,202"/>
-<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="732,158,1076,174,1076,179,731,163"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="731,145,799,136,800,142,732,150"/>
+<area shape="rect" id="Node000010" href="$classFCommandFeature.html#a3ff8a0398db30ce422496f2281dd3b60" title="전달된 버튼 ID에 매핑된 명령을 실행합니다." alt="" coords="806,169,1029,209"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="732,168,792,174,792,179,731,174"/>
 <area shape="rect" id="Node000008" href="$classFToolbarStyle.html#a3437f8f3e4dcd2c7b68de7b28fc2a95a" title="Slate 스타일 세트를 참조할 때 사용할 이름을 반환합니다." alt="" coords="1084,55,1317,80"/>
 <area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="991,65,1070,65,1070,70,991,70"/>
-<area shape="rect" id="Node000011" href="$classFCommon.html#ac247ef6e336abf6ca53b140d93ea07f9" title="툴바 액션이 대상으로 삼는 활성 에디터 월드를 반환합니다." alt="" coords="1365,281,1567,321"/>
-<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="1286,200,1318,212,1375,240,1426,271,1423,275,1373,245,1316,216,1284,205"/>
-<area shape="rect" id="Node000013" href="$classUToolbarSettings.html#a839017a8f47a62d4127ad8527d2498ed" title="레벨 선택 헬퍼가 사용할 검색 루트 경로를 수집합니다." alt="" coords="814,219,1021,259"/>
-<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="689,281,801,259,802,265,690,287"/>
-<area shape="rect" id="Node000015" href="$classFLevelFeature.html#ac20da5828b1adc7686fbd96ba8abd1c8" title="선택된 맵 패키지 이름을 저장합니다." alt="" coords="805,284,1029,309"/>
-<area shape="poly" id="edge14_Node000012_Node000015" title=" " alt="" coords="751,294,792,294,792,299,751,299"/>
-<area shape="rect" id="Node000014" href="$UToolbarSettings_8cpp.html#a93020a74b1d3099ceb4abe28cf3188d2" title="사용자 입력 디렉터리 문자열을 콘텐츠 루트 형식으로 정규화합니다." alt="" coords="1127,227,1274,252"/>
-<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="1021,237,1114,237,1114,242,1021,242"/>
-<area shape="rect" id="Node000017" href="$classFScreenshotFeature.html#a31ee01aa337c4b724c6ec8a550f99c05" title="고해상도 스크린샷(4x 배율)을 촬영합니다." alt="" coords="818,334,1017,374"/>
-<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="655,460,719,422,798,384,819,376,820,381,800,388,722,426,658,464"/>
-<area shape="rect" id="Node000019" href="$classFScreenshotFeature.html#a7189e1c261246eb0d4f1a2af11ab89bd" title="빠른 참고용 스크린샷(1x 배율)을 촬영합니다." alt="" coords="823,398,1011,438"/>
-<area shape="poly" id="edge19_Node000016_Node000019" title=" " alt="" coords="716,459,811,438,813,444,717,465"/>
-<area shape="rect" id="Node000020" href="$classFScreenshotFeature.html#afc1b23933c9d67077c2e726610688605" title="보통 품질 스크린샷(2x 배율)을 촬영합니다." alt="" coords="839,462,996,502"/>
-<area shape="poly" id="edge21_Node000016_Node000020" title=" " alt="" coords="723,479,825,479,825,485,723,485"/>
-<area shape="rect" id="Node000021" href="$classFScreenshotFeature.html#a756ceabcb0e485733fa095066f2970fa" title="울트라 고해상도 스크린샷(8x 배율)을 촬영합니다." alt="" coords="842,526,993,566"/>
-<area shape="poly" id="edge23_Node000016_Node000021" title=" " alt="" coords="717,499,829,524,828,529,716,505"/>
-<area shape="rect" id="Node000022" href="$classFScreenshotFeature.html#af01017cd01130c08bf1c63309ea1e2a6" title="촬영된 스크린샷이 저장된 디렉터리를 엽니다." alt="" coords="830,590,1005,630"/>
-<area shape="poly" id="edge25_Node000016_Node000022" title=" " alt="" coords="718,500,752,517,768,532,777,547,785,562,800,576,819,586,816,590,797,580,781,565,772,550,764,535,749,522,715,504"/>
-<area shape="rect" id="Node000018" href="$classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6" title="지정된 배율로 활성 뷰포트에 고해상도 캡처를 요청합니다." alt="" coords="1111,398,1291,438"/>
-<area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="1007,371,1099,392,1098,398,1006,377"/>
-<area shape="poly" id="edge18_Node000018_Node000011" title=" " alt="" coords="1246,395,1406,324,1408,329,1248,400"/>
-<area shape="poly" id="edge20_Node000019_Node000018" title=" " alt="" coords="1011,415,1097,415,1097,421,1011,421"/>
-<area shape="poly" id="edge22_Node000020_Node000018" title=" " alt="" coords="996,462,1097,438,1099,444,997,467"/>
-<area shape="poly" id="edge24_Node000021_Node000018" title=" " alt="" coords="992,526,1035,512,1101,478,1158,443,1161,448,1104,483,1037,516,994,531"/>
-<area shape="rect" id="Node000024" href="$classFLevelFeature.html#a63493bc16dc28b58911d3b03c7833aee" title="현재 선택된 맵 패키지를 에디터에 로드합니다." alt="" coords="799,655,1036,680"/>
-<area shape="poly" id="edge27_Node000023_Node000024" title=" " alt="" coords="704,569,752,592,767,604,776,617,785,629,800,640,818,648,815,653,797,644,782,633,772,620,763,608,749,596,702,574"/>
-<area shape="rect" id="Node000025" href="$classFLevelFeature.html#aad2ad775628a12e462c1e85e90060415" title="선택된 맵 에셋이 여전히 존재하는지 검증합니다." alt="" coords="1101,673,1300,713"/>
-<area shape="poly" id="edge28_Node000024_Node000025" title=" " alt="" coords="1036,675,1088,680,1087,685,1036,681"/>
-<area shape="poly" id="edge30_Node000026_Node000025" title=" " alt="" coords="722,706,1088,694,1088,699,722,711"/>
-<area shape="poly" id="edge32_Node000027_Node000024" title=" " alt="" coords="724,637,814,650,813,655,723,643"/>
+<area shape="rect" id="Node000011" href="$classFCommon.html#ac247ef6e336abf6ca53b140d93ea07f9" title="툴바 액션이 대상으로 삼는 활성 에디터 월드를 반환합니다." alt="" coords="1100,201,1301,241"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="1029,199,1086,205,1086,210,1028,204"/>
+<area shape="rect" id="Node000013" href="$classUToolbarSettings.html#a839017a8f47a62d4127ad8527d2498ed" title="레벨 선택 헬퍼가 사용할 검색 루트 경로를 수집합니다." alt="" coords="814,361,1021,401"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="751,372,800,374,800,379,751,377"/>
+<area shape="rect" id="Node000015" href="$classFLevelFeature.html#ac20da5828b1adc7686fbd96ba8abd1c8" title="선택된 맵 패키지 이름을 저장합니다." alt="" coords="805,425,1029,451"/>
+<area shape="poly" id="edge14_Node000012_Node000015" title=" " alt="" coords="698,380,751,393,799,410,837,420,836,425,798,415,750,398,697,385"/>
+<area shape="rect" id="Node000014" href="$UToolbarSettings_8cpp.html#a93020a74b1d3099ceb4abe28cf3188d2" title="사용자 입력 디렉터리 문자열을 콘텐츠 루트 형식으로 정규화합니다." alt="" coords="1127,368,1274,393"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="1021,378,1114,378,1114,383,1021,383"/>
+<area shape="rect" id="Node000017" href="$classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6" title="지정된 배율로 활성 뷰포트에 고해상도 캡처를 요청합니다." alt="" coords="827,233,1007,273"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="722,290,813,271,814,276,723,295"/>
+<area shape="rect" id="Node000018" href="$classFScreenshotFeature.html#af01017cd01130c08bf1c63309ea1e2a6" title="촬영된 스크린샷이 저장된 디렉터리를 엽니다." alt="" coords="830,297,1005,337"/>
+<area shape="poly" id="edge18_Node000016_Node000018" title=" " alt="" coords="723,311,816,313,816,318,723,317"/>
+<area shape="poly" id="edge17_Node000017_Node000011" title=" " alt="" coords="1007,240,1086,231,1087,236,1008,245"/>
+<area shape="rect" id="Node000020" href="$classFLevelFeature.html#a63493bc16dc28b58911d3b03c7833aee" title="현재 선택된 맵 패키지를 에디터에 로드합니다." alt="" coords="799,479,1036,504"/>
+<area shape="poly" id="edge20_Node000019_Node000020" title=" " alt="" coords="717,445,845,473,844,478,716,450"/>
+<area shape="rect" id="Node000021" href="$classFLevelFeature.html#aad2ad775628a12e462c1e85e90060415" title="선택된 맵 에셋이 여전히 존재하는지 검증합니다." alt="" coords="1101,497,1300,537"/>
+<area shape="poly" id="edge21_Node000020_Node000021" title=" " alt="" coords="1036,499,1088,504,1087,509,1036,505"/>
+<area shape="poly" id="edge23_Node000022_Node000021" title=" " alt="" coords="722,546,1088,522,1088,527,722,551"/>
+<area shape="poly" id="edge25_Node000023_Node000020" title=" " alt="" coords="723,489,785,489,785,494,723,494"/>
 </map>

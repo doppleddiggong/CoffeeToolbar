@@ -111,167 +111,132 @@ $(document).ready(function(){initNavTree('FScreenshotFeature_8cpp_source.html','
 <div class="contents">
 <a href="FScreenshotFeature_8cpp.html">이 파일의 문서화 페이지로 가기</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="FScreenshotFeature_8h.html">Screenshot/FScreenshotFeature.h</a>&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="FCommon_8h.html">Common/FCommon.h</a>&quot;</span> <span class="comment">// For GetActiveTargetWorld</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;Framework/MultiBox/MultiBoxBuilder.h&quot;</span> <span class="comment">// For FMenuBuilder</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;LevelEditor.h&quot;</span> <span class="comment">// For FLevelEditorModule</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;IAssetViewport.h&quot;</span> <span class="comment">// For IAssetViewport</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;Engine/Engine.h&quot;</span> <span class="comment">// For GEngine</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;UnrealEdGlobals.h&quot;</span> <span class="comment">// For GEditor</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;Misc/Paths.h&quot;</span> <span class="comment">// For FPaths</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;HAL/FileManager.h&quot;</span> <span class="comment">// For IFileManager</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;HAL/IConsoleManager.h&quot;</span> <span class="comment">// For IConsoleVariable</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;HAL/PlatformProcess.h&quot;</span> <span class="comment">// For FPlatformProcess</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;Styling/AppStyle.h&quot;</span> <span class="comment">// For FAppStyle</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;Styling/SlateIcon.h&quot;</span> <span class="comment">// For FSlateIcon</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="foldopen" id="foldopen00020" data-start="{" data-end="}">
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="classFScreenshotFeature.html#a8563baa30252566aeabe473b66be094f">   20</a></span><a class="code hl_function" href="classFScreenshotFeature.html#a8563baa30252566aeabe473b66be094f">FScreenshotFeature::FScreenshotFeature</a>()</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>{</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>}</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="FCommon_8h.html">Common/FCommon.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;Framework/MultiBox/MultiBoxBuilder.h&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;LevelEditor.h&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;IAssetViewport.h&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;Engine/Engine.h&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;Misc/Paths.h&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;HAL/FileManager.h&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;HAL/IConsoleManager.h&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;HAL/PlatformProcess.h&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;Styling/AppStyle.h&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="foldopen" id="foldopen00018" data-start="{" data-end="}">
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="classFScreenshotFeature.html#a8563baa30252566aeabe473b66be094f">   18</a></span><a class="code hl_function" href="classFScreenshotFeature.html#a8563baa30252566aeabe473b66be094f">FScreenshotFeature::FScreenshotFeature</a>()</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>}</div>
 </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="foldopen" id="foldopen00025" data-start="{" data-end="}">
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="classFScreenshotFeature.html#a56fc11b5f6023d5492e26d9354807082">   25</a></span>TSharedRef&lt;SWidget&gt; <a class="code hl_function" href="classFScreenshotFeature.html#a56fc11b5f6023d5492e26d9354807082">FScreenshotFeature::GenerateScreenshotMenu</a>()</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>{</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    FMenuBuilder MenuBuilder(<span class="keyword">true</span>, <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    MenuBuilder.AddMenuEntry(</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_QuickPreview&quot;</span>, <span class="stringliteral">&quot;개발 중 빠른 참고 (1x)&quot;</span>),</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_QuickPreview_Tooltip&quot;</span>, <span class="stringliteral">&quot;현재 활성 뷰포트를 1배 해상도로 빠르게 캡쳐합니다.&quot;</span>),</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        FSlateIcon(),</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        FUIAction(FExecuteAction::CreateRaw(<span class="keyword">this</span>, &amp;<a class="code hl_function" href="classFScreenshotFeature.html#a7189e1c261246eb0d4f1a2af11ab89bd">FScreenshotFeature::OnCaptureQuickPreview</a>))</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    );</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    MenuBuilder.AddMenuEntry(</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_Standard&quot;</span>, <span class="stringliteral">&quot;보통 (2x)&quot;</span>),</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_Standard_Tooltip&quot;</span>, <span class="stringliteral">&quot;현재 활성 뷰포트를 2배 배율로 캡쳐합니다.&quot;</span>),</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        FSlateIcon(),</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        FUIAction(FExecuteAction::CreateRaw(<span class="keyword">this</span>, &amp;<a class="code hl_function" href="classFScreenshotFeature.html#afc1b23933c9d67077c2e726610688605">FScreenshotFeature::OnCaptureStandard</a>))</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    );</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    MenuBuilder.AddMenuEntry(</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_High&quot;</span>, <span class="stringliteral">&quot;고해상도 (4x)&quot;</span>),</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_High_Tooltip&quot;</span>, <span class="stringliteral">&quot;현재 활성 뷰포트를 4배 배율로 캡쳐합니다.&quot;</span>),</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        FSlateIcon(),</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        FUIAction(FExecuteAction::CreateRaw(<span class="keyword">this</span>, &amp;<a class="code hl_function" href="classFScreenshotFeature.html#a31ee01aa337c4b724c6ec8a550f99c05">FScreenshotFeature::OnCaptureHighResolution</a>))</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    );</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    MenuBuilder.AddMenuEntry(</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_Ultra&quot;</span>, <span class="stringliteral">&quot;울트라 (8x)&quot;</span>),</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_Ultra_Tooltip&quot;</span>, <span class="stringliteral">&quot;현재 활성 뷰포트를 8배 배율로 캡쳐합니다.&quot;</span>),</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        FSlateIcon(),</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        FUIAction(FExecuteAction::CreateRaw(<span class="keyword">this</span>, &amp;<a class="code hl_function" href="classFScreenshotFeature.html#a756ceabcb0e485733fa095066f2970fa">FScreenshotFeature::OnCaptureUltra</a>))</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    );</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="}">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="classFScreenshotFeature.html#a56fc11b5f6023d5492e26d9354807082">   23</a></span>TSharedRef&lt;SWidget&gt; <a class="code hl_function" href="classFScreenshotFeature.html#a56fc11b5f6023d5492e26d9354807082">FScreenshotFeature::GenerateScreenshotMenu</a>()</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    FMenuBuilder MenuBuilder(<span class="keyword">true</span>, <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    MenuBuilder.AddMenuEntry(</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_QuickPreview&quot;</span>, <span class="stringliteral">&quot;x1&quot;</span>),</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_QuickPreview_Tooltip&quot;</span>, <span class="stringliteral">&quot;현재 활성 뷰포트를 1배 해상도로 빠르게 캡쳐합니다.&quot;</span>),</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        FSlateIcon(FAppStyle::GetAppStyleSetName(), <span class="stringliteral">&quot;LevelEditor.TakeScreenshot&quot;</span>),</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        FUIAction(FExecuteAction::CreateRaw(<span class="keyword">this</span>, &amp;<a class="code hl_function" href="classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6">FScreenshotFeature::CaptureActiveViewport</a>, 1))</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    );</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    MenuBuilder.AddMenuEntry(</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_Standard&quot;</span>, <span class="stringliteral">&quot;x2&quot;</span>),</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_Standard_Tooltip&quot;</span>, <span class="stringliteral">&quot;현재 활성 뷰포트를 2배 배율로 캡쳐합니다.&quot;</span>),</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        FSlateIcon(FAppStyle::GetAppStyleSetName(), <span class="stringliteral">&quot;LevelEditor.TakeScreenshot&quot;</span>),</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        FUIAction(FExecuteAction::CreateRaw(<span class="keyword">this</span>, &amp;<a class="code hl_function" href="classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6">FScreenshotFeature::CaptureActiveViewport</a>, 2))</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    );</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    MenuBuilder.AddMenuEntry(</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_High&quot;</span>, <span class="stringliteral">&quot;x4&quot;</span>),</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_High_Tooltip&quot;</span>, <span class="stringliteral">&quot;현재 활성 뷰포트를 4배 배율로 캡쳐합니다.&quot;</span>),</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        FSlateIcon(FAppStyle::GetAppStyleSetName(), <span class="stringliteral">&quot;LevelEditor.TakeScreenshot&quot;</span>),</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        FUIAction(FExecuteAction::CreateRaw(<span class="keyword">this</span>, &amp;<a class="code hl_function" href="classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6">FScreenshotFeature::CaptureActiveViewport</a>, 4))</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    );</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    MenuBuilder.AddMenuEntry(</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_Ultra&quot;</span>, <span class="stringliteral">&quot;x8&quot;</span>),</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_Ultra_Tooltip&quot;</span>, <span class="stringliteral">&quot;현재 활성 뷰포트를 8배 배율로 캡쳐합니다.&quot;</span>),</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        FSlateIcon(FAppStyle::GetAppStyleSetName(), <span class="stringliteral">&quot;Icons.FolderOpen&quot;</span>),</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        FUIAction(FExecuteAction::CreateRaw(<span class="keyword">this</span>, &amp;<a class="code hl_function" href="classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6">FScreenshotFeature::CaptureActiveViewport</a>, 8))</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    );</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    MenuBuilder.AddMenuSeparator();</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    MenuBuilder.AddMenuSeparator();</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    MenuBuilder.AddMenuEntry(</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_OpenFolder&quot;</span>, <span class="stringliteral">&quot;캡쳐 폴더 열기&quot;</span>),</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_OpenFolder_Tooltip&quot;</span>, <span class="stringliteral">&quot;스크린샷이 저장된 캡쳐 폴더를 엽니다.&quot;</span>),</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        FSlateIcon(FAppStyle::GetAppStyleSetName(), <span class="stringliteral">&quot;Icons.FolderOpen&quot;</span>),</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        FUIAction(FExecuteAction::CreateRaw(<span class="keyword">this</span>, &amp;<a class="code hl_function" href="classFScreenshotFeature.html#af01017cd01130c08bf1c63309ea1e2a6">FScreenshotFeature::OnOpenScreenShotDir</a>))</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    );</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordflow">return</span> MenuBuilder.MakeWidget();</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>}</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    MenuBuilder.AddMenuEntry(</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_OpenFolder&quot;</span>, <span class="stringliteral">&quot;캡쳐 폴더 열기&quot;</span>),</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        NSLOCTEXT(<span class="stringliteral">&quot;CoffeeToolbar&quot;</span>, <span class="stringliteral">&quot;Screenshot_OpenFolder_Tooltip&quot;</span>, <span class="stringliteral">&quot;스크린샷이 저장된 캡쳐 폴더를 엽니다.&quot;</span>),</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        FSlateIcon(FAppStyle::GetAppStyleSetName(), <span class="stringliteral">&quot;LevelEditor.TakeScreenshot&quot;</span>),</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        FUIAction(FExecuteAction::CreateRaw(<span class="keyword">this</span>, &amp;<a class="code hl_function" href="classFScreenshotFeature.html#af01017cd01130c08bf1c63309ea1e2a6">FScreenshotFeature::OnOpenScreenShotDir</a>))</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    );</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordflow">return</span> MenuBuilder.MakeWidget();</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>}</div>
 </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="foldopen" id="foldopen00070" data-start="{" data-end="}">
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="classFScreenshotFeature.html#a7189e1c261246eb0d4f1a2af11ab89bd">   70</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classFScreenshotFeature.html#a7189e1c261246eb0d4f1a2af11ab89bd">FScreenshotFeature::OnCaptureQuickPreview</a>()</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>{</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <a class="code hl_function" href="classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6">CaptureActiveViewport</a>(1);</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>}</div>
-</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="foldopen" id="foldopen00068" data-start="{" data-end="}">
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6">   68</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6">FScreenshotFeature::CaptureActiveViewport</a>(int32 ResolutionMultiplier)</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>{</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordflow">if</span> (ResolutionMultiplier &lt;= 0)</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    {</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        ResolutionMultiplier = 1;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    }</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="foldopen" id="foldopen00076" data-start="{" data-end="}">
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="classFScreenshotFeature.html#afc1b23933c9d67077c2e726610688605">   76</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classFScreenshotFeature.html#afc1b23933c9d67077c2e726610688605">FScreenshotFeature::OnCaptureStandard</a>()</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>{</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <a class="code hl_function" href="classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6">CaptureActiveViewport</a>(2);</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>}</div>
-</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
-<div class="foldopen" id="foldopen00082" data-start="{" data-end="}">
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="classFScreenshotFeature.html#a31ee01aa337c4b724c6ec8a550f99c05">   82</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classFScreenshotFeature.html#a31ee01aa337c4b724c6ec8a550f99c05">FScreenshotFeature::OnCaptureHighResolution</a>()</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>{</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <a class="code hl_function" href="classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6">CaptureActiveViewport</a>(4);</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>}</div>
-</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
-<div class="foldopen" id="foldopen00088" data-start="{" data-end="}">
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="classFScreenshotFeature.html#a756ceabcb0e485733fa095066f2970fa">   88</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classFScreenshotFeature.html#a756ceabcb0e485733fa095066f2970fa">FScreenshotFeature::OnCaptureUltra</a>()</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>{</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <a class="code hl_function" href="classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6">CaptureActiveViewport</a>(8);</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>}</div>
-</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="foldopen" id="foldopen00094" data-start="{" data-end="}">
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6">   94</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6">FScreenshotFeature::CaptureActiveViewport</a>(int32 ResolutionMultiplier)</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>{</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordflow">if</span> (ResolutionMultiplier &lt;= 0)</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    {</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        ResolutionMultiplier = 1;</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    }</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordflow">if</span> (IConsoleVariable* ResolutionCVar = IConsoleManager::Get().FindConsoleVariable(TEXT(<span class="stringliteral">&quot;r.HighResScreenshot.ResolutionMultiplier&quot;</span>)))</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    {</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        ResolutionCVar-&gt;Set(ResolutionMultiplier);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordflow">if</span> (IConsoleVariable* ResolutionCVar = IConsoleManager::Get().FindConsoleVariable(TEXT(<span class="stringliteral">&quot;r.HighResScreenshot.ResolutionMultiplier&quot;</span>)))</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    {</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        ResolutionCVar-&gt;Set(ResolutionMultiplier);</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    }</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordflow">if</span> (GEngine &amp;&amp; GEditor &amp;&amp;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        GEditor-&gt;PlayWorld &amp;&amp;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        GEngine-&gt;GameViewport &amp;&amp;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        GEngine-&gt;GameViewport-&gt;Viewport)</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    {</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        FScreenshotRequest::RequestScreenshot(<span class="keyword">true</span>);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        GEngine-&gt;GameViewport-&gt;Viewport-&gt;TakeHighResScreenShot();</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    }</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keywordflow">if</span> (FLevelEditorModule* LevelEditorModule = FModuleManager::GetModulePtr&lt;FLevelEditorModule&gt;(<span class="stringliteral">&quot;LevelEditor&quot;</span>))</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    {</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        <span class="keywordflow">if</span> (TSharedPtr&lt;IAssetViewport&gt; AssetViewport = LevelEditorModule-&gt;GetFirstActiveViewport())</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        {</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>            FEditorViewportClient&amp; ViewportClient = AssetViewport-&gt;GetAssetViewportClient();</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>            ViewportClient.TakeHighResScreenShot();</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        }</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    }</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordflow">if</span> (UWorld* World = <a class="code hl_function" href="classFCommon.html#ac247ef6e336abf6ca53b140d93ea07f9">FCommon::GetActiveTargetWorld</a>())</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    {</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        <span class="keyword">const</span> FString Command = FString::Printf(TEXT(<span class="stringliteral">&quot;HighResShot %d&quot;</span>), ResolutionMultiplier);</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        GEditor-&gt;Exec(World, *Command);</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    }</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="keywordflow">if</span> (GEngine &amp;&amp; GEditor &amp;&amp;</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        GEditor-&gt;PlayWorld &amp;&amp;</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        GEngine-&gt;GameViewport &amp;&amp;</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        GEngine-&gt;GameViewport-&gt;Viewport)</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    {</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        FScreenshotRequest::RequestScreenshot(<span class="keyword">true</span>);</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        GEngine-&gt;GameViewport-&gt;Viewport-&gt;TakeHighResScreenShot();</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    }</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keywordflow">if</span> (FLevelEditorModule* LevelEditorModule = FModuleManager::GetModulePtr&lt;FLevelEditorModule&gt;(<span class="stringliteral">&quot;LevelEditor&quot;</span>))</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    {</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        <span class="keywordflow">if</span> (TSharedPtr&lt;IAssetViewport&gt; AssetViewport = LevelEditorModule-&gt;GetFirstActiveViewport())</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>        {</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>            FEditorViewportClient&amp; ViewportClient = AssetViewport-&gt;GetAssetViewportClient();</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>            ViewportClient.TakeHighResScreenShot();</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>        }</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    }</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="keywordflow">if</span> (UWorld* World = <a class="code hl_function" href="classFCommon.html#ac247ef6e336abf6ca53b140d93ea07f9">FCommon::GetActiveTargetWorld</a>())</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    {</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        <span class="keyword">const</span> FString Command = FString::Printf(TEXT(<span class="stringliteral">&quot;HighResShot %d&quot;</span>), ResolutionMultiplier);</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>        GEditor-&gt;Exec(World, *Command);</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    }</div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>}</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>}</div>
 </div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
-<div class="foldopen" id="foldopen00134" data-start="{" data-end="}">
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno"><a class="line" href="classFScreenshotFeature.html#af01017cd01130c08bf1c63309ea1e2a6">  134</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classFScreenshotFeature.html#af01017cd01130c08bf1c63309ea1e2a6">FScreenshotFeature::OnOpenScreenShotDir</a>()</div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>{</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    FString Dir = FPaths::ScreenShotDir();</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    FString AbsoluteDir = IFileManager::Get().ConvertToAbsolutePathForExternalAppForRead(*Dir);</div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    IFileManager::Get().MakeDirectory(*AbsoluteDir, <span class="keyword">true</span>);</div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    FPlatformProcess::ExploreFolder(*AbsoluteDir);</div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>}</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="foldopen" id="foldopen00108" data-start="{" data-end="}">
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="classFScreenshotFeature.html#af01017cd01130c08bf1c63309ea1e2a6">  108</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classFScreenshotFeature.html#af01017cd01130c08bf1c63309ea1e2a6">FScreenshotFeature::OnOpenScreenShotDir</a>()</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>{</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    FString AbsoluteDir = IFileManager::Get().ConvertToAbsolutePathForExternalAppForRead(*FPaths::ScreenShotDir());</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    IFileManager::Get().MakeDirectory(*AbsoluteDir, <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    FPlatformProcess::ExploreFolder(*AbsoluteDir);</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>}</div>
 </div>
 <div class="ttc" id="aFCommon_8h_html"><div class="ttname"><a href="FCommon_8h.html">FCommon.h</a></div><div class="ttdoc">Coffee Toolbar 플러그인을 위한 공용 유틸리티 헬퍼를 선언합니다.</div></div>
 <div class="ttc" id="aFScreenshotFeature_8h_html"><div class="ttname"><a href="FScreenshotFeature_8h.html">FScreenshotFeature.h</a></div><div class="ttdoc">툴바의 스크린샷 워크플로우 버튼을 위한 헬퍼를 선언합니다.</div></div>
 <div class="ttc" id="aclassFCommon_html_ac247ef6e336abf6ca53b140d93ea07f9"><div class="ttname"><a href="classFCommon.html#ac247ef6e336abf6ca53b140d93ea07f9">FCommon::GetActiveTargetWorld</a></div><div class="ttdeci">static UWorld * GetActiveTargetWorld()</div><div class="ttdoc">툴바 액션이 대상으로 삼는 활성 에디터 월드를 반환합니다.</div><div class="ttdef"><b>Definition</b> <a href="FCommon_8cpp_source.html#l00021">FCommon.cpp:21</a></div></div>
-<div class="ttc" id="aclassFScreenshotFeature_html_a31ee01aa337c4b724c6ec8a550f99c05"><div class="ttname"><a href="classFScreenshotFeature.html#a31ee01aa337c4b724c6ec8a550f99c05">FScreenshotFeature::OnCaptureHighResolution</a></div><div class="ttdeci">void OnCaptureHighResolution()</div><div class="ttdoc">고해상도 스크린샷(4x 배율)을 촬영합니다.</div><div class="ttdef"><b>Definition</b> <a href="FScreenshotFeature_8cpp_source.html#l00082">FScreenshotFeature.cpp:82</a></div></div>
-<div class="ttc" id="aclassFScreenshotFeature_html_a56fc11b5f6023d5492e26d9354807082"><div class="ttname"><a href="classFScreenshotFeature.html#a56fc11b5f6023d5492e26d9354807082">FScreenshotFeature::GenerateScreenshotMenu</a></div><div class="ttdeci">TSharedRef&lt; SWidget &gt; GenerateScreenshotMenu()</div><div class="ttdoc">스크린샷 옵션을 제공하는 메뉴 위젯을 생성합니다.</div><div class="ttdef"><b>Definition</b> <a href="FScreenshotFeature_8cpp_source.html#l00025">FScreenshotFeature.cpp:25</a></div></div>
-<div class="ttc" id="aclassFScreenshotFeature_html_a7189e1c261246eb0d4f1a2af11ab89bd"><div class="ttname"><a href="classFScreenshotFeature.html#a7189e1c261246eb0d4f1a2af11ab89bd">FScreenshotFeature::OnCaptureQuickPreview</a></div><div class="ttdeci">void OnCaptureQuickPreview()</div><div class="ttdoc">빠른 참고용 스크린샷(1x 배율)을 촬영합니다.</div><div class="ttdef"><b>Definition</b> <a href="FScreenshotFeature_8cpp_source.html#l00070">FScreenshotFeature.cpp:70</a></div></div>
-<div class="ttc" id="aclassFScreenshotFeature_html_a756ceabcb0e485733fa095066f2970fa"><div class="ttname"><a href="classFScreenshotFeature.html#a756ceabcb0e485733fa095066f2970fa">FScreenshotFeature::OnCaptureUltra</a></div><div class="ttdeci">void OnCaptureUltra()</div><div class="ttdoc">울트라 고해상도 스크린샷(8x 배율)을 촬영합니다.</div><div class="ttdef"><b>Definition</b> <a href="FScreenshotFeature_8cpp_source.html#l00088">FScreenshotFeature.cpp:88</a></div></div>
-<div class="ttc" id="aclassFScreenshotFeature_html_a8563baa30252566aeabe473b66be094f"><div class="ttname"><a href="classFScreenshotFeature.html#a8563baa30252566aeabe473b66be094f">FScreenshotFeature::FScreenshotFeature</a></div><div class="ttdeci">FScreenshotFeature()</div><div class="ttdoc">기본 스크린샷 설정 상태를 구성합니다.</div><div class="ttdef"><b>Definition</b> <a href="FScreenshotFeature_8cpp_source.html#l00020">FScreenshotFeature.cpp:20</a></div></div>
-<div class="ttc" id="aclassFScreenshotFeature_html_aaab75697de4685c906b26140e54301b6"><div class="ttname"><a href="classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6">FScreenshotFeature::CaptureActiveViewport</a></div><div class="ttdeci">void CaptureActiveViewport(int32 ResolutionMultiplier)</div><div class="ttdoc">지정된 배율로 활성 뷰포트에 고해상도 캡처를 요청합니다.</div><div class="ttdef"><b>Definition</b> <a href="FScreenshotFeature_8cpp_source.html#l00094">FScreenshotFeature.cpp:94</a></div></div>
-<div class="ttc" id="aclassFScreenshotFeature_html_af01017cd01130c08bf1c63309ea1e2a6"><div class="ttname"><a href="classFScreenshotFeature.html#af01017cd01130c08bf1c63309ea1e2a6">FScreenshotFeature::OnOpenScreenShotDir</a></div><div class="ttdeci">void OnOpenScreenShotDir()</div><div class="ttdoc">촬영된 스크린샷이 저장된 디렉터리를 엽니다.</div><div class="ttdef"><b>Definition</b> <a href="FScreenshotFeature_8cpp_source.html#l00134">FScreenshotFeature.cpp:134</a></div></div>
-<div class="ttc" id="aclassFScreenshotFeature_html_afc1b23933c9d67077c2e726610688605"><div class="ttname"><a href="classFScreenshotFeature.html#afc1b23933c9d67077c2e726610688605">FScreenshotFeature::OnCaptureStandard</a></div><div class="ttdeci">void OnCaptureStandard()</div><div class="ttdoc">보통 품질 스크린샷(2x 배율)을 촬영합니다.</div><div class="ttdef"><b>Definition</b> <a href="FScreenshotFeature_8cpp_source.html#l00076">FScreenshotFeature.cpp:76</a></div></div>
+<div class="ttc" id="aclassFScreenshotFeature_html_a56fc11b5f6023d5492e26d9354807082"><div class="ttname"><a href="classFScreenshotFeature.html#a56fc11b5f6023d5492e26d9354807082">FScreenshotFeature::GenerateScreenshotMenu</a></div><div class="ttdeci">TSharedRef&lt; SWidget &gt; GenerateScreenshotMenu()</div><div class="ttdoc">스크린샷 옵션을 제공하는 메뉴 위젯을 생성합니다.</div><div class="ttdef"><b>Definition</b> <a href="FScreenshotFeature_8cpp_source.html#l00023">FScreenshotFeature.cpp:23</a></div></div>
+<div class="ttc" id="aclassFScreenshotFeature_html_a8563baa30252566aeabe473b66be094f"><div class="ttname"><a href="classFScreenshotFeature.html#a8563baa30252566aeabe473b66be094f">FScreenshotFeature::FScreenshotFeature</a></div><div class="ttdeci">FScreenshotFeature()</div><div class="ttdoc">기본 스크린샷 설정 상태를 구성합니다.</div><div class="ttdef"><b>Definition</b> <a href="FScreenshotFeature_8cpp_source.html#l00018">FScreenshotFeature.cpp:18</a></div></div>
+<div class="ttc" id="aclassFScreenshotFeature_html_aaab75697de4685c906b26140e54301b6"><div class="ttname"><a href="classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6">FScreenshotFeature::CaptureActiveViewport</a></div><div class="ttdeci">void CaptureActiveViewport(int32 ResolutionMultiplier)</div><div class="ttdoc">지정된 배율로 활성 뷰포트에 고해상도 캡처를 요청합니다.</div><div class="ttdef"><b>Definition</b> <a href="FScreenshotFeature_8cpp_source.html#l00068">FScreenshotFeature.cpp:68</a></div></div>
+<div class="ttc" id="aclassFScreenshotFeature_html_af01017cd01130c08bf1c63309ea1e2a6"><div class="ttname"><a href="classFScreenshotFeature.html#af01017cd01130c08bf1c63309ea1e2a6">FScreenshotFeature::OnOpenScreenShotDir</a></div><div class="ttdeci">void OnOpenScreenShotDir()</div><div class="ttdoc">촬영된 스크린샷이 저장된 디렉터리를 엽니다.</div><div class="ttdef"><b>Definition</b> <a href="FScreenshotFeature_8cpp_source.html#l00108">FScreenshotFeature.cpp:108</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_74389ed8173ad57b461b9d623a1f3867.html">Source</a></li><li class="navelem"><a class="el" href="dir_64d53782dd23c34e270e016cddcba0f2.html">CoffeeToolbar</a></li><li class="navelem"><a class="el" href="dir_694584ba17985195ce961d5fae66b6d9.html">Private</a></li><li class="navelem"><a class="el" href="dir_baf9be0dedefecbc98dbf50df3caf5b5.html">Screenshot</a></li><li class="navelem"><a class="el" href="FScreenshotFeature_8cpp.html">FScreenshotFeature.cpp</a></li>
-    <li class="footer">생성시간 : 월 10월 6 2025 06:16:27, 프로젝트명 : Coffee Toolbar, 생성자 :  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">생성시간 : 월 10월 6 2025 06:58:02, 프로젝트명 : Coffee Toolbar, 생성자 :  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>
