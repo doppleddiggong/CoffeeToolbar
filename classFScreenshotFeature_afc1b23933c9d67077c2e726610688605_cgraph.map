@@ -1,0 +1,7 @@
+<map id="FScreenshotFeature::OnCaptureStandard" name="FScreenshotFeature::OnCaptureStandard">
+<area shape="rect" id="Node000001" title="보통 품질 스크린샷(2x 배율)을 촬영합니다." alt="" coords="5,5,163,45"/>
+<area shape="rect" id="Node000002" href="$classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6" title="지정된 배율로 활성 뷰포트에 고해상도 캡처를 요청합니다." alt="" coords="211,5,391,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,23,197,23,197,28,163,28"/>
+<area shape="rect" id="Node000003" href="$classFCommon.html#ac247ef6e336abf6ca53b140d93ea07f9" title="툴바 액션이 대상으로 삼는 활성 에디터 월드를 반환합니다." alt="" coords="439,5,640,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="391,23,425,23,425,28,391,28"/>
+</map>

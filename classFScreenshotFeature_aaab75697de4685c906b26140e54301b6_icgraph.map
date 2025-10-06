@@ -1,0 +1,20 @@
+<map id="FScreenshotFeature::CaptureActiveViewport" name="FScreenshotFeature::CaptureActiveViewport">
+<area shape="rect" id="Node000001" title="지정된 배율로 활성 뷰포트에 고해상도 캡처를 요청합니다." alt="" coords="955,101,1135,141"/>
+<area shape="rect" id="Node000002" href="$classFScreenshotFeature.html#a31ee01aa337c4b724c6ec8a550f99c05" title="고해상도 스크린샷(4x 배율)을 촬영합니다." alt="" coords="708,5,907,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="990,98,906,60,873,48,875,43,908,55,993,93"/>
+<area shape="rect" id="Node000006" href="$classFScreenshotFeature.html#a7189e1c261246eb0d4f1a2af11ab89bd" title="빠른 참고용 스크린샷(1x 배율)을 촬영합니다." alt="" coords="713,69,901,109"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="941,110,901,105,902,99,941,105"/>
+<area shape="rect" id="Node000007" href="$classFScreenshotFeature.html#afc1b23933c9d67077c2e726610688605" title="보통 품질 스크린샷(2x 배율)을 촬영합니다." alt="" coords="729,133,886,173"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="942,138,887,145,886,140,941,133"/>
+<area shape="rect" id="Node000008" href="$classFScreenshotFeature.html#a756ceabcb0e485733fa095066f2970fa" title="울트라 고해상도 스크린샷(8x 배율)을 촬영합니다." alt="" coords="732,197,883,237"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="993,150,908,188,875,200,873,195,906,183,990,145"/>
+<area shape="rect" id="Node000003" href="$classFScreenshotFeature.html#a56fc11b5f6023d5492e26d9354807082" title="스크린샷 옵션을 제공하는 메뉴 위젯을 생성합니다." alt="" coords="461,101,660,141"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="730,52,709,60,606,104,604,99,707,55,728,47"/>
+<area shape="rect" id="Node000004" href="$classFToolbar.html#a2df7b59ad21cce1d2f0437add0d4c6a7" title="에디터 확장 프레임워크에 툴바 메뉴와 버튼을 등록합니다." alt="" coords="232,109,413,134"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="448,124,414,124,414,119,448,119"/>
+<area shape="rect" id="Node000005" href="$classFToolbar.html#a29b321398a59346e3df4870366f89245" title="툴바 기능을 초기화하고 Slate 메뉴 확장을 등록합니다." alt="" coords="5,109,184,134"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="218,124,184,124,184,119,218,119"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="700,106,661,111,660,106,699,101"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="715,144,660,137,661,132,715,139"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="728,195,707,188,604,144,606,139,709,183,730,190"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="FScreenshotFeature::OnCaptureHighResolution" name="FScreenshotFeature::OnCaptureHighResolution">
+<area shape="rect" id="Node000001" title="고해상도 스크린샷(4x 배율)을 촬영합니다." alt="" coords="708,5,907,45"/>
+<area shape="rect" id="Node000002" href="$classFScreenshotFeature.html#a56fc11b5f6023d5492e26d9354807082" title="스크린샷 옵션을 제공하는 메뉴 위젯을 생성합니다." alt="" coords="461,5,660,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="694,28,660,28,660,23,694,23"/>
+<area shape="rect" id="Node000003" href="$classFToolbar.html#a2df7b59ad21cce1d2f0437add0d4c6a7" title="에디터 확장 프레임워크에 툴바 메뉴와 버튼을 등록합니다." alt="" coords="232,13,413,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="448,28,414,28,414,23,448,23"/>
+<area shape="rect" id="Node000004" href="$classFToolbar.html#a29b321398a59346e3df4870366f89245" title="툴바 기능을 초기화하고 Slate 메뉴 확장을 등록합니다." alt="" coords="5,13,184,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="218,28,184,28,184,23,218,23"/>
+</map>

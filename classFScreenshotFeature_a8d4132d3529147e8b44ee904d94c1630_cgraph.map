@@ -1,5 +1,0 @@
-<map id="FScreenshotFeature::OnCaptureScreenshot" name="FScreenshotFeature::OnCaptureScreenshot">
-<area shape="rect" id="Node000001" title="언리얼 자동화 라이브러리를 사용해 스크린샷을 촬영합니다." alt="" coords="5,5,176,45"/>
-<area shape="rect" id="Node000002" href="$classFCommon.html#ac247ef6e336abf6ca53b140d93ea07f9" title="툴바 액션이 대상으로 삼는 활성 에디터 월드를 반환합니다." alt="" coords="224,5,425,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,23,210,23,210,28,176,28"/>
-</map>
