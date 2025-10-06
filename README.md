@@ -71,13 +71,26 @@
 
 **Custom Commands** 섹션에서 새로운 요소를 추가하여 원하는 콘솔 명령어 또는 에디터 기능을 툴바 버튼으로 등록할 수 있습니다.
 
-![커스텀 명령어 추가](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_commnad.png?raw=true)
+![커스텀 명령어 추가](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_command.png?raw=true)
 
 ### 4. 레벨 셀렉터 설정 (Level Selector Configuration)
 
 **Level Selector** 기능을 통해 자주 사용하는 레벨들을 등록하고 툴바에서 빠르게 로드할 수 있습니다.
 
 ![레벨 셀렉터 설정](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_levelselector.png?raw=true)
+
+### 5. 스크린샷 설정 (Screenshot Configuration)
+
+**Screenshot** 기능을 통해 현재 활성 뷰포트의 고해상도 스크린샷을 촬영하거나, 캡처 폴더를 바로 열 수 있습니다.
+
+#### 제공 기능
+- **1배 촬영** : 현재 해상도로 캡처
+- **2배 촬영** : 2배 배율로 캡처
+- **4배 촬영** : 4배 배율로 캡처
+- **8배 촬영** : 8배 배율로 캡처
+- **캡처 폴더 열기** : 저장된 스크린샷 폴더를 바로 탐색기에서 엽니다
+
+![스크린샷 설정](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_screenshot.png?raw=true)
 
 **주요 버튼 설명:**
 
@@ -88,7 +101,7 @@
 
 **스크린샷 버튼 설명:**
 
-*   **Take Screenshot (1x, 2x, 4x)**: 현재 뷰포트의 스크린샷을 지정된 배율(1배, 2배, 4배)로 촬영합니다. 고해상도 스크린샷이 필요한 경우 유용합니다.
+*   **Take Screenshot (x1, x2, x4, x8)**: 현재 뷰포트의 스크린샷을 지정된 배율(1배, 2배, 4배)로 촬영합니다. 고해상도 스크린샷이 필요한 경우 유용합니다.
 *   **Open Screenshot Folder**: 촬영된 스크린샷이 저장되는 폴더를 엽니다.
 
 ---
