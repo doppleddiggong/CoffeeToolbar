@@ -1,4 +1,4 @@
-# Coffee Toolbar
+# CoffeeToolbar
 
 [![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.6.0-blue.svg)](https://www.unrealengine.com/)
 [![Language](https://img.shields.io/badge/C%2B%2B-20-blue.svg)](https://isocpp.org/)
