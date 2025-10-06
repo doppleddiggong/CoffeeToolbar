@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Documentation](https://img.shields.io/badge/Docs-GitHub%20Pages-lightgrey.svg)](https://doppleddiggong.github.io/CoffeeToolbar/)
 
+![Coffee Toolbar Icon](Documents/Reference/icon_coffee_toolbar.png)
+
 **Version: 1.0.0**
 
 `Coffee Toolbar`는 언리얼 엔진 에디터의 개발 편의성을 향상시키기 위해 제작된 유틸리티 툴바 플러그인입니다. 자주 사용하는 기능들을 원클릭으로 실행하여 반복적인 작업을 줄이고 개발 속도를 높이는 것을 목표로 합니다.

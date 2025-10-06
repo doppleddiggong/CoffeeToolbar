@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - 'v*.*.*'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -19,14 +20,14 @@ jobs:
       - name: Zip Plugin
         run: |
           mkdir -p output
-          zip -r output/CoffeeToolbar_${{ env.VERSION }}.zip Plugins/CoffeeToolbar \
-            -x "Plugins/CoffeeToolbar/Binaries/*" \
-            -x "Plugins/CoffeeToolbar/Intermediate/*" \
-            -x "Plugins/CoffeeToolbar/Saved/*"
-            -x "Plugins/CoffeeToolbar/Documents/*"
-            -x "Plugins/CoffeeToolbar/Doxyfile"
-            -x "Plugins/CoffeeToolbar/.github/*"
-
+                    zip -r output/CoffeeToolbar_${{ env.VERSION }}.zip . \
+                      -x "Binaries/*" \
+                      -x "Intermediate/*" \
+                      -x "Saved/*" \
+                      -x "Documents/*" \
+                      -x "Doxyfile" \
+                      -x ".github/*" \
+                      -x "output/*" 
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
