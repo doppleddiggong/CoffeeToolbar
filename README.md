@@ -77,6 +77,13 @@
 
 **Level Selector** 기능을 통해 자주 사용하는 레벨들을 등록하고 툴바에서 빠르게 로드할 수 있습니다.
 
+**주요 버튼 설명:**
+
+*   **Add Current Level**: 현재 에디터에 로드된 레벨을 목록에 추가합니다.
+*   **Load Selected Level**: 목록에서 선택된 레벨을 에디터에 로드합니다.
+*   **Remove Selected Level**: 목록에서 선택된 레벨을 제거합니다.
+*   **Clear All Levels**: 목록의 모든 레벨을 제거합니다.
+
 ![레벨 셀렉터 설정](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_levelselector.png?raw=true)
 
 ### 5. 스크린샷 설정 (Screenshot Configuration)
@@ -91,18 +98,6 @@
 - **캡처 폴더 열기** : 저장된 스크린샷 폴더를 바로 탐색기에서 엽니다
 
 ![스크린샷 설정](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_screenshot.png?raw=true)
-
-**주요 버튼 설명:**
-
-*   **Add Current Level**: 현재 에디터에 로드된 레벨을 목록에 추가합니다.
-*   **Load Selected Level**: 목록에서 선택된 레벨을 에디터에 로드합니다.
-*   **Remove Selected Level**: 목록에서 선택된 레벨을 제거합니다.
-*   **Clear All Levels**: 목록의 모든 레벨을 제거합니다.
-
-**스크린샷 버튼 설명:**
-
-*   **Take Screenshot (x1, x2, x4, x8)**: 현재 뷰포트의 스크린샷을 지정된 배율(1배, 2배, 4배)로 촬영합니다. 고해상도 스크린샷이 필요한 경우 유용합니다.
-*   **Open Screenshot Folder**: 촬영된 스크린샷이 저장되는 폴더를 엽니다.
 
 ---
 
