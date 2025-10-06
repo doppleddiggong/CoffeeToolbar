@@ -118,6 +118,10 @@
 
 본 플러그인은 MIT 라이선스 하에 배포됩니다. 자세한 내용은 `LICENSE` 파일을 참고하십시오.
 
-## 제작자 (Author)
+## Author
 
--   dopple
+**dopple**
+
+- GitHub: [doppleddiggong](https://github.com/doppleddiggong)  
+- LinkedIn: [주백 배](https://www.linkedin.com/in/주백-배-4a814527b/)  
+- Email: dopple [at] yourdomain.com  
