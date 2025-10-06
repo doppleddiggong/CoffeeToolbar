@@ -1,6 +1,11 @@
 # Coffee Toolbar
 
-**Version: 1.0**
+[![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.6.0-blue.svg)](https://www.unrealengine.com/)
+[![Language](https://img.shields.io/badge/C%2B%2B-20-blue.svg)](https://isocpp.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Documentation](https://img.shields.io/badge/Docs-GitHub%20Pages-lightgrey.svg)](https://doppleddiggong.github.io/CoffeeToolbar/)
+
+**Version: 1.0.0**
 
 `Coffee Toolbar`는 언리얼 엔진 에디터의 개발 편의성을 향상시키기 위해 제작된 유틸리티 툴바 플러그인입니다. 자주 사용하는 기능들을 원클릭으로 실행하여 반복적인 작업을 줄이고 개발 속도를 높이는 것을 목표로 합니다.
 
@@ -13,7 +18,16 @@
 
 ## 설치 방법 (Installation)
 
-### 1. 프로젝트에 설치
+### 1. GitHub Release를 통한 설치 (권장)
+
+1.  [GitHub Releases 페이지](https://github.com/doppleddiggong/CoffeeToolbar/releases)에서 최신 버전의 `CoffeeToolbar_X.X.X.zip` 파일을 다운로드합니다.
+2.  다운로드한 ZIP 파일의 압축을 해제합니다.
+3.  압축 해제된 `CoffeeToolbar` 폴더를 언리얼 엔진 프로젝트의 `Plugins` 폴더 (예: `YourProject/Plugins/`) 또는 언리얼 엔진 설치 경로의 `Engine/Plugins` 폴더 (예: `C:/Program Files/Epic Games/UE_5.X/Engine/Plugins/`) 안에 복사합니다.
+4.  언리얼 엔진 에디터를 재시작합니다.
+5.  에디터 상단 메뉴에서 `Edit > Plugins`를 선택하고, "CoffeeToolbar"를 검색하여 활성화합니다.
+6.  플러그인 활성화 후 에디터 재시작 메시지가 나타나면 재시작합니다.
+
+### 2. 프로젝트에 수동 설치
 
 1.  프로젝트 폴더 내에 `Plugins` 폴더가 없다면 생성합니다.
 2.  `CoffeeToolbar` 폴더를 `Plugins` 폴더 안으로 복사합니다.
@@ -21,7 +35,7 @@
 
 **경로 예시**: `[YourProjectDirectory]/Plugins/CoffeeToolbar`
 
-### 2. 엔진에 설치
+### 3. 엔진에 수동 설치
 
 1.  언리얼 엔진 설치 경로의 `Engine/Plugins` 폴더로 이동합니다.
 2.  `CoffeeToolbar` 폴더를 `Engine/Plugins` 폴더 안으로 복사합니다.
@@ -35,7 +49,49 @@
 2.  툴바 아이콘을 클릭하면 등록된 기능 버튼들이 드롭다운 메뉴 형식으로 표시됩니다.
 3.  원하는 기능의 버튼을 클릭하여 즉시 실행합니다.
 
-## 설정 (Configuration)
+## 설정 가이드 (Configuration Guide)
+
+`Coffee Toolbar` 플러그인은 언리얼 엔진의 **Project Settings**를 통해 다양한 기능을 설정하고 커스터마이징할 수 있습니다.
+
+### 1. 플러그인 설정 접근
+
+언리얼 에디터에서 **Edit > Project Settings**로 이동한 후, 왼쪽 메뉴의 **Plugins** 섹션에서 **Coffee Toolbar**를 선택합니다.
+
+![플러그인 설정 접근](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_plugin_toolbarSettings.png?raw=true)
+
+### 2. 기본 설정 (Default Settings)
+
+여기서 툴바에 표시될 버튼의 순서, 아이콘, 실행할 명령어 등을 설정할 수 있습니다.
+
+![기본 설정](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_defaultSetting.png?raw=true)
+
+### 3. 커스텀 명령어 추가 (Adding Custom Commands)
+
+**Custom Commands** 섹션에서 새로운 요소를 추가하여 원하는 콘솔 명령어 또는 에디터 기능을 툴바 버튼으로 등록할 수 있습니다.
+
+![커스텀 명령어 추가](https://github.doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_commnad.png?raw=true)
+
+### 4. 레벨 셀렉터 설정 (Level Selector Configuration)
+
+**Level Selector** 기능을 통해 자주 사용하는 레벨들을 등록하고 툴바에서 빠르게 로드할 수 있습니다.
+
+![레벨 셀렉터 설정](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_levelselector.png?raw=true)
+
+**주요 버튼 설명:**
+
+*   **Add Current Level**: 현재 에디터에 로드된 레벨을 목록에 추가합니다.
+*   **Load Selected Level**: 목록에서 선택된 레벨을 에디터에 로드합니다.
+*   **Remove Selected Level**: 목록에서 선택된 레벨을 제거합니다.
+*   **Clear All Levels**: 목록의 모든 레벨을 제거합니다.
+
+**스크린샷 버튼 설명:**
+
+*   **Take Screenshot (1x, 2x, 4x)**: 현재 뷰포트의 스크린샷을 지정된 배율(1배, 2배, 4배)로 촬영합니다. 고해상도 스크린샷이 필요한 경우 유용합니다.
+*   **Open Screenshot Folder**: 촬영된 스크린샷이 저장되는 폴더를 엽니다.
+
+---
+
+## 설정 상세 (Configuration Details)
 
 `Project Settings > Plugins > Coffee Toolbar` 메뉴를 통해 플러그인의 동작을 상세하게 설정할 수 있습니다.
 

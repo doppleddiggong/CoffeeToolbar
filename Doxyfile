@@ -397,7 +397,7 @@ EXAMPLE_PATTERNS       = *
 EXAMPLE_RECURSIVE      = NO
 
 # 이미지 파일 경로
-IMAGE_PATH             =
+IMAGE_PATH             = Documents/Reference
 
 # 전역 입력 필터
 INPUT_FILTER           =

@@ -1,0 +1,48 @@
+name: Release CoffeeToolbar Plugin
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set version from tag
+        run: echo "VERSION=${GITHUB_REF##*/}" >> $GITHUB_ENV
+
+      - name: Zip Plugin
+        run: |
+          mkdir -p output
+          zip -r output/CoffeeToolbar_${{ env.VERSION }}.zip Plugins/CoffeeToolbar \
+            -x "Plugins/CoffeeToolbar/Binaries/*" \
+            -x "Plugins/CoffeeToolbar/Intermediate/*" \
+            -x "Plugins/CoffeeToolbar/Saved/*"
+            -x "Plugins/CoffeeToolbar/Documents/*"
+            -x "Plugins/CoffeeToolbar/Doxyfile"
+            -x "Plugins/CoffeeToolbar/.github/*"
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ env.VERSION }}
+          name: Release ${{ env.VERSION }}
+          body: |
+            ## CoffeeToolbar Plugin Release ${{ env.VERSION }}
+
+            This release contains the CoffeeToolbar plugin.
+
+            ### Installation:
+            1. Download the attached `CoffeeToolbar_${{ env.VERSION }}.zip` file.
+            2. Extract the contents into your Unreal Engine project's `Plugins` folder (e.g., `YourProject/Plugins/`).
+            3. Restart the Unreal Engine editor.
+            4. Go to `Edit -> Plugins`, search for "CoffeeToolbar", and enable it.
+            5. Restart the editor again if prompted.
+          files: output/*.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
