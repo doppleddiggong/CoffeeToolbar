@@ -5,11 +5,13 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Documentation](https://img.shields.io/badge/Docs-GitHub%20Pages-lightgrey.svg)](https://doppleddiggong.github.io/CoffeeToolbar/)
 
-![Coffee Toolbar Icon](Documents/Reference/icon_coffee_cover_type3.png)
-
 **Version: 1.0.0**
 
-`CoffeeToolbar`는 언리얼 엔진 에디터의 개발 편의성을 향상시키기 위해 제작된 유틸리티 툴바 플러그인입니다. 자주 사용하는 기능들을 원클릭으로 실행하여 반복적인 작업을 줄이고 개발 속도를 높이는 것을 목표로 합니다.
+![Coffee Toolbar Icon](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/icon_coffee_cover_type3.png)
+
+`Coffee Toolbar`는 언리얼 엔진 에디터의 개발 편의성을 향상시키기 위해 제작된 유틸리티 툴바 플러그인입니다. 자주 사용하는 기능들을 원클릭으로 실행하여 반복적인 작업을 줄이고 개발 속도를 높이는 것을 목표로 합니다.
+
+![사용법](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/use_guide.png?raw=true)
 
 ## 주요 기능 (Features)
 
@@ -53,13 +55,13 @@
 
 ## 설정 가이드 (Configuration Guide)
 
-`CoffeeToolbar` 플러그인은 언리얼 엔진의 **Project Settings**를 통해 다양한 기능을 설정하고 커스터마이징할 수 있습니다.
+`Coffee Toolbar` 플러그인은 언리얼 엔진의 **Project Settings**를 통해 다양한 기능을 설정하고 커스터마이징할 수 있습니다.
+
+![설정 수정](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/modify_guide.png?raw=true)
 
 ### 1. 플러그인 설정 접근
 
-언리얼 에디터에서 **Edit > Project Settings**로 이동한 후, 왼쪽 메뉴의 **Plugins** 섹션에서 **CoffeeToolbar**를 선택합니다.
-
-![플러그인 설정 접근](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_plugin_toolbarSettings.png?raw=true)
+언리얼 에디터에서 **Edit > Project Settings**로 이동한 후, 왼쪽 메뉴의 **Plugins** 섹션에서 **Coffee Toolbar**를 선택합니다.
 
 ### 2. 기본 설정 (Default Settings)
 
@@ -71,11 +73,10 @@
 
 **Custom Commands** 섹션에서 새로운 요소를 추가하여 원하는 콘솔 명령어 또는 에디터 기능을 툴바 버튼으로 등록할 수 있습니다.
 
-![커스텀 명령어 추가](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_command.png?raw=true)
-
 ### 4. 레벨 셀렉터 설정 (Level Selector Configuration)
 
 **Level Selector** 기능을 통해 자주 사용하는 레벨들을 등록하고 툴바에서 빠르게 로드할 수 있습니다.
+
 
 **주요 버튼 설명:**
 
@@ -86,7 +87,7 @@
 
 ![레벨 셀렉터 설정](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_levelselector.png?raw=true)
 
-### 5. 스크린샷 설정 (Screenshot Configuration)
+### 5. 스크린샷 설정 (Screenshot Capture Feature)
 
 **Screenshot** 기능을 통해 현재 활성 뷰포트의 고해상도 스크린샷을 촬영하거나, 캡처 폴더를 바로 열 수 있습니다.
 
@@ -103,15 +104,13 @@
 
 ## 설정 상세 (Configuration Details)
 
-`Project Settings > Plugins > Toolbar Settings` 메뉴를 통해 플러그인의 동작을 상세하게 설정할 수 있습니다.
+`Project Settings > Plugins > Coffee Toolbar` 메뉴를 통해 플러그인의 동작을 상세하게 설정할 수 있습니다.
 
 *   **콘솔 명령어 등록**: 툴바를 통해 실행할 커스텀 콘솔 명령어 목록을 추가하거나 수정할 수 있습니다.
-*   **스크린샷 배율 설정**: 고해상도 스크린샷 촬영 시 사용될 배율을 지정합니다.
 *   **툴바 기능 활성화/비활성화**: 툴바에 표시할 개별 기능들을 선택적으로 켜고 끌 수 있습니다.
 
-설정된 내용은 프로젝트의 `Config/ToolbarSetting.ini` 파일에 저장됩니다.
+설정된 내용은 프로젝트의 `Config/ToolbarSettings.ini` 파일에 저장됩니다.
 
-![레벨 셀렉터 설정](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_defaultSetting_file.png?raw=true)
 
 ## 라이선스 (License)
 
