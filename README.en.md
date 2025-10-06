@@ -124,4 +124,4 @@ This plug-in is distributed under the MIT License. See the `LICENSE` file for de
 
 - GitHub: [doppleddiggong](https://github.com/doppleddiggong)
 - LinkedIn: [Jubaek Bae](https://www.linkedin.com/in/주백-배-4a814527b/)
-- Email: dopple [at] yourdomain.com
+- Email: ju100.bae@gmail.com
