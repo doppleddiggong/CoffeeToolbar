@@ -37,7 +37,7 @@ var NAVTREE =
       [ "2. 기본 설정 (Default Settings)", "index.html#autotoc_md9", null ],
       [ "3. 커스텀 명령어 추가 (Adding Custom Commands)", "index.html#autotoc_md10", null ],
       [ "4. 레벨 셀렉터 설정 (Level Selector Configuration)", "index.html#autotoc_md11", null ],
-      [ "5. 스크린샷 설정 (Screenshot Configuration)", "index.html#autotoc_md12", [
+      [ "5. 스크린샷 설정 (Screenshot Capture Feature)", "index.html#autotoc_md12", [
         [ "제공 기능", "index.html#autotoc_md13", null ]
       ] ]
     ] ],
