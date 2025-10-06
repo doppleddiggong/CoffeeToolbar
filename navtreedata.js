@@ -43,7 +43,7 @@ var NAVTREE =
     ] ],
     [ "설정 상세 (Configuration Details)", "index.html#autotoc_md15", null ],
     [ "라이선스 (License)", "index.html#autotoc_md16", null ],
-    [ "제작자 (Author)", "index.html#autotoc_md17", null ],
+    [ "Author", "index.html#autotoc_md17", null ],
     [ "클래스", "annotated.html", [
       [ "클래스 목록", "annotated.html", "annotated_dup" ],
       [ "클래스 색인", "classes.html", null ],
