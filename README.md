@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Documentation](https://img.shields.io/badge/Docs-GitHub%20Pages-lightgrey.svg)](https://doppleddiggong.github.io/CoffeeToolbar/)
 
-![Coffee Toolbar Icon](Documents/Reference/icon_coffee_toolbar.png)
+![Coffee Toolbar Icon](Documents/Reference/icon_coffee_cover_type3.png)
 
 **Version: 1.0.0**
 
