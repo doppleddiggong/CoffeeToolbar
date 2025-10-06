@@ -101,7 +101,9 @@
 *   **스크린샷 배율 설정**: 고해상도 스크린샷 촬영 시 사용될 배율을 지정합니다.
 *   **툴바 기능 활성화/비활성화**: 툴바에 표시할 개별 기능들을 선택적으로 켜고 끌 수 있습니다.
 
-설정된 내용은 프로젝트의 `Config/DefaultEditorPerProjectUserSettings.ini` 파일에 저장됩니다.
+설정된 내용은 프로젝트의 `Config/ToolbarSetting.ini` 파일에 저장됩니다.
+
+![레벨 셀렉터 설정](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/guide_defaultSetting_file.png?raw=true)
 
 ## 라이선스 (License)
 
