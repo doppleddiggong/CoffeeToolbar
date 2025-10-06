@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Documentation](https://img.shields.io/badge/Docs-GitHub%20Pages-lightgrey.svg)](https://doppleddiggong.github.io/CoffeeToolbar/)
 
+🌐 Languages: [한국어](README.ko.md) | [English](README.en.md)
+
 **Version: 1.0.0**
 
 ![Coffee Toolbar Icon](https://github.com/doppleddiggong/CoffeeToolbar/blob/main/Documents/Reference/icon_coffee_cover_type3.png)
