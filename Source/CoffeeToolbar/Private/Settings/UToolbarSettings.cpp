@@ -4,7 +4,9 @@
  * @file UToolbarSettings.cpp
  * @brief Coffee Toolbar 플러그인의 설정 헬퍼 기능을 구현합니다.
  */
+
 #include "Settings/UToolbarSettings.h"
+#include "Settings/FToolbarButtonInfo.h"
 #include "AssetRegistry/AssetRegistryModule.h"
 #include "AssetRegistry/IAssetRegistry.h"
 
