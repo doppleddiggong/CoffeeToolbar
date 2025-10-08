@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['shutdown_0',['Shutdown',['../classFToolbarStyle.html#a4bdfc7650c62d45637cb6d849c9475a2',1,'FToolbarStyle']]],
-  ['shutdownmodule_1',['ShutdownModule',['../classFToolbar.html#a3581ddc79e115d018ae8609e7439d743',1,'FToolbar']]],
-  ['startupmodule_2',['StartupModule',['../classFToolbar.html#a29b321398a59346e3df4870366f89245',1,'FToolbar']]]
+  ['registercommands_0',['RegisterCommands',['../classFToolbarCommands.html#afa4fea6955a284eb314eaf15ab99e81a',1,'FToolbarCommands']]],
+  ['registermenus_1',['RegisterMenus',['../classFToolbar.html#a2df7b59ad21cce1d2f0437add0d4c6a7',1,'FToolbar']]],
+  ['reloadtextures_2',['ReloadTextures',['../classFToolbarStyle.html#a25dc5cccc853a63c3a324728580732b4',1,'FToolbarStyle']]],
+  ['resolveprojectrelative_3',['ResolveProjectRelative',['../FolderFeature_8cpp.html#a3fc863edd05ee6943e920f7984e2805f',1,'FolderFeature.cpp']]]
 ];

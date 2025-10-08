@@ -2,6 +2,8 @@ var annotated_dup =
 [
     [ "FCommandFeature", "classFCommandFeature.html", "classFCommandFeature" ],
     [ "FCommon", "classFCommon.html", "classFCommon" ],
+    [ "FFolderFeature", "classFFolderFeature.html", "classFFolderFeature" ],
+    [ "FFolderPathInfo", "structFFolderPathInfo.html", "structFFolderPathInfo" ],
     [ "FLevelFeature", "classFLevelFeature.html", "classFLevelFeature" ],
     [ "FScreenshotFeature", "classFScreenshotFeature.html", "classFScreenshotFeature" ],
     [ "FToolbar", "classFToolbar.html", "classFToolbar" ],

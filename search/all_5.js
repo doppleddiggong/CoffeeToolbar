@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['adding_20custom_20commands_0',['3. 커스텀 명령어 추가 (Adding Custom Commands)',['../index.html#autotoc_md10',1,'']]],
-  ['author_1',['Author',['../index.html#autotoc_md17',1,'']]]
+  ['6_20폴더_20바로가기_20설정_20quick_20folder_20access_0',['6. 폴더 바로가기 설정 (Quick Folder Access)',['../index.html#autotoc_md14',1,'']]]
 ];

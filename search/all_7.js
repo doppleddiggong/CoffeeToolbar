@@ -1,15 +1,8 @@
 var searchData=
 [
-  ['capture_20feature_0',['5. 스크린샷 설정 (Screenshot Capture Feature)',['../index.html#autotoc_md12',1,'']]],
-  ['captureactiveviewport_1',['CaptureActiveViewport',['../classFScreenshotFeature.html#aaab75697de4685c906b26140e54301b6',1,'FScreenshotFeature']]],
-  ['coffeetoolbar_2',['CoffeeToolbar',['../index.html',1,'']]],
-  ['collectworlds_3',['CollectWorlds',['../classFLevelFeature.html#aebe19d9a49173da8ced901d2f0b676cb',1,'FLevelFeature']]],
-  ['command_4',['Command',['../structFToolbarButtonInfo.html#ac7010befa890738a0532bb30c0770784',1,'FToolbarButtonInfo']]],
-  ['commandfeature_5',['CommandFeature',['../classFToolbar.html#a8a8448338249d16adc520e125def1cc5',1,'FToolbar']]],
-  ['commands_6',['3. 커스텀 명령어 추가 (Adding Custom Commands)',['../index.html#autotoc_md10',1,'']]],
-  ['configuration_7',['4. 레벨 셀렉터 설정 (Level Selector Configuration)',['../index.html#autotoc_md11',1,'']]],
-  ['configuration_20details_8',['설정 상세 (Configuration Details)',['../index.html#autotoc_md15',1,'']]],
-  ['configuration_20guide_9',['설정 가이드 (Configuration Guide)',['../index.html#autotoc_md7',1,'']]],
-  ['create_10',['Create',['../classFToolbarStyle.html#ac15dcbb37ede65f4c248c0f10b71893c',1,'FToolbarStyle']]],
-  ['custom_20commands_11',['3. 커스텀 명령어 추가 (Adding Custom Commands)',['../index.html#autotoc_md10',1,'']]]
+  ['benablecommandfeature_0',['bEnableCommandFeature',['../classUToolbarSettings.html#aa7c7af1d5653249f82b0a714fd288411',1,'UToolbarSettings']]],
+  ['benablefolderfeature_1',['bEnableFolderFeature',['../classUToolbarSettings.html#a3bdebd9cd380dbc79f3736a580ea2385',1,'UToolbarSettings']]],
+  ['benablelevelfeature_2',['bEnableLevelFeature',['../classUToolbarSettings.html#a273a07b79596b017361cf532e7cf6968',1,'UToolbarSettings']]],
+  ['benablescreenshotfeature_3',['bEnableScreenshotFeature',['../classUToolbarSettings.html#ae51a43b8c1a36b97c35ec85a7f28853f',1,'UToolbarSettings']]],
+  ['bistogglebutton_4',['bIsToggleButton',['../structFToolbarButtonInfo.html#a0438fcf138c41fac6ad50597d251023a',1,'FToolbarButtonInfo']]]
 ];

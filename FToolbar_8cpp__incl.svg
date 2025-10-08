@@ -46,7 +46,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 1601;
+var viewWidth = 1795;
 var viewHeight = 225;
 var sectionId = 'dynsection-0';
 </script>
@@ -58,9 +58,9 @@ var sectionId = 'dynsection-0';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title="Coffee Toolbar 모듈의 라이프사이클과 메뉴 등록 로직을 구현합니다.">
-<polygon fill="#999999" stroke="#666666" points="860.5,-217 741.5,-217 741.5,-187 860.5,-187 860.5,-217"/>
-<text text-anchor="start" x="749.5" y="-205" font-family="Malgun Gothic" font-size="10.00">Source/CoffeeToolbar</text>
-<text text-anchor="middle" x="801" y="-194" font-family="Malgun Gothic" font-size="10.00">/Private/FToolbar.cpp</text>
+<polygon fill="#999999" stroke="#666666" points="1054.5,-217 935.5,-217 935.5,-187 1054.5,-187 1054.5,-217"/>
+<text text-anchor="start" x="943.5" y="-205" font-family="Malgun Gothic" font-size="10.00">Source/CoffeeToolbar</text>
+<text text-anchor="middle" x="995" y="-194" font-family="Malgun Gothic" font-size="10.00">/Private/FToolbar.cpp</text>
 </a>
 </g>
 </g>
@@ -68,8 +68,8 @@ var sectionId = 'dynsection-0';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="FToolbar_8h.html" target="_top" xlink:title="CoffeeToolbar 플러그인의 주요 모듈 구현을 선언합니다.">
-<polygon fill="white" stroke="#666666" points="426.5,-151 361.5,-151 361.5,-132 426.5,-132 426.5,-151"/>
-<text text-anchor="middle" x="394" y="-139" font-family="Malgun Gothic" font-size="10.00">FToolbar.h</text>
+<polygon fill="white" stroke="#666666" points="544.5,-151 479.5,-151 479.5,-132 544.5,-132 544.5,-151"/>
+<text text-anchor="middle" x="512" y="-139" font-family="Malgun Gothic" font-size="10.00">FToolbar.h</text>
 </a>
 </g>
 </g>
@@ -77,8 +77,8 @@ var sectionId = 'dynsection-0';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M741.38,-192.43C658.36,-180.5 509.93,-159.16 436.93,-148.67"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="437.12,-145.16 426.73,-147.2 436.13,-152.09 437.12,-145.16"/>
+<path fill="none" stroke="#63b8ff" d="M935.29,-193.77C836.34,-181.78 640.73,-158.09 554.51,-147.65"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="554.9,-144.17 544.55,-146.44 554.06,-151.12 554.9,-144.17"/>
 </a>
 </g>
 </g>
@@ -92,173 +92,119 @@ var sectionId = 'dynsection-0';
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
-<g id="edge29_Node000001_Node000003" class="edge">
+<g id="edge34_Node000001_Node000003" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<g id="a_edge29_Node000001_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M741.42,-198.61C647.9,-194.04 461.29,-181.65 306,-151 233.56,-136.7 151.27,-109.53 106.77,-93.88"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="107.94,-90.59 97.34,-90.54 105.6,-97.18 107.94,-90.59"/>
+<g id="a_edge34_Node000001_Node000003"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M935.48,-199.35C823.15,-195.55 572.42,-183.85 364,-151 273.04,-136.66 168.43,-108.92 113.09,-93.34"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="113.92,-89.94 103.34,-90.58 112.01,-96.67 113.92,-89.94"/>
 </a>
 </g>
 </g>
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="FCommandFeature_8h.html" target="_top" xlink:title="명령형 버튼을 담당하는 툴바 기능을 선언합니다.">
-<polygon fill="white" stroke="#666666" points="480,-90.5 308,-90.5 308,-71.5 480,-71.5 480,-90.5"/>
-<text text-anchor="middle" x="394" y="-78.5" font-family="Malgun Gothic" font-size="10.00">Command/FCommandFeature.h</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge31_Node000001_Node000004" class="edge">
-<title>Node1&#45;&gt;Node4</title>
-<g id="a_edge31_Node000001_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M753.12,-187C671.73,-163.2 508,-115.33 433.06,-93.42"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="433.67,-89.95 423.09,-90.51 431.71,-96.67 433.67,-89.95"/>
-</a>
-</g>
-</g>
-<!-- Node8 -->
-<g id="Node000008" class="node">
-<title>Node8</title>
-<g id="a_Node000008"><a xlink:href="FLevelFeature_8h.html" target="_top" xlink:title="툴바에 레벨 선택 컨트롤을 제공하는 기능을 선언합니다.">
+<g id="a_Node000004"><a xlink:href="FLevelFeature_8h.html" target="_top" xlink:title="툴바에 레벨 선택 컨트롤을 제공하는 기능을 선언합니다.">
 <polygon fill="white" stroke="#666666" points="290,-90.5 166,-90.5 166,-71.5 290,-71.5 290,-90.5"/>
 <text text-anchor="middle" x="228" y="-78.5" font-family="Malgun Gothic" font-size="10.00">Level/FLevelFeature.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node8 -->
-<g id="edge32_Node000001_Node000008" class="edge">
-<title>Node1&#45;&gt;Node8</title>
-<g id="a_edge32_Node000001_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M741.34,-201.76C653.83,-201.24 486.48,-193.98 352,-151 312.64,-138.42 271.62,-112.7 248.02,-96.46"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="249.78,-93.43 239.59,-90.55 245.76,-99.16 249.78,-93.43"/>
+<!-- Node1&#45;&gt;Node4 -->
+<g id="edge37_Node000001_Node000004" class="edge">
+<title>Node1&#45;&gt;Node4</title>
+<g id="a_edge37_Node000001_Node000004"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M935.41,-200.09C832.79,-197.54 616.53,-187.84 438,-151 372.34,-137.45 298.5,-110.26 258.22,-94.36"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="259.32,-91.03 248.73,-90.57 256.72,-97.53 259.32,-91.03"/>
+</a>
+</g>
+</g>
+<!-- Node9 -->
+<g id="Node000009" class="node">
+<title>Node9</title>
+<g id="a_Node000009"><a xlink:href="FScreenshotFeature_8h.html" target="_top" xlink:title="툴바의 스크린샷 워크플로우 버튼을 위한 헬퍼를 선언합니다.">
+<polygon fill="white" stroke="#666666" points="835.5,-90.5 656.5,-90.5 656.5,-71.5 835.5,-71.5 835.5,-90.5"/>
+<text text-anchor="middle" x="746" y="-78.5" font-family="Malgun Gothic" font-size="10.00">Screenshot/FScreenshotFeature.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node9 -->
+<g id="edge38_Node000001_Node000009" class="edge">
+<title>Node1&#45;&gt;Node9</title>
+<g id="a_edge38_Node000001_Node000009"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M949.32,-186.91C922.22,-177.92 887.51,-165.29 858,-151 824.55,-134.8 788.36,-111.31 766.44,-96.35"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="768.19,-93.3 757.97,-90.5 764.21,-99.06 768.19,-93.3"/>
 </a>
 </g>
 </g>
 <!-- Node10 -->
 <g id="Node000010" class="node">
 <title>Node10</title>
-<g id="a_Node000010"><a xlink:href="FScreenshotFeature_8h.html" target="_top" xlink:title="툴바의 스크린샷 워크플로우 버튼을 위한 헬퍼를 선언합니다.">
-<polygon fill="white" stroke="#666666" points="677.5,-90.5 498.5,-90.5 498.5,-71.5 677.5,-71.5 677.5,-90.5"/>
-<text text-anchor="middle" x="588" y="-78.5" font-family="Malgun Gothic" font-size="10.00">Screenshot/FScreenshotFeature.h</text>
+<g id="a_Node000010"><a xlink:href="FCommandFeature_8h.html" target="_top" xlink:title="명령형 버튼을 담당하는 툴바 기능을 선언합니다.">
+<polygon fill="white" stroke="#666666" points="480,-90.5 308,-90.5 308,-71.5 480,-71.5 480,-90.5"/>
+<text text-anchor="middle" x="394" y="-78.5" font-family="Malgun Gothic" font-size="10.00">Command/FCommandFeature.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node10 -->
-<g id="edge33_Node000001_Node000010" class="edge">
+<g id="edge36_Node000001_Node000010" class="edge">
 <title>Node1&#45;&gt;Node10</title>
-<g id="a_edge33_Node000001_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M748.1,-186.96C721.73,-178.68 690,-166.71 664,-151 640.06,-136.54 616.91,-113.87 602.58,-98.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="604.9,-95.85 595.58,-90.81 599.72,-100.56 604.9,-95.85"/>
+<g id="a_edge36_Node000001_Node000010"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M935.07,-200.01C815.54,-197.28 551.97,-187.22 470,-151 443.87,-139.45 420.66,-115.31 406.96,-98.87"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="409.36,-96.27 400.37,-90.67 403.9,-100.65 409.36,-96.27"/>
 </a>
 </g>
 </g>
-<!-- Node11 -->
-<g id="Node000011" class="node">
-<title>Node11</title>
-<g id="a_Node000011"><a xlink:href="FToolbarStyle_8h.html" target="_top" xlink:title="Coffee Toolbar 플러그인이 사용하는 Slate 스타일 세트를 선언합니다.">
-<polygon fill="white" stroke="#666666" points="1358,-90.5 1220,-90.5 1220,-71.5 1358,-71.5 1358,-90.5"/>
-<text text-anchor="middle" x="1289" y="-78.5" font-family="Malgun Gothic" font-size="10.00">Common/FToolbarStyle.h</text>
+<!-- Node12 -->
+<g id="Node000012" class="node">
+<title>Node12</title>
+<g id="a_Node000012"><a xlink:href="FToolbarStyle_8h.html" target="_top" xlink:title="Coffee Toolbar 플러그인이 사용하는 Slate 스타일 세트를 선언합니다.">
+<polygon fill="white" stroke="#666666" points="1635,-90.5 1497,-90.5 1497,-71.5 1635,-71.5 1635,-90.5"/>
+<text text-anchor="middle" x="1566" y="-78.5" font-family="Malgun Gothic" font-size="10.00">Common/FToolbarStyle.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node11 -->
-<g id="edge15_Node000001_Node000011" class="edge">
-<title>Node1&#45;&gt;Node11</title>
-<g id="a_edge15_Node000001_Node000011"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M810.91,-186.78C823.18,-170.45 845.7,-144.33 872,-132 1009.18,-67.68 1061,-117.4 1211,-96 1218.66,-94.91 1226.72,-93.62 1234.64,-92.27"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1235.29,-95.71 1244.54,-90.55 1234.09,-88.82 1235.29,-95.71"/>
+<!-- Node1&#45;&gt;Node12 -->
+<g id="edge17_Node000001_Node000012" class="edge">
+<title>Node1&#45;&gt;Node12</title>
+<g id="a_edge17_Node000001_Node000012"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1004.65,-186.98C1016.83,-170.58 1039.42,-144.13 1066,-132 1151.62,-92.93 1394.69,-108.33 1488,-96 1495.95,-94.95 1504.33,-93.65 1512.52,-92.27"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1513.13,-95.72 1522.38,-90.56 1511.93,-88.82 1513.13,-95.72"/>
 </a>
 </g>
 </g>
-<!-- Node13 -->
-<g id="Node000013" class="node">
-<title>Node13</title>
-<g id="a_Node000013"><a xlink:href="FToolbarCommands_8h.html" target="_top" xlink:title="Coffee Toolbar 플러그인에서 사용하는 명령 바인딩을 선언합니다.">
-<polygon fill="white" stroke="#666666" points="1049.5,-151 880.5,-151 880.5,-132 1049.5,-132 1049.5,-151"/>
-<text text-anchor="middle" x="965" y="-139" font-family="Malgun Gothic" font-size="10.00">Common/FToolbarCommands.h</text>
+<!-- Node14 -->
+<g id="Node000014" class="node">
+<title>Node14</title>
+<g id="a_Node000014"><a xlink:href="FToolbarCommands_8h.html" target="_top" xlink:title="Coffee Toolbar 플러그인에서 사용하는 명령 바인딩을 선언합니다.">
+<polygon fill="white" stroke="#666666" points="1243.5,-151 1074.5,-151 1074.5,-132 1243.5,-132 1243.5,-151"/>
+<text text-anchor="middle" x="1159" y="-139" font-family="Malgun Gothic" font-size="10.00">Common/FToolbarCommands.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node13 -->
-<g id="edge17_Node000001_Node000013" class="edge">
-<title>Node1&#45;&gt;Node13</title>
-<g id="a_edge17_Node000001_Node000013"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M840.28,-186.99C868.01,-177.1 904.78,-163.98 931.2,-154.56"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="932.54,-157.8 940.78,-151.14 930.19,-151.2 932.54,-157.8"/>
+<!-- Node1&#45;&gt;Node14 -->
+<g id="edge19_Node000001_Node000014" class="edge">
+<title>Node1&#45;&gt;Node14</title>
+<g id="a_edge19_Node000001_Node000014"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1034.28,-186.99C1062.01,-177.1 1098.78,-163.98 1125.2,-154.56"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1126.54,-157.8 1134.78,-151.14 1124.19,-151.2 1126.54,-157.8"/>
 </a>
 </g>
 </g>
-<!-- Node15 -->
-<g id="Node000015" class="node">
-<title>Node15</title>
-<g id="a_Node000015"><a xlink:href="UToolbarSettings_8h.html" target="_top" xlink:title="Coffee Toolbar 플러그인을 구성하기 위한 개발자 설정을 선언합니다.">
-<polygon fill="white" stroke="#666666" points="824.5,-151 673.5,-151 673.5,-132 824.5,-132 824.5,-151"/>
-<text text-anchor="middle" x="749" y="-139" font-family="Malgun Gothic" font-size="10.00">Settings/UToolbarSettings.h</text>
+<!-- Node16 -->
+<g id="Node000016" class="node">
+<title>Node16</title>
+<g id="a_Node000016"><a xlink:href="UToolbarSettings_8h.html" target="_top" xlink:title="Coffee Toolbar 플러그인을 구성하기 위한 개발자 설정을 선언합니다.">
+<polygon fill="white" stroke="#666666" points="1018.5,-151 867.5,-151 867.5,-132 1018.5,-132 1018.5,-151"/>
+<text text-anchor="middle" x="943" y="-139" font-family="Malgun Gothic" font-size="10.00">Settings/UToolbarSettings.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node15 -->
-<g id="edge20_Node000001_Node000015" class="edge">
-<title>Node1&#45;&gt;Node15</title>
-<g id="a_edge20_Node000001_Node000015"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M788.41,-186.84C780.94,-178.43 771.44,-167.74 763.63,-158.96"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="766.05,-156.41 756.79,-151.27 760.82,-161.07 766.05,-156.41"/>
-</a>
-</g>
-</g>
-<!-- Node20 -->
-<g id="Node000020" class="node">
-<title>Node20</title>
-<g id="a_Node000020"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="1144.5,-151 1067.5,-151 1067.5,-132 1144.5,-132 1144.5,-151"/>
-<text text-anchor="middle" x="1106" y="-139" font-family="Malgun Gothic" font-size="10.00">ToolMenus.h</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node20 -->
-<g id="edge27_Node000001_Node000020" class="edge">
-<title>Node1&#45;&gt;Node20</title>
-<g id="a_edge27_Node000001_Node000020"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M860.53,-189.58C918.02,-178.55 1004.02,-162.06 1057.48,-151.81"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1058.23,-155.23 1067.39,-149.91 1056.91,-148.35 1058.23,-155.23"/>
-</a>
-</g>
-</g>
-<!-- Node21 -->
-<g id="Node000021" class="node">
-<title>Node21</title>
-<g id="a_Node000021"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="1289,-151 1163,-151 1163,-132 1289,-132 1289,-151"/>
-<text text-anchor="middle" x="1226" y="-139" font-family="Malgun Gothic" font-size="10.00">Misc/MessageDialog.h</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node21 -->
-<g id="edge28_Node000001_Node000021" class="edge">
-<title>Node1&#45;&gt;Node21</title>
-<g id="a_edge28_Node000001_Node000021"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M860.54,-192.8C937.52,-182.21 1071.46,-163.77 1154.04,-152.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1154.67,-155.85 1164.1,-151.02 1153.72,-148.92 1154.67,-155.85"/>
-</a>
-</g>
-</g>
-<!-- Node22 -->
-<g id="Node000022" class="node">
-<title>Node22</title>
-<g id="a_Node000022"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="1437,-151 1307,-151 1307,-132 1437,-132 1437,-151"/>
-<text text-anchor="middle" x="1372" y="-139" font-family="Malgun Gothic" font-size="10.00">Camera/CameraActor.h</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node22 -->
-<g id="edge30_Node000001_Node000022" class="edge">
-<title>Node1&#45;&gt;Node22</title>
-<g id="a_edge30_Node000001_Node000022"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M860.7,-195.27C952.13,-186.43 1132.62,-168.74 1296.37,-151.16"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1297.07,-154.61 1306.64,-150.06 1296.32,-147.65 1297.07,-154.61"/>
+<!-- Node1&#45;&gt;Node16 -->
+<g id="edge22_Node000001_Node000016" class="edge">
+<title>Node1&#45;&gt;Node16</title>
+<g id="a_edge22_Node000001_Node000016"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M982.41,-186.84C974.94,-178.43 965.44,-167.74 957.63,-158.96"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="960.05,-156.41 950.79,-151.27 954.82,-161.07 960.05,-156.41"/>
 </a>
 </g>
 </g>
@@ -266,17 +212,71 @@ var sectionId = 'dynsection-0';
 <g id="Node000023" class="node">
 <title>Node23</title>
 <g id="a_Node000023"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="1592.5,-151 1455.5,-151 1455.5,-132 1592.5,-132 1592.5,-151"/>
-<text text-anchor="middle" x="1524" y="-139" font-family="Malgun Gothic" font-size="10.00">Styling/SlateIconFinder.h</text>
+<polygon fill="#e0e0e0" stroke="#999999" points="1338.5,-151 1261.5,-151 1261.5,-132 1338.5,-132 1338.5,-151"/>
+<text text-anchor="middle" x="1300" y="-139" font-family="Malgun Gothic" font-size="10.00">ToolMenus.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node23 -->
-<g id="edge34_Node000001_Node000023" class="edge">
+<g id="edge32_Node000001_Node000023" class="edge">
 <title>Node1&#45;&gt;Node23</title>
-<g id="a_edge34_Node000001_Node000023"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M860.63,-197C972.78,-189.35 1223,-171.62 1444.9,-151.07"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1445.48,-154.54 1455.11,-150.13 1444.83,-147.57 1445.48,-154.54"/>
+<g id="a_edge32_Node000001_Node000023"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1054.53,-189.58C1112.02,-178.55 1198.02,-162.06 1251.48,-151.81"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1252.23,-155.23 1261.39,-149.91 1250.91,-148.35 1252.23,-155.23"/>
+</a>
+</g>
+</g>
+<!-- Node24 -->
+<g id="Node000024" class="node">
+<title>Node24</title>
+<g id="a_Node000024"><a xlink:title=" ">
+<polygon fill="#e0e0e0" stroke="#999999" points="1483,-151 1357,-151 1357,-132 1483,-132 1483,-151"/>
+<text text-anchor="middle" x="1420" y="-139" font-family="Malgun Gothic" font-size="10.00">Misc/MessageDialog.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node24 -->
+<g id="edge33_Node000001_Node000024" class="edge">
+<title>Node1&#45;&gt;Node24</title>
+<g id="a_edge33_Node000001_Node000024"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1054.54,-192.8C1131.52,-182.21 1265.46,-163.77 1348.04,-152.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1348.67,-155.85 1358.1,-151.02 1347.72,-148.92 1348.67,-155.85"/>
+</a>
+</g>
+</g>
+<!-- Node25 -->
+<g id="Node000025" class="node">
+<title>Node25</title>
+<g id="a_Node000025"><a xlink:title=" ">
+<polygon fill="#e0e0e0" stroke="#999999" points="1631,-151 1501,-151 1501,-132 1631,-132 1631,-151"/>
+<text text-anchor="middle" x="1566" y="-139" font-family="Malgun Gothic" font-size="10.00">Camera/CameraActor.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node25 -->
+<g id="edge35_Node000001_Node000025" class="edge">
+<title>Node1&#45;&gt;Node25</title>
+<g id="a_edge35_Node000001_Node000025"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1054.7,-195.27C1146.13,-186.43 1326.62,-168.74 1490.37,-151.16"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1491.07,-154.61 1500.64,-150.06 1490.32,-147.65 1491.07,-154.61"/>
+</a>
+</g>
+</g>
+<!-- Node26 -->
+<g id="Node000026" class="node">
+<title>Node26</title>
+<g id="a_Node000026"><a xlink:title=" ">
+<polygon fill="#e0e0e0" stroke="#999999" points="1786.5,-151 1649.5,-151 1649.5,-132 1786.5,-132 1786.5,-151"/>
+<text text-anchor="middle" x="1718" y="-139" font-family="Malgun Gothic" font-size="10.00">Styling/SlateIconFinder.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node26 -->
+<g id="edge39_Node000001_Node000026" class="edge">
+<title>Node1&#45;&gt;Node26</title>
+<g id="a_edge39_Node000001_Node000026"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1054.63,-197C1166.78,-189.35 1417,-171.62 1638.9,-151.07"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1639.48,-154.54 1649.11,-150.13 1638.83,-147.57 1639.48,-154.54"/>
 </a>
 </g>
 </g>
@@ -284,8 +284,8 @@ var sectionId = 'dynsection-0';
 <g id="edge2_Node000002_Node000003" class="edge">
 <title>Node2&#45;&gt;Node3</title>
 <g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M361.26,-134.51C306.94,-124.58 197.56,-104.59 130.55,-92.34"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="131.04,-88.87 120.58,-90.52 129.79,-95.76 131.04,-88.87"/>
+<path fill="none" stroke="#63b8ff" d="M479.15,-136.85C416.42,-129.79 275.3,-113.38 157,-96 149.09,-94.84 140.76,-93.53 132.56,-92.2"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="133.1,-88.74 122.66,-90.56 131.96,-95.64 133.1,-88.74"/>
 </a>
 </g>
 </g>
@@ -293,26 +293,44 @@ var sectionId = 'dynsection-0';
 <g id="edge3_Node000002_Node000004" class="edge">
 <title>Node2&#45;&gt;Node4</title>
 <g id="a_edge3_Node000002_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M394,-131.87C394,-123.75 394,-111.31 394,-100.89"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="397.5,-100.67 394,-90.67 390.5,-100.67 397.5,-100.67"/>
+<path fill="none" stroke="#63b8ff" d="M479.42,-133.79C430.49,-123.71 337.58,-104.57 279.43,-92.59"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="279.85,-89.11 269.35,-90.52 278.44,-95.96 279.85,-89.11"/>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node8 -->
-<g id="edge7_Node000002_Node000008" class="edge">
-<title>Node2&#45;&gt;Node8</title>
-<g id="a_edge7_Node000002_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M369.86,-131.99C341.46,-121.99 294.12,-105.3 262.01,-93.99"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="262.76,-90.54 252.17,-90.52 260.44,-97.14 262.76,-90.54"/>
+<!-- Node2&#45;&gt;Node9 -->
+<g id="edge8_Node000002_Node000009" class="edge">
+<title>Node2&#45;&gt;Node9</title>
+<g id="a_edge8_Node000002_Node000009"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M544.54,-132.37C585.52,-122.12 656.1,-104.48 701.9,-93.03"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="702.99,-96.36 711.84,-90.54 701.29,-89.57 702.99,-96.36"/>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node10 -->
-<g id="edge12_Node000002_Node000010" class="edge">
+<g id="edge11_Node000002_Node000010" class="edge">
 <title>Node2&#45;&gt;Node10</title>
-<g id="a_edge12_Node000002_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M422.21,-131.99C455.97,-121.81 512.65,-104.72 550.18,-93.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="551.19,-96.75 559.76,-90.52 549.17,-90.05 551.19,-96.75"/>
+<g id="a_edge11_Node000002_Node000010"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M494.84,-131.99C475.27,-122.29 443.03,-106.31 420.28,-95.03"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="421.69,-91.82 411.18,-90.52 418.58,-98.09 421.69,-91.82"/>
+</a>
+</g>
+</g>
+<!-- Node11 -->
+<g id="Node000011" class="node">
+<title>Node11</title>
+<g id="a_Node000011"><a xlink:href="FolderFeature_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="638,-90.5 498,-90.5 498,-71.5 638,-71.5 638,-90.5"/>
+<text text-anchor="middle" x="568" y="-78.5" font-family="Malgun Gothic" font-size="10.00">Common/FolderFeature.h</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node11 -->
+<g id="edge15_Node000002_Node000011" class="edge">
+<title>Node2&#45;&gt;Node11</title>
+<g id="a_edge15_Node000002_Node000011"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M520.26,-131.87C528.78,-122.97 542.26,-108.89 552.73,-97.95"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="555.32,-100.31 559.7,-90.67 550.26,-95.47 555.32,-100.31"/>
 </a>
 </g>
 </g>
@@ -320,8 +338,8 @@ var sectionId = 'dynsection-0';
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="632,-24.5 544,-24.5 544,-5.5 632,-5.5 632,-24.5"/>
-<text text-anchor="middle" x="588" y="-12.5" font-family="Malgun Gothic" font-size="10.00">CoreMinimal.h</text>
+<polygon fill="#e0e0e0" stroke="#999999" points="790,-24.5 702,-24.5 702,-5.5 790,-5.5 790,-24.5"/>
+<text text-anchor="middle" x="746" y="-12.5" font-family="Malgun Gothic" font-size="10.00">CoreMinimal.h</text>
 </a>
 </g>
 </g>
@@ -329,8 +347,8 @@ var sectionId = 'dynsection-0';
 <g id="edge4_Node000004_Node000005" class="edge">
 <title>Node4&#45;&gt;Node5</title>
 <g id="a_edge4_Node000004_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M420.16,-71.37C454.25,-60.12 513.99,-40.42 552.24,-27.8"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="553.54,-31.05 561.94,-24.6 551.35,-24.41 553.54,-31.05"/>
+<path fill="none" stroke="#63b8ff" d="M268.07,-71.49C278.14,-69.52 288.94,-67.55 299,-66 439.95,-44.26 607.29,-28.09 691.63,-20.61"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="692.09,-24.08 701.74,-19.72 691.48,-17.11 692.09,-24.08"/>
 </a>
 </g>
 </g>
@@ -338,8 +356,8 @@ var sectionId = 'dynsection-0';
 <g id="Node000006" class="node">
 <title>Node6</title>
 <g id="a_Node000006"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="486.5,-24.5 377.5,-24.5 377.5,-5.5 486.5,-5.5 486.5,-24.5"/>
-<text text-anchor="middle" x="432" y="-12.5" font-family="Malgun Gothic" font-size="10.00">Widgets/SWidget.h</text>
+<polygon fill="#e0e0e0" stroke="#999999" points="512.5,-24.5 403.5,-24.5 403.5,-5.5 512.5,-5.5 512.5,-24.5"/>
+<text text-anchor="middle" x="458" y="-12.5" font-family="Malgun Gothic" font-size="10.00">Widgets/SWidget.h</text>
 </a>
 </g>
 </g>
@@ -347,8 +365,8 @@ var sectionId = 'dynsection-0';
 <g id="edge5_Node000004_Node000006" class="edge">
 <title>Node4&#45;&gt;Node6</title>
 <g id="a_edge5_Node000004_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M399.12,-71.37C404.82,-61.78 414.16,-46.05 421.43,-33.8"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="424.62,-35.29 426.71,-24.91 418.6,-31.72 424.62,-35.29"/>
+<path fill="none" stroke="#63b8ff" d="M259.02,-71.37C299.94,-59.98 372.07,-39.91 417.32,-27.32"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="418.41,-30.65 427.11,-24.6 416.53,-23.91 418.41,-30.65"/>
 </a>
 </g>
 </g>
@@ -356,9 +374,9 @@ var sectionId = 'dynsection-0';
 <g id="Node000007" class="node">
 <title>Node7</title>
 <g id="a_Node000007"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="359,-30 229,-30 229,0 359,0 359,-30"/>
-<text text-anchor="start" x="237" y="-18" font-family="Malgun Gothic" font-size="10.00">Framework/Commands</text>
-<text text-anchor="middle" x="294" y="-7" font-family="Malgun Gothic" font-size="10.00">/UIAction.h</text>
+<polygon fill="#e0e0e0" stroke="#999999" points="385,-30 255,-30 255,0 385,0 385,-30"/>
+<text text-anchor="start" x="263" y="-18" font-family="Malgun Gothic" font-size="10.00">Framework/Commands</text>
+<text text-anchor="middle" x="320" y="-7" font-family="Malgun Gothic" font-size="10.00">/UIAction.h</text>
 </a>
 </g>
 </g>
@@ -366,180 +384,126 @@ var sectionId = 'dynsection-0';
 <g id="edge6_Node000004_Node000007" class="edge">
 <title>Node4&#45;&gt;Node7</title>
 <g id="a_edge6_Node000004_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M380.51,-71.37C366.25,-62.24 343.26,-47.53 324.56,-35.56"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="326.37,-32.56 316.06,-30.12 322.59,-38.45 326.37,-32.56"/>
+<path fill="none" stroke="#63b8ff" d="M240.41,-71.37C253.36,-62.36 274.11,-47.92 291.18,-36.05"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="293.5,-38.7 299.71,-30.12 289.5,-32.95 293.5,-38.7"/>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node5 -->
-<g id="edge8_Node000008_Node000005" class="edge">
-<title>Node8&#45;&gt;Node5</title>
-<g id="a_edge8_Node000008_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M270.39,-71.47C279.8,-69.63 289.73,-67.71 299,-66 380.71,-50.88 475.69,-34.72 533.82,-24.99"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="534.59,-28.4 543.88,-23.3 533.44,-21.5 534.59,-28.4"/>
+<!-- Node8 -->
+<g id="Node000008" class="node">
+<title>Node8</title>
+<g id="a_Node000008"><a xlink:title=" ">
+<polygon fill="#e0e0e0" stroke="#999999" points="237,-24.5 91,-24.5 91,-5.5 237,-5.5 237,-24.5"/>
+<text text-anchor="middle" x="164" y="-12.5" font-family="Malgun Gothic" font-size="10.00">AssetRegistry/AssetData.h</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node6 -->
-<g id="edge9_Node000008_Node000006" class="edge">
-<title>Node8&#45;&gt;Node6</title>
-<g id="a_edge9_Node000008_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M255.51,-71.37C291.51,-60.08 354.71,-40.25 394.91,-27.64"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="396.1,-30.93 404.6,-24.6 394.01,-24.25 396.1,-30.93"/>
+<!-- Node4&#45;&gt;Node8 -->
+<g id="edge7_Node000004_Node000008" class="edge">
+<title>Node4&#45;&gt;Node8</title>
+<g id="a_edge7_Node000004_Node000008"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M219.37,-71.37C209.31,-61.31 192.48,-44.48 180.01,-32.01"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="182.45,-29.5 172.91,-24.91 177.5,-34.45 182.45,-29.5"/>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node7 -->
-<g id="edge10_Node000008_Node000007" class="edge">
-<title>Node8&#45;&gt;Node7</title>
-<g id="a_edge10_Node000008_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M236.9,-71.37C245.85,-62.69 259.99,-48.98 271.97,-37.37"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="274.7,-39.59 279.44,-30.12 269.83,-34.56 274.7,-39.59"/>
+<!-- Node9&#45;&gt;Node5 -->
+<g id="edge9_Node000009_Node000005" class="edge">
+<title>Node9&#45;&gt;Node5</title>
+<g id="a_edge9_Node000009_Node000005"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M746,-71.37C746,-62.16 746,-47.29 746,-35.27"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="749.5,-34.91 746,-24.91 742.5,-34.91 749.5,-34.91"/>
 </a>
 </g>
 </g>
-<!-- Node9 -->
-<g id="Node000009" class="node">
-<title>Node9</title>
-<g id="a_Node000009"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="211,-24.5 65,-24.5 65,-5.5 211,-5.5 211,-24.5"/>
-<text text-anchor="middle" x="138" y="-12.5" font-family="Malgun Gothic" font-size="10.00">AssetRegistry/AssetData.h</text>
-</a>
-</g>
-</g>
-<!-- Node8&#45;&gt;Node9 -->
-<g id="edge11_Node000008_Node000009" class="edge">
-<title>Node8&#45;&gt;Node9</title>
-<g id="a_edge11_Node000008_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M215.86,-71.37C201.23,-60.97 176.42,-43.32 158.74,-30.75"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="160.41,-27.64 150.23,-24.7 156.35,-33.35 160.41,-27.64"/>
+<!-- Node9&#45;&gt;Node6 -->
+<g id="edge10_Node000009_Node000006" class="edge">
+<title>Node9&#45;&gt;Node6</title>
+<g id="a_edge10_Node000009_Node000006"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M707.46,-71.44C655.4,-59.87 562.65,-39.26 506.09,-26.69"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="506.84,-23.27 496.31,-24.51 505.32,-30.1 506.84,-23.27"/>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node5 -->
-<g id="edge13_Node000010_Node000005" class="edge">
+<g id="edge12_Node000010_Node000005" class="edge">
 <title>Node10&#45;&gt;Node5</title>
-<g id="a_edge13_Node000010_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M588,-71.37C588,-62.16 588,-47.29 588,-35.27"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="591.5,-34.91 588,-24.91 584.5,-34.91 591.5,-34.91"/>
+<g id="a_edge12_Node000010_Node000005"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M441.11,-71.44C506.15,-59.61 623.17,-38.33 691.77,-25.86"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="692.73,-29.24 701.94,-24.01 691.48,-22.36 692.73,-29.24"/>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node6 -->
-<g id="edge14_Node000010_Node000006" class="edge">
+<g id="edge13_Node000010_Node000006" class="edge">
 <title>Node10&#45;&gt;Node6</title>
-<g id="a_edge14_Node000010_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M566.96,-71.37C540.02,-60.32 493.14,-41.08 462.34,-28.45"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="463.53,-25.15 452.95,-24.6 460.88,-31.63 463.53,-25.15"/>
+<g id="a_edge13_Node000010_Node000006"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M402.63,-71.37C412.69,-61.31 429.52,-44.48 441.99,-32.01"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="444.5,-34.45 449.09,-24.91 439.55,-29.5 444.5,-34.45"/>
 </a>
 </g>
 </g>
-<!-- Node12 -->
-<g id="Node000012" class="node">
-<title>Node12</title>
-<g id="a_Node000012"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="1345,-24.5 1233,-24.5 1233,-5.5 1345,-5.5 1345,-24.5"/>
-<text text-anchor="middle" x="1289" y="-12.5" font-family="Malgun Gothic" font-size="10.00">Styling/SlateStyle.h</text>
+<!-- Node10&#45;&gt;Node7 -->
+<g id="edge14_Node000010_Node000007" class="edge">
+<title>Node10&#45;&gt;Node7</title>
+<g id="a_edge14_Node000010_Node000007"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M384.02,-71.37C373.8,-62.53 357.52,-48.45 343.94,-36.71"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="346.17,-34.01 336.32,-30.12 341.6,-39.3 346.17,-34.01"/>
 </a>
 </g>
 </g>
-<!-- Node11&#45;&gt;Node12 -->
-<g id="edge16_Node000011_Node000012" class="edge">
-<title>Node11&#45;&gt;Node12</title>
-<g id="a_edge16_Node000011_Node000012"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1289,-71.37C1289,-62.16 1289,-47.29 1289,-35.27"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1292.5,-34.91 1289,-24.91 1285.5,-34.91 1292.5,-34.91"/>
+<!-- Node11&#45;&gt;Node5 -->
+<g id="edge16_Node000011_Node000005" class="edge">
+<title>Node11&#45;&gt;Node5</title>
+<g id="a_edge16_Node000011_Node000005"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M592.01,-71.37C623.01,-60.22 677.16,-40.75 712.29,-28.12"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="713.86,-31.27 722.09,-24.6 711.5,-24.69 713.86,-31.27"/>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node11 -->
-<g id="edge19_Node000013_Node000011" class="edge">
-<title>Node13&#45;&gt;Node11</title>
-<g id="a_edge19_Node000013_Node000011"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1012.11,-131.99C1070.3,-121.49 1169.23,-103.62 1231.74,-92.34"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1232.61,-95.74 1241.83,-90.52 1231.37,-88.85 1232.61,-95.74"/>
+<!-- Node13 -->
+<g id="Node000013" class="node">
+<title>Node13</title>
+<g id="a_Node000013"><a xlink:title=" ">
+<polygon fill="#e0e0e0" stroke="#999999" points="1628,-24.5 1516,-24.5 1516,-5.5 1628,-5.5 1628,-24.5"/>
+<text text-anchor="middle" x="1572" y="-12.5" font-family="Malgun Gothic" font-size="10.00">Styling/SlateStyle.h</text>
 </a>
 </g>
 </g>
-<!-- Node14 -->
-<g id="Node000014" class="node">
-<title>Node14</title>
-<g id="a_Node000014"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="1506,-96 1376,-96 1376,-66 1506,-66 1506,-96"/>
-<text text-anchor="start" x="1384" y="-84" font-family="Malgun Gothic" font-size="10.00">Framework/Commands</text>
-<text text-anchor="middle" x="1441" y="-73" font-family="Malgun Gothic" font-size="10.00">/Commands.h</text>
+<!-- Node12&#45;&gt;Node13 -->
+<g id="edge18_Node000012_Node000013" class="edge">
+<title>Node12&#45;&gt;Node13</title>
+<g id="a_edge18_Node000012_Node000013"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1566.81,-71.37C1567.68,-62.07 1569.1,-46.98 1570.23,-34.9"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1573.72,-35.19 1571.17,-24.91 1566.75,-34.53 1573.72,-35.19"/>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node14 -->
-<g id="edge18_Node000013_Node000014" class="edge">
-<title>Node13&#45;&gt;Node14</title>
-<g id="a_edge18_Node000013_Node000014"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1048.89,-131.98C1143.55,-122.24 1292.81,-106.46 1365.52,-96.12"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1366.29,-99.55 1375.68,-94.64 1365.28,-92.62 1366.29,-99.55"/>
+<!-- Node14&#45;&gt;Node12 -->
+<g id="edge21_Node000014_Node000012" class="edge">
+<title>Node14&#45;&gt;Node12</title>
+<g id="a_edge21_Node000014_Node000012"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1228.45,-131.99C1295.12,-123.61 1398.61,-110.06 1488,-96 1495.19,-94.87 1502.75,-93.61 1510.21,-92.32"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1511.03,-95.72 1520.27,-90.55 1509.82,-88.83 1511.03,-95.72"/>
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node5 -->
-<g id="edge21_Node000015_Node000005" class="edge">
-<title>Node15&#45;&gt;Node5</title>
-<g id="a_edge21_Node000015_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M743.31,-131.71C733.23,-116.69 710.95,-85.78 686,-66 666.06,-50.19 640.34,-37.3 620.25,-28.57"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="621.47,-25.28 610.89,-24.62 618.75,-31.73 621.47,-25.28"/>
+<!-- Node15 -->
+<g id="Node000015" class="node">
+<title>Node15</title>
+<g id="a_Node000015"><a xlink:title=" ">
+<polygon fill="#e0e0e0" stroke="#999999" points="1783,-96 1653,-96 1653,-66 1783,-66 1783,-96"/>
+<text text-anchor="start" x="1661" y="-84" font-family="Malgun Gothic" font-size="10.00">Framework/Commands</text>
+<text text-anchor="middle" x="1718" y="-73" font-family="Malgun Gothic" font-size="10.00">/Commands.h</text>
 </a>
 </g>
 </g>
-<!-- Node16 -->
-<g id="Node000016" class="node">
-<title>Node16</title>
-<g id="a_Node000016"><a xlink:href="FToolbarButtonInfo_8h.html" target="_top" xlink:title="커스터마이즈 가능한 Coffee Toolbar 버튼 정보를 선언합니다.">
-<polygon fill="white" stroke="#666666" points="851.5,-90.5 734.5,-90.5 734.5,-71.5 851.5,-71.5 851.5,-90.5"/>
-<text text-anchor="middle" x="793" y="-78.5" font-family="Malgun Gothic" font-size="10.00">FToolbarButtonInfo.h</text>
-</a>
-</g>
-</g>
-<!-- Node15&#45;&gt;Node16 -->
-<g id="edge22_Node000015_Node000016" class="edge">
-<title>Node15&#45;&gt;Node16</title>
-<g id="a_edge22_Node000015_Node000016"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M755.49,-131.87C761.99,-123.23 772.16,-109.7 780.28,-98.92"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="783.27,-100.76 786.48,-90.67 777.67,-96.56 783.27,-100.76"/>
-</a>
-</g>
-</g>
-<!-- Node18 -->
-<g id="Node000018" class="node">
-<title>Node18</title>
-<g id="a_Node000018"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="1022,-90.5 870,-90.5 870,-71.5 1022,-71.5 1022,-90.5"/>
-<text text-anchor="middle" x="946" y="-78.5" font-family="Malgun Gothic" font-size="10.00">Engine/DeveloperSettings.h</text>
-</a>
-</g>
-</g>
-<!-- Node15&#45;&gt;Node18 -->
-<g id="edge25_Node000015_Node000018" class="edge">
-<title>Node15&#45;&gt;Node18</title>
-<g id="a_edge25_Node000015_Node000018"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M777.65,-131.99C811.93,-121.81 869.48,-104.72 907.6,-93.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="908.73,-96.72 917.32,-90.52 906.74,-90.01 908.73,-96.72"/>
-</a>
-</g>
-</g>
-<!-- Node19 -->
-<g id="Node000019" class="node">
-<title>Node19</title>
-<g id="a_Node000019"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="1201.5,-90.5 1040.5,-90.5 1040.5,-71.5 1201.5,-71.5 1201.5,-90.5"/>
-<text text-anchor="middle" x="1121" y="-78.5" font-family="Malgun Gothic" font-size="10.00">UToolbarSettings.generated.h</text>
-</a>
-</g>
-</g>
-<!-- Node15&#45;&gt;Node19 -->
-<g id="edge26_Node000015_Node000019" class="edge">
-<title>Node15&#45;&gt;Node19</title>
-<g id="a_edge26_Node000015_Node000019"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M803.09,-131.99C870.31,-121.42 984.9,-103.4 1056.59,-92.13"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1057.51,-95.53 1066.84,-90.52 1056.42,-88.61 1057.51,-95.53"/>
+<!-- Node14&#45;&gt;Node15 -->
+<g id="edge20_Node000014_Node000015" class="edge">
+<title>Node14&#45;&gt;Node15</title>
+<g id="a_edge20_Node000014_Node000015"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1243.58,-132.84C1367.95,-121.57 1590.43,-101.35 1642.59,-95.86"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1643.15,-99.32 1652.69,-94.71 1642.35,-92.37 1643.15,-99.32"/>
 </a>
 </g>
 </g>
@@ -547,17 +511,17 @@ var sectionId = 'dynsection-0';
 <g id="edge23_Node000016_Node000005" class="edge">
 <title>Node16&#45;&gt;Node5</title>
 <g id="a_edge23_Node000016_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M765.35,-71.37C729.18,-60.08 665.67,-40.25 625.28,-27.64"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="626.12,-24.24 615.54,-24.6 624.04,-30.92 626.12,-24.24"/>
+<path fill="none" stroke="#63b8ff" d="M931,-131.7C918.86,-122.76 899.56,-108.51 883,-96 865.55,-82.82 862.48,-77.69 844,-66 821.52,-51.79 794.51,-38.25 774.54,-28.85"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="775.9,-25.62 765.36,-24.59 772.95,-31.97 775.9,-25.62"/>
 </a>
 </g>
 </g>
 <!-- Node17 -->
 <g id="Node000017" class="node">
 <title>Node17</title>
-<g id="a_Node000017"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="878,-24.5 708,-24.5 708,-5.5 878,-5.5 878,-24.5"/>
-<text text-anchor="middle" x="793" y="-12.5" font-family="Malgun Gothic" font-size="10.00">FToolbarButtonInfo.generated.h</text>
+<g id="a_Node000017"><a xlink:href="FToolbarButtonInfo_8h.html" target="_top" xlink:title="커스터마이즈 가능한 Coffee Toolbar 버튼 정보를 선언합니다.">
+<polygon fill="white" stroke="#666666" points="1478.5,-90.5 1361.5,-90.5 1361.5,-71.5 1478.5,-71.5 1478.5,-90.5"/>
+<text text-anchor="middle" x="1420" y="-78.5" font-family="Malgun Gothic" font-size="10.00">FToolbarButtonInfo.h</text>
 </a>
 </g>
 </g>
@@ -565,8 +529,116 @@ var sectionId = 'dynsection-0';
 <g id="edge24_Node000016_Node000017" class="edge">
 <title>Node16&#45;&gt;Node17</title>
 <g id="a_edge24_Node000016_Node000017"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M793,-71.37C793,-62.16 793,-47.29 793,-35.27"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="796.5,-34.91 793,-24.91 789.5,-34.91 796.5,-34.91"/>
+<path fill="none" stroke="#63b8ff" d="M1018.58,-133.19C1118.86,-123.34 1290.5,-105.9 1353,-96 1359.24,-95.01 1365.78,-93.83 1372.22,-92.58"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1373.09,-95.97 1382.21,-90.57 1371.71,-89.11 1373.09,-95.97"/>
+</a>
+</g>
+</g>
+<!-- Node19 -->
+<g id="Node000019" class="node">
+<title>Node19</title>
+<g id="a_Node000019"><a xlink:title=" ">
+<polygon fill="#e0e0e0" stroke="#999999" points="1164,-90.5 1012,-90.5 1012,-71.5 1164,-71.5 1164,-90.5"/>
+<text text-anchor="middle" x="1088" y="-78.5" font-family="Malgun Gothic" font-size="10.00">Engine/DeveloperSettings.h</text>
+</a>
+</g>
+</g>
+<!-- Node16&#45;&gt;Node19 -->
+<g id="edge27_Node000016_Node000019" class="edge">
+<title>Node16&#45;&gt;Node19</title>
+<g id="a_edge27_Node000016_Node000019"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M964.08,-131.99C988.68,-122.07 1029.53,-105.59 1057.56,-94.28"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1058.93,-97.5 1066.89,-90.52 1056.31,-91.01 1058.93,-97.5"/>
+</a>
+</g>
+</g>
+<!-- Node20 -->
+<g id="Node000020" class="node">
+<title>Node20</title>
+<g id="a_Node000020"><a xlink:href="FFolderPathInfo_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="993.5,-90.5 892.5,-90.5 892.5,-71.5 993.5,-71.5 993.5,-90.5"/>
+<text text-anchor="middle" x="943" y="-78.5" font-family="Malgun Gothic" font-size="10.00">FFolderPathInfo.h</text>
+</a>
+</g>
+</g>
+<!-- Node16&#45;&gt;Node20 -->
+<g id="edge28_Node000016_Node000020" class="edge">
+<title>Node16&#45;&gt;Node20</title>
+<g id="a_edge28_Node000016_Node000020"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M943,-131.87C943,-123.75 943,-111.31 943,-100.89"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="946.5,-100.67 943,-90.67 939.5,-100.67 946.5,-100.67"/>
+</a>
+</g>
+</g>
+<!-- Node22 -->
+<g id="Node000022" class="node">
+<title>Node22</title>
+<g id="a_Node000022"><a xlink:title=" ">
+<polygon fill="#e0e0e0" stroke="#999999" points="1343.5,-90.5 1182.5,-90.5 1182.5,-71.5 1343.5,-71.5 1343.5,-90.5"/>
+<text text-anchor="middle" x="1263" y="-78.5" font-family="Malgun Gothic" font-size="10.00">UToolbarSettings.generated.h</text>
+</a>
+</g>
+</g>
+<!-- Node16&#45;&gt;Node22 -->
+<g id="edge31_Node000016_Node000022" class="edge">
+<title>Node16&#45;&gt;Node22</title>
+<g id="a_edge31_Node000016_Node000022"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M989.53,-131.99C1047,-121.49 1144.71,-103.62 1206.45,-92.34"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1207.21,-95.76 1216.41,-90.52 1205.95,-88.87 1207.21,-95.76"/>
+</a>
+</g>
+</g>
+<!-- Node17&#45;&gt;Node5 -->
+<g id="edge25_Node000017_Node000005" class="edge">
+<title>Node17&#45;&gt;Node5</title>
+<g id="a_edge25_Node000017_Node000005"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1383.64,-71.48C1373.75,-69.42 1363,-67.4 1353,-66 1134.11,-35.33 1076.94,-51.84 857,-30 838.49,-28.16 818.31,-25.74 800.28,-23.43"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="800.6,-19.94 790.23,-22.12 799.7,-26.88 800.6,-19.94"/>
+</a>
+</g>
+</g>
+<!-- Node18 -->
+<g id="Node000018" class="node">
+<title>Node18</title>
+<g id="a_Node000018"><a xlink:title=" ">
+<polygon fill="#e0e0e0" stroke="#999999" points="1498,-24.5 1328,-24.5 1328,-5.5 1498,-5.5 1498,-24.5"/>
+<text text-anchor="middle" x="1413" y="-12.5" font-family="Malgun Gothic" font-size="10.00">FToolbarButtonInfo.generated.h</text>
+</a>
+</g>
+</g>
+<!-- Node17&#45;&gt;Node18 -->
+<g id="edge26_Node000017_Node000018" class="edge">
+<title>Node17&#45;&gt;Node18</title>
+<g id="a_edge26_Node000017_Node000018"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1419.06,-71.37C1418.04,-62.07 1416.39,-46.98 1415.07,-34.9"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1418.54,-34.47 1413.97,-24.91 1411.58,-35.23 1418.54,-34.47"/>
+</a>
+</g>
+</g>
+<!-- Node20&#45;&gt;Node5 -->
+<g id="edge29_Node000020_Node000005" class="edge">
+<title>Node20&#45;&gt;Node5</title>
+<g id="a_edge29_Node000020_Node000005"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M916.43,-71.37C881.82,-60.12 821.16,-40.42 782.32,-27.8"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="783.05,-24.36 772.46,-24.6 780.89,-31.02 783.05,-24.36"/>
+</a>
+</g>
+</g>
+<!-- Node21 -->
+<g id="Node000021" class="node">
+<title>Node21</title>
+<g id="a_Node000021"><a xlink:title=" ">
+<polygon fill="#e0e0e0" stroke="#999999" points="1020,-24.5 866,-24.5 866,-5.5 1020,-5.5 1020,-24.5"/>
+<text text-anchor="middle" x="943" y="-12.5" font-family="Malgun Gothic" font-size="10.00">FFolderPathInfo.generated.h</text>
+</a>
+</g>
+</g>
+<!-- Node20&#45;&gt;Node21 -->
+<g id="edge30_Node000020_Node000021" class="edge">
+<title>Node20&#45;&gt;Node21</title>
+<g id="a_edge30_Node000020_Node000021"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M943,-71.37C943,-62.16 943,-47.29 943,-35.27"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="946.5,-34.91 943,-24.91 939.5,-34.91 946.5,-34.91"/>
 </a>
 </g>
 </g>

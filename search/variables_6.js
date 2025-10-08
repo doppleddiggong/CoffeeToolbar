@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['screenshotfeature_0',['ScreenshotFeature',['../classFToolbar.html#ae026dd2b2ac3de93e91cbb56221df7b5',1,'FToolbar']]],
-  ['selectedmappackage_1',['SelectedMapPackage',['../classFLevelFeature.html#a5cf3243dcc0ccd9b1333d369ed37413e',1,'FLevelFeature']]]
+  ['path_0',['Path',['../structFFolderPathInfo.html#a6eb39d4fae6e0146e6e1c492ae3dcb01',1,'FFolderPathInfo']]],
+  ['pluginaction_1',['PluginAction',['../classFToolbarCommands.html#a7e22462e756aa34b0c0aa8f0bcad9bdf',1,'FToolbarCommands']]]
 ];

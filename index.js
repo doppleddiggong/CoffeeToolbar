@@ -14,9 +14,13 @@ var index =
       [ "4. 레벨 셀렉터 설정 (Level Selector Configuration)", "index.html#autotoc_md11", null ],
       [ "5. 스크린샷 설정 (Screenshot Capture Feature)", "index.html#autotoc_md12", [
         [ "제공 기능", "index.html#autotoc_md13", null ]
+      ] ],
+      [ "6. 폴더 바로가기 설정 (Quick Folder Access)", "index.html#autotoc_md14", [
+        [ "설정 옵션", "index.html#autotoc_md15", null ],
+        [ ".ini 설정 예시", "index.html#autotoc_md16", null ]
       ] ]
     ] ],
-    [ "설정 상세 (Configuration Details)", "index.html#autotoc_md15", null ],
-    [ "라이선스 (License)", "index.html#autotoc_md16", null ],
-    [ "Author", "index.html#autotoc_md17", null ]
+    [ "설정 상세 (Configuration Details)", "index.html#autotoc_md18", null ],
+    [ "라이선스 (License)", "index.html#autotoc_md19", null ],
+    [ "Author", "index.html#autotoc_md20", null ]
 ];

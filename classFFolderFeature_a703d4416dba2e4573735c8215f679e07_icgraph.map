@@ -1,0 +1,9 @@
+<map id="FFolderFeature::OpenFolder" name="FFolderFeature::OpenFolder">
+<area shape="rect" id="Node000001" title=" " alt="" coords="696,13,897,38"/>
+<area shape="rect" id="Node000002" href="$classFFolderFeature.html#a0a8ef98284f119128a494f801928083a" title=" " alt="" coords="461,5,648,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="682,28,648,28,648,23,682,23"/>
+<area shape="rect" id="Node000003" href="$classFToolbar.html#a2df7b59ad21cce1d2f0437add0d4c6a7" title="에디터 확장 프레임워크에 툴바 메뉴와 버튼을 등록합니다." alt="" coords="232,13,413,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="447,28,414,28,414,23,447,23"/>
+<area shape="rect" id="Node000004" href="$classFToolbar.html#a29b321398a59346e3df4870366f89245" title="툴바 기능을 초기화하고 Slate 메뉴 확장을 등록합니다." alt="" coords="5,13,184,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="218,28,184,28,184,23,218,23"/>
+</map>

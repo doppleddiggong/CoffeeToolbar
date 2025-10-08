@@ -1,28 +1,6 @@
 var searchData=
 [
-  ['fcommandfeature_0',['fcommandfeature',['../classFCommandFeature.html',1,'FCommandFeature'],['../classFCommandFeature.html#a5aefb52d5edaa0a803655f72c5fafc38',1,'FCommandFeature::FCommandFeature()']]],
-  ['fcommandfeature_2ecpp_1',['FCommandFeature.cpp',['../FCommandFeature_8cpp.html',1,'']]],
-  ['fcommandfeature_2eh_2',['FCommandFeature.h',['../FCommandFeature_8h.html',1,'']]],
-  ['fcommon_3',['FCommon',['../classFCommon.html',1,'']]],
-  ['fcommon_2ecpp_4',['FCommon.cpp',['../FCommon_8cpp.html',1,'']]],
-  ['fcommon_2eh_5',['FCommon.h',['../FCommon_8h.html',1,'']]],
-  ['feature_6',['5. 스크린샷 설정 (Screenshot Capture Feature)',['../index.html#autotoc_md12',1,'']]],
-  ['features_7',['주요 기능 (Features)',['../index.html#autotoc_md1',1,'']]],
-  ['flevelfeature_8',['flevelfeature',['../classFLevelFeature.html',1,'FLevelFeature'],['../classFLevelFeature.html#a7c8f2a5fea1c636b598fa6ef879ca2b9',1,'FLevelFeature::FLevelFeature()']]],
-  ['flevelfeature_2ecpp_9',['FLevelFeature.cpp',['../FLevelFeature_8cpp.html',1,'']]],
-  ['flevelfeature_2eh_10',['FLevelFeature.h',['../FLevelFeature_8h.html',1,'']]],
-  ['fscreenshotfeature_11',['fscreenshotfeature',['../classFScreenshotFeature.html#a8563baa30252566aeabe473b66be094f',1,'FScreenshotFeature::FScreenshotFeature()'],['../classFScreenshotFeature.html',1,'FScreenshotFeature']]],
-  ['fscreenshotfeature_2ecpp_12',['FScreenshotFeature.cpp',['../FScreenshotFeature_8cpp.html',1,'']]],
-  ['fscreenshotfeature_2eh_13',['FScreenshotFeature.h',['../FScreenshotFeature_8h.html',1,'']]],
-  ['ftoolbar_14',['FToolbar',['../classFToolbar.html',1,'']]],
-  ['ftoolbar_2ecpp_15',['FToolbar.cpp',['../FToolbar_8cpp.html',1,'']]],
-  ['ftoolbar_2eh_16',['FToolbar.h',['../FToolbar_8h.html',1,'']]],
-  ['ftoolbarbuttoninfo_17',['FToolbarButtonInfo',['../structFToolbarButtonInfo.html',1,'']]],
-  ['ftoolbarbuttoninfo_2eh_18',['FToolbarButtonInfo.h',['../FToolbarButtonInfo_8h.html',1,'']]],
-  ['ftoolbarcommands_19',['ftoolbarcommands',['../classFToolbarCommands.html',1,'FToolbarCommands'],['../classFToolbarCommands.html#a79ed04c259769e6aef014174e9c6b8d7',1,'FToolbarCommands::FToolbarCommands()']]],
-  ['ftoolbarcommands_2ecpp_20',['FToolbarCommands.cpp',['../FToolbarCommands_8cpp.html',1,'']]],
-  ['ftoolbarcommands_2eh_21',['FToolbarCommands.h',['../FToolbarCommands_8h.html',1,'']]],
-  ['ftoolbarstyle_22',['FToolbarStyle',['../classFToolbarStyle.html',1,'']]],
-  ['ftoolbarstyle_2ecpp_23',['FToolbarStyle.cpp',['../FToolbarStyle_8cpp.html',1,'']]],
-  ['ftoolbarstyle_2eh_24',['FToolbarStyle.h',['../FToolbarStyle_8h.html',1,'']]]
+  ['ensuredefaultselection_0',['EnsureDefaultSelection',['../classFLevelFeature.html#abefcace2c5ea60b97089760e5c45ebb5',1,'FLevelFeature']]],
+  ['ensurevalidselectedmap_1',['EnsureValidSelectedMap',['../classFLevelFeature.html#aad2ad775628a12e462c1e85e90060415',1,'FLevelFeature']]],
+  ['extrasearchpaths_2',['ExtraSearchPaths',['../classUToolbarSettings.html#a78b489f3f1c8bdd76596ced194f25c3e',1,'UToolbarSettings']]]
 ];
