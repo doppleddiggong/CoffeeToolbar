@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "FToolbarButtonInfo.h"
 #include "Engine/DeveloperSettings.h"
 #include "UToolbarSettings.generated.h"
 
