@@ -1,22 +1,28 @@
 <map id="Source/CoffeeToolbar/Private" name="Source/CoffeeToolbar/Private">
-<area shape="rect" id="node1" href="dir_a5a63c6c47d2305a2697a56793561ce2.html" title="Public" alt="" coords="300,136,361,161"/>
-<area shape="poly" id="edge1" href="dir_000007_000008.html" alt="" coords="569,91,545,101,455,127,375,143,374,138,454,121,543,96,567,86"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000007_000008.html" title="24" alt="" coords="372,140,390,155"/>
-<area shape="rect" id="node3" href="dir_042ad5add2b4c6596de6b8ac1f9977c7.html" title="Command" alt="" coords="442,63,531,88"/>
-<area shape="poly" id="edge2" href="dir_000001_000008.html" alt="" coords="463,90,370,133,368,128,461,86"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000001_000008.html" title="3" alt="" coords="372,129,381,143"/>
-<area shape="rect" id="node4" href="dir_9bcec4335b02e9ec02a042f1a366292d.html" title="Common" alt="" coords="337,63,418,88"/>
-<area shape="poly" id="edge3" href="dir_000003_000008.html" alt="" coords="372,90,348,126,344,123,367,87"/>
-<area shape="rect" id="edge3-headlabel" href="dir_000003_000008.html" title="7" alt="" coords="351,118,360,133"/>
-<area shape="rect" id="node5" href="dir_0d8919bacf438e2f4651e48201711277.html" title="Level" alt="" coords="255,63,313,88"/>
-<area shape="poly" id="edge4" href="dir_000005_000008.html" alt="" coords="294,87,318,123,313,126,289,90"/>
-<area shape="rect" id="edge4-headlabel" href="dir_000005_000008.html" title="3" alt="" coords="316,109,325,123"/>
-<area shape="rect" id="node6" href="dir_baf9be0dedefecbc98dbf50df3caf5b5.html" title="Screenshot" alt="" coords="137,63,231,88"/>
-<area shape="poly" id="edge5" href="dir_000009_000008.html" alt="" coords="209,86,296,128,293,132,206,90"/>
-<area shape="rect" id="edge5-headlabel" href="dir_000009_000008.html" title="2" alt="" coords="289,113,299,128"/>
-<area shape="rect" id="node7" href="dir_b32a1a6bbbe24ba71e2f22061efaf028.html" title="Settings" alt="" coords="37,63,112,88"/>
-<area shape="poly" id="edge6" href="dir_000011_000008.html" alt="" coords="100,86,126,96,211,120,287,137,286,142,210,125,124,101,98,91"/>
-<area shape="rect" id="edge6-headlabel" href="dir_000011_000008.html" title="2" alt="" coords="279,123,288,137"/>
-<area shape="rect" id="clust2" href="dir_694584ba17985195ce961d5fae66b6d9.html" alt="" coords="27,52,635,99"/>
-<area shape="rect" id="clust1" href="dir_64d53782dd23c34e270e016cddcba0f2.html" title="CoffeeToolbar" alt="" coords="16,16,645,172"/>
+<area shape="rect" id="node1" href="dir_a5a63c6c47d2305a2697a56793561ce2.html" title="Public" alt="" coords="421,136,483,161"/>
+<area shape="poly" id="edge1" href="dir_000011_000012.html" alt="" coords="783,91,758,101,688,120,616,133,497,147,496,142,615,128,686,114,756,96,781,86"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000011_000012.html" title="28" alt="" coords="493,145,510,160"/>
+<area shape="rect" id="node3" href="dir_042ad5add2b4c6596de6b8ac1f9977c7.html" title="Command" alt="" coords="655,63,745,88"/>
+<area shape="poly" id="edge2" href="dir_000001_000012.html" alt="" coords="674,91,645,101,567,123,497,140,496,135,566,118,643,96,672,86"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000001_000012.html" title="3" alt="" coords="498,138,507,152"/>
+<area shape="rect" id="node4" href="dir_9bcec4335b02e9ec02a042f1a366292d.html" title="Common" alt="" coords="550,63,631,88"/>
+<area shape="poly" id="edge3" href="dir_000003_000012.html" alt="" coords="570,90,488,132,486,127,567,86"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000003_000012.html" title="5" alt="" coords="490,128,499,142"/>
+<area shape="rect" id="node5" href="dir_21f91c24e64b67164b674a5817e1d07a.html" title="Folder" alt="" coords="463,63,526,88"/>
+<area shape="poly" id="edge4" href="dir_000005_000012.html" alt="" coords="490,90,468,126,464,123,485,87"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000005_000012.html" title="2" alt="" coords="471,117,480,132"/>
+<area shape="rect" id="node6" href="dir_0d8919bacf438e2f4651e48201711277.html" title="Level" alt="" coords="382,63,439,88"/>
+<area shape="poly" id="edge5" href="dir_000007_000012.html" alt="" coords="420,87,441,123,436,125,415,90"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000007_000012.html" title="3" alt="" coords="439,109,448,123"/>
+<area shape="rect" id="node7" href="dir_5b6d341a6922255b34d4254d5bffef39.html" title="NetworkTest" alt="" coords="255,63,358,88"/>
+<area shape="poly" id="edge6" href="dir_000009_000012.html" alt="" coords="331,86,417,128,415,132,329,90"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000009_000012.html" title="4" alt="" coords="411,113,420,128"/>
+<area shape="rect" id="node8" href="dir_baf9be0dedefecbc98dbf50df3caf5b5.html" title="Screenshot" alt="" coords="137,63,231,88"/>
+<area shape="poly" id="edge7" href="dir_000013_000012.html" alt="" coords="214,86,245,96,331,119,408,136,407,141,330,124,243,101,212,91"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000013_000012.html" title="2" alt="" coords="400,122,410,137"/>
+<area shape="rect" id="node9" href="dir_b32a1a6bbbe24ba71e2f22061efaf028.html" title="Settings" alt="" coords="37,63,112,88"/>
+<area shape="poly" id="edge8" href="dir_000015_000012.html" alt="" coords="98,86,126,96,203,114,280,128,408,142,408,147,279,133,202,120,125,101,96,91"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000015_000012.html" title="2" alt="" coords="399,128,408,143"/>
+<area shape="rect" id="clust2" href="dir_694584ba17985195ce961d5fae66b6d9.html" alt="" coords="27,52,848,99"/>
+<area shape="rect" id="clust1" href="dir_64d53782dd23c34e270e016cddcba0f2.html" title="CoffeeToolbar" alt="" coords="16,16,859,172"/>
 </map>

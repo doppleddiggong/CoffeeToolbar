@@ -118,6 +118,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li><b>고해상도 스크린샷</b>: 지정된 배율(예: 2x, 4x)로 고해상도 스크린샷을 간편하게 촬영하고 저장 폴더를 바로 열 수 있습니다.</li>
 <li><b>설정 기반 확장성</b>: <code>.ini</code> 파일을 통해 툴바에 표시될 기능과 순서를 사용자가 직접 커스터마이징할 수 있습니다.</li>
 <li><b>폴더 바로가기</b>: <code>Logs</code>, <code>Documents</code> 등 사전에 정의된 프로젝트 폴더를 드롭다운 메뉴에서 직접 열 수 있습니다.</li>
+<li><b>네트워크 API 테스트</b>: HTTP API 요청을 에디터에서 직접 실행하고 결과를 로그로 확인할 수 있는 네트워크 테스터 기능을 제공합니다.</li>
 </ul>
 <h1><a class="anchor" id="autotoc_md2"></a>
 설치 방법 (Installation)</h1>
@@ -211,8 +212,42 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <p>프로젝트의 <code>Config/DefaultToolbarSettings.ini</code> 파일에서 직접 설정할 수도 있습니다: </p><div class="fragment"><div class="line">bEnableFolderFeature=True</div>
 <div class="line">+FoldersToOpen=(Label=&quot;로그&quot;,Path=&quot;Saved/Logs&quot;)</div>
 <div class="line">+FoldersToOpen=(Label=&quot;문서&quot;,Path=&quot;Documents&quot;)</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md17"></a>
+7. 네트워크 API 테스트 (Network Test Feature)</h2>
+<p><b>Network Tests</b> 기능을 통해 HTTP API 요청을 에디터에서 직접 실행하고, 응답 결과를 Output Log에서 확인할 수 있습니다.</p>
+<h3><a class="anchor" id="autotoc_md18"></a>
+제공 기능</h3>
+<ul>
+<li><b>GET/POST 요청</b>: HTTP GET 및 POST 메서드를 지원합니다.</li>
+<li><b>JSON Body 지원</b>: POST 요청 시 JSON 형식의 바디 파라미터를 전송할 수 있습니다.</li>
+<li><b>콘솔 커맨드</b>: <code>curl</code> 명령어를 통해 콘솔에서도 API 테스트가 가능합니다.</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md19"></a>
+설정 옵션</h3>
+<ul>
+<li>**<code>bEnableNetworkTestFeature</code>**: 툴바에 이 기능을 활성화하거나 비활성화합니다.</li>
+<li>**<code>NetworkTestUrl</code>**: API 서버의 기본 URL을 설정합니다. (예: "http://127.0.0.1:8000")</li>
+<li>**<code>NetworkTests</code>**: 실행할 API 테스트 목록을 정의하는 배열입니다.<ul>
+<li>**<code>Label</code>**: 드롭다운 메뉴에 표시될 이름입니다.</li>
+<li>**<code>Method</code>**: HTTP 메서드 (GET 또는 POST)입니다.</li>
+<li>**<code>Endpoint</code>**: API 엔드포인트 경로입니다. (예: "/health", "/test/gpt")</li>
+<li>**<code>BodyParams</code>**: POST 요청 시 전송할 JSON 바디 파라미터입니다.</li>
+</ul>
+</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md20"></a>
+.ini 설정 예시</h3>
+<p>프로젝트의 <code>Config/DefaultToolbarSettings.ini</code> 파일에서 직접 설정할 수도 있습니다: </p><div class="fragment"><div class="line">bEnableNetworkTestFeature=True</div>
+<div class="line">NetworkTestUrl=&quot;http://127.0.0.1:8000&quot;</div>
+<div class="line"> </div>
+<div class="line">+NetworkTests=(Label=&quot;Health Check&quot;,Method=GET,Endpoint=&quot;/health&quot;)</div>
+<div class="line">+NetworkTests=(Label=&quot;GPT Test&quot;,Method=POST,Endpoint=&quot;/test/gpt&quot;,BodyParams=((Key=&quot;text&quot;,Value=&quot;안녕하세요&quot;)))</div>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md21"></a>
+콘솔 커맨드 사용법</h3>
+<p>에디터의 <b>Output Log</b> 창에서 <code>curl</code> 명령어를 사용할 수 있습니다: </p><div class="fragment"><div class="line">curl get /health</div>
+<div class="line">curl post /test/gpt {&quot;text&quot;:&quot;안녕하세요&quot;}</div>
 </div><!-- fragment --><hr  />
-<h1><a class="anchor" id="autotoc_md18"></a>
+<h1><a class="anchor" id="autotoc_md23"></a>
 설정 상세 (Configuration Details)</h1>
 <p><code>Project Settings &gt; Plugins &gt; Coffee Toolbar</code> 메뉴를 통해 플러그인의 동작을 상세하게 설정할 수 있습니다.</p>
 <ul>
@@ -220,10 +255,10 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li><b>툴바 기능 활성화/비활성화</b>: 툴바에 표시할 개별 기능들을 선택적으로 켜고 끌 수 있습니다.</li>
 </ul>
 <p>설정된 내용은 프로젝트의 <code>Config/ToolbarSettings.ini</code> 파일에 저장됩니다.</p>
-<h1><a class="anchor" id="autotoc_md19"></a>
+<h1><a class="anchor" id="autotoc_md24"></a>
 라이선스 (License)</h1>
 <p>본 플러그인은 MIT 라이선스 하에 배포됩니다. 자세한 내용은 <code>LICENSE</code> 파일을 참고하십시오.</p>
-<h1><a class="anchor" id="autotoc_md20"></a>
+<h1><a class="anchor" id="autotoc_md25"></a>
 Author</h1>
 <p><b>dopple</b></p>
 <ul>
@@ -240,7 +275,7 @@ Author</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">생성시간 : 수 10월 8 2025 09:23:39, 프로젝트명 : Coffee Toolbar, 생성자 :  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">생성시간 : 토 10월 11 2025 11:34:27, 프로젝트명 : Coffee Toolbar, 생성자 :  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

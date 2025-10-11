@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['path_0',['Path',['../structFFolderPathInfo.html#a6eb39d4fae6e0146e6e1c492ae3dcb01',1,'FFolderPathInfo']]],
-  ['pluginaction_1',['PluginAction',['../classFToolbarCommands.html#a7e22462e756aa34b0c0aa8f0bcad9bdf',1,'FToolbarCommands']]]
+  ['label_0',['label',['../structFFolderPathInfo.html#ab6909137387c7f455aecdf2185586c01',1,'FFolderPathInfo::Label'],['../structFApiSendInfo.html#a0c2a700f3c54ee5b2efc76f82fc4893e',1,'FApiSendInfo::Label'],['../structFToolbarButtonInfo.html#a02a7c7f401e21da6d1a56e561698cfb8',1,'FToolbarButtonInfo::Label']]],
+  ['levelfeature_1',['LevelFeature',['../classFToolbar.html#a35f064f62e56e1e72a66e76403f2caa1',1,'FToolbar']]]
 ];

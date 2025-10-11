@@ -1,7 +1,7 @@
-<map id="Source/CoffeeToolbar/Public/Settings/FFolderPathInfo.h" name="Source/CoffeeToolbar/Public/Settings/FFolderPathInfo.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="55,5,257,60"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,108,123,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,62,88,100,85,96,126,58"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="147,108,352,133"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,58,228,96,225,100,183,62"/>
+<map id="Source/CoffeeToolbar/Public/Folder/FFolderPathInfo.h" name="Source/CoffeeToolbar/Public/Folder/FFolderPathInfo.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="43,5,269,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,123,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,48,90,86,86,82,132,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="147,93,352,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,44,226,82,223,86,177,48"/>
 </map>

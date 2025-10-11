@@ -1,12 +1,14 @@
 var indexSectionsWithContent =
 {
-  0: "123456abcdefghilnopqrstu가권기라레명바방사상설셀수스엔예옵접제주추커통폴프플",
+  0: "1234567abcdefghilmnopqrstu가권기네라레명바방사상설셀수스엔예옵접제주추커콘테통폴프플",
   1: "fu",
-  2: "fru",
-  3: "cdefgilnorsu",
-  4: "bcefilpst",
-  5: "lr",
-  6: "c"
+  2: "cfru",
+  3: "bcdefgilnoprsu",
+  4: "bcdefilmnpst",
+  5: "e",
+  6: "u",
+  7: "lr",
+  8: "c"
 };
 
 var indexSectionNames =
@@ -16,8 +18,10 @@ var indexSectionNames =
   2: "files",
   3: "functions",
   4: "variables",
-  5: "defines",
-  6: "pages"
+  5: "enums",
+  6: "enumvalues",
+  7: "defines",
+  8: "pages"
 };
 
 var indexSectionLabels =
@@ -27,7 +31,9 @@ var indexSectionLabels =
   2: "파일들",
   3: "함수",
   4: "변수",
-  5: "매크로",
-  6: "페이지들"
+  5: "열거형 타입",
+  6: "열거형 멤버",
+  7: "매크로",
+  8: "페이지들"
 };
 

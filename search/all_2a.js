@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['제공_20기능_0',['제공 기능',['../index.html#autotoc_md13',1,'']]]
+  ['예시_0',['예시',['../index.html#autotoc_md16',1,'.ini 설정 예시'],['../index.html#autotoc_md20',1,'.ini 설정 예시']]]
 ];

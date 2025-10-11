@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Coffee Toolbar: Source/CoffeeToolbar/Private/NetworkTest/ConsoleCurlCommand.cpp 파일 참조</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript">
+window.MathJax = {
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script type="text/javascript" src="darkmode_toggle.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Coffee Toolbar<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">언리얼 엔진 에디터용 유틸리티 툴바 플러그인</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 다음에 의해 생성됨 :  Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','검색');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('ConsoleCurlCommand_8cpp.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">로딩중...</div>
+<div class="SRStatus" id="Searching">검색중...</div>
+<div class="SRStatus" id="NoMatches">일치하는것 없음</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">함수</a> &#124;
+<a href="#var-members">변수</a>  </div>
+  <div class="headertitle"><div class="title">ConsoleCurlCommand.cpp 파일 참조</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;CoreMinimal.h&quot;</code><br />
+<code>#include &quot;Misc/CommandLine.h&quot;</code><br />
+<code>#include &quot;Misc/Paths.h&quot;</code><br />
+<code>#include &quot;HttpModule.h&quot;</code><br />
+<code>#include &quot;Interfaces/IHttpRequest.h&quot;</code><br />
+<code>#include &quot;Interfaces/IHttpResponse.h&quot;</code><br />
+<code>#include &quot;Dom/JsonObject.h&quot;</code><br />
+<code>#include &quot;Serialization/JsonReader.h&quot;</code><br />
+<code>#include &quot;Serialization/JsonSerializer.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="FApiSendInfo_8h_source.html">NetworkTest/FApiSendInfo.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="UToolbarSettings_8h_source.html">Settings/UToolbarSettings.h</a>&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> ConsoleCurlCommand.cpp에 대한 include 의존 그래프</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="ConsoleCurlCommand_8cpp__incl.svg" width="100%" height="514"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+</div>
+<p><a href="ConsoleCurlCommand_8cpp_source.html">이 파일의 소스 코드 페이지로 가기</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+함수</h2></td></tr>
+<tr class="memitem:a88845a62bc20c97cff22d85c1cf071a6" id="r_a88845a62bc20c97cff22d85c1cf071a6"><td class="memItemLeft" align="right" valign="top">static FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ConsoleCurlCommand_8cpp.html#a88845a62bc20c97cff22d85c1cf071a6">BuildFullUrl</a> (const FString &amp;Input)</td></tr>
+<tr class="separator:a88845a62bc20c97cff22d85c1cf071a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab29f333204f47eb2e2d118066c613ecd" id="r_ab29f333204f47eb2e2d118066c613ecd"><td class="memItemLeft" align="right" valign="top">static FAutoConsoleCommand&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ConsoleCurlCommand_8cpp.html#ab29f333204f47eb2e2d118066c613ecd">GCurlCommand</a> (TEXT(&quot;curl&quot;), TEXT(&quot;Usage:\n  curl get &lt;url_or_endpoint&gt;\n  curl post &lt;url_or_endpoint&gt; {\&quot;k\&quot;:\&quot;v\&quot;}&quot;), FConsoleCommandWithArgsDelegate::CreateStatic([](const TArray&lt; FString &gt; &amp;Args) { if(Args.Num()&lt; 2) { UE_LOG(LogTemp, Warning, TEXT(&quot;[curl] Usage:\n  curl get &lt;url_or_endpoint&gt;\n  curl post &lt;url_or_endpoint&gt; {json}&quot;));return;} const FString MethodLower=Args[0].ToLower();<a class="el" href="FApiSendInfo_8h.html#a91c8ce43a45ce633a1bee1c1e03e0a9d">EApiHttpMethod</a> Method=EApiHttpMethod::GET;if(MethodLower==TEXT(&quot;post&quot;)) { Method=EApiHttpMethod::POST;} else if(MethodLower !=TEXT(&quot;get&quot;)) { UE_LOG(LogTemp, Warning, TEXT(&quot;[curl] Unsupported method: %s&quot;), *Args[0]);return;} const FString UrlOrEndpoint=Args[1];const FString FullUrl=<a class="el" href="ConsoleCurlCommand_8cpp.html#a88845a62bc20c97cff22d85c1cf071a6">BuildFullUrl</a>(UrlOrEndpoint);FString JsonBodyText;if(Method==EApiHttpMethod::POST) { if(Args.Num()&lt; 3) { UE_LOG(LogTemp, Warning, TEXT(&quot;[curl] POST requires JSON body.\nExample: curl post /test/gpt {\&quot;text\&quot;:\&quot;안녕\&quot;}&quot;));return;} TArray&lt; FString &gt; Tail;for(int32 i=2;i&lt; Args.Num();++i) { Tail.Add(Args[i]);} JsonBodyText=FString::Join(Tail, TEXT(&quot; &quot;));if(!JsonBodyText.StartsWith(TEXT(&quot;{&quot;))||!JsonBodyText.EndsWith(TEXT(&quot;}&quot;))) { UE_LOG(LogTemp, Warning, TEXT(&quot;[curl] JSON body must start with '{' and end with '}'. Given: %s&quot;), *JsonBodyText);return;} } TSharedRef&lt; IHttpRequest, ESPMode::ThreadSafe &gt; Request=FHttpModule::Get().CreateRequest();Request-&gt;SetURL(FullUrl);Request-&gt;SetTimeout(60);Request-&gt;SetHeader(TEXT(&quot;Accept&quot;), <a class="el" href="ConsoleCurlCommand_8cpp.html#a21c971eef47473a678c47ead5cda7fb1">DefaultAccept</a>);if(Method==EApiHttpMethod::GET) { Request-&gt;SetVerb(TEXT(&quot;GET&quot;));} else { Request-&gt;SetVerb(TEXT(&quot;POST&quot;));Request-&gt;SetHeader(TEXT(&quot;Content-Type&quot;), <a class="el" href="ConsoleCurlCommand_8cpp.html#aebe31c794ee41d16a3a0bf25afa1a737">DefaultContentType</a>);Request-&gt;SetContentAsString(JsonBodyText);} Request-&gt;OnProcessRequestComplete().BindLambda([](FHttpRequestPtr Req, FHttpResponsePtr Res, bool bSuccess) { if(bSuccess &amp;&amp;Res.IsValid()) { UE_LOG(LogTemp, Log, TEXT(&quot;[curl] %s %s -&gt; %d\n[RES] %s&quot;), *Req-&gt;GetVerb(), *Req-&gt;GetURL(), Res-&gt;GetResponseCode(), *Res-&gt;GetContentAsString());} else { const int32 Code=(Res.IsValid() ? Res-&gt;GetResponseCode() :-1);UE_LOG(LogTemp, Error, TEXT(&quot;[curl] Request failed. Code=%d URL=%s&quot;), Code, Req.IsValid() ? *Req-&gt;GetURL() :TEXT(&quot;&lt;null&gt;&quot;));} });if(Method==EApiHttpMethod::POST &amp;&amp;!JsonBodyText.IsEmpty()) { UE_LOG(LogTemp, Log, TEXT(&quot;[curl] POST %s\n[BODY] %s&quot;), *FullUrl, *JsonBodyText);} else { UE_LOG(LogTemp, Log, TEXT(&quot;[curl] %s %s&quot;),(Method==EApiHttpMethod::GET ? TEXT(&quot;GET&quot;) :TEXT(&quot;POST&quot;)), *FullUrl);} Request-&gt;ProcessRequest();}))</td></tr>
+<tr class="separator:ab29f333204f47eb2e2d118066c613ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a435cc71017f1d81e04cebf528ee3591e" id="r_a435cc71017f1d81e04cebf528ee3591e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ConsoleCurlCommand_8cpp.html#a435cc71017f1d81e04cebf528ee3591e">ParseJsonToMap</a> (const FString &amp;JsonText, TMap&lt; FString, FString &gt; &amp;OutMap)</td></tr>
+<tr class="separator:a435cc71017f1d81e04cebf528ee3591e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+변수</h2></td></tr>
+<tr class="memitem:a21c971eef47473a678c47ead5cda7fb1" id="r_a21c971eef47473a678c47ead5cda7fb1"><td class="memItemLeft" align="right" valign="top">static const FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ConsoleCurlCommand_8cpp.html#a21c971eef47473a678c47ead5cda7fb1">DefaultAccept</a> = TEXT(&quot;application/json&quot;)</td></tr>
+<tr class="separator:a21c971eef47473a678c47ead5cda7fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebe31c794ee41d16a3a0bf25afa1a737" id="r_aebe31c794ee41d16a3a0bf25afa1a737"><td class="memItemLeft" align="right" valign="top">static const FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ConsoleCurlCommand_8cpp.html#aebe31c794ee41d16a3a0bf25afa1a737">DefaultContentType</a> = TEXT(&quot;application/json&quot;)</td></tr>
+<tr class="separator:aebe31c794ee41d16a3a0bf25afa1a737"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">함수 문서화</h2>
+<a id="a88845a62bc20c97cff22d85c1cf071a6" name="a88845a62bc20c97cff22d85c1cf071a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88845a62bc20c97cff22d85c1cf071a6">&#9670;&#160;</a></span>BuildFullUrl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static FString BuildFullUrl </td>
+          <td>(</td>
+          <td class="paramtype">const FString &amp;&#160;</td>
+          <td class="paramname"><em>Input</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"><a class="el" href="ConsoleCurlCommand_8cpp_source.html">ConsoleCurlCommand.cpp</a> 파일의 <a class="el" href="ConsoleCurlCommand_8cpp_source.html#l00020">20</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><span class="lineno">   21</span>{</div>
+<div class="line"><span class="lineno">   22</span>    <span class="keywordflow">if</span> (Input.StartsWith(TEXT(<span class="stringliteral">&quot;http://&quot;</span>)) || Input.StartsWith(TEXT(<span class="stringliteral">&quot;https://&quot;</span>)))</div>
+<div class="line"><span class="lineno">   23</span>    {</div>
+<div class="line"><span class="lineno">   24</span>        <span class="keywordflow">return</span> Input;</div>
+<div class="line"><span class="lineno">   25</span>    }</div>
+<div class="line"><span class="lineno">   26</span> </div>
+<div class="line"><span class="lineno">   27</span>    <span class="keyword">const</span> <a class="code hl_class" href="classUToolbarSettings.html">UToolbarSettings</a>* Settings = GetDefault&lt;UToolbarSettings&gt;();</div>
+<div class="line"><span class="lineno">   28</span>    <span class="keyword">const</span> FString Base = Settings ? Settings-&gt;<a class="code hl_variable" href="classUToolbarSettings.html#a2a341db49b0b090faa02389dc22e16f7">NetworkTestUrl</a> : TEXT(<span class="stringliteral">&quot;http://127.0.0.1:8000&quot;</span>);</div>
+<div class="line"><span class="lineno">   29</span> </div>
+<div class="line"><span class="lineno">   30</span>    <span class="keywordflow">if</span> (Base.IsEmpty())</div>
+<div class="line"><span class="lineno">   31</span>    {</div>
+<div class="line"><span class="lineno">   32</span>        <span class="comment">// 베이스가 비어있으면 입력을 그대로 사용</span></div>
+<div class="line"><span class="lineno">   33</span>        <span class="keywordflow">return</span> Input;</div>
+<div class="line"><span class="lineno">   34</span>    }</div>
+<div class="line"><span class="lineno">   35</span>    <span class="comment">// 슬래시 중복 방지</span></div>
+<div class="line"><span class="lineno">   36</span>    <span class="keywordflow">if</span> (Base.EndsWith(TEXT(<span class="stringliteral">&quot;/&quot;</span>)) &amp;&amp; Input.StartsWith(TEXT(<span class="stringliteral">&quot;/&quot;</span>)))</div>
+<div class="line"><span class="lineno">   37</span>    {</div>
+<div class="line"><span class="lineno">   38</span>        <span class="keywordflow">return</span> Base.LeftChop(1) + Input;</div>
+<div class="line"><span class="lineno">   39</span>    }</div>
+<div class="line"><span class="lineno">   40</span>    <span class="keywordflow">if</span> (!Base.EndsWith(TEXT(<span class="stringliteral">&quot;/&quot;</span>)) &amp;&amp; !Input.StartsWith(TEXT(<span class="stringliteral">&quot;/&quot;</span>)))</div>
+<div class="line"><span class="lineno">   41</span>    {</div>
+<div class="line"><span class="lineno">   42</span>        <span class="keywordflow">return</span> Base + TEXT(<span class="stringliteral">&quot;/&quot;</span>) + Input;</div>
+<div class="line"><span class="lineno">   43</span>    }</div>
+<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">return</span> Base + Input;</div>
+<div class="line"><span class="lineno">   45</span>}</div>
+<div class="ttc" id="aclassUToolbarSettings_html"><div class="ttname"><a href="classUToolbarSettings.html">UToolbarSettings</a></div><div class="ttdoc">툴바 버튼 배치와 기능 토글을 정의하는 개발자 설정입니다.</div><div class="ttdef"><b>Definition</b> <a href="UToolbarSettings_8h_source.html#l00022">UToolbarSettings.h:23</a></div></div>
+<div class="ttc" id="aclassUToolbarSettings_html_a2a341db49b0b090faa02389dc22e16f7"><div class="ttname"><a href="classUToolbarSettings.html#a2a341db49b0b090faa02389dc22e16f7">UToolbarSettings::NetworkTestUrl</a></div><div class="ttdeci">FString NetworkTestUrl</div><div class="ttdef"><b>Definition</b> <a href="UToolbarSettings_8h_source.html#l00084">UToolbarSettings.h:84</a></div></div>
+</div><!-- fragment -->
+<p class="reference">다음을 참조함 :  <a class="el" href="UToolbarSettings_8h_source.html#l00084">UToolbarSettings::NetworkTestUrl</a>.</p>
+
+<p class="reference">다음에 의해서 참조됨 :  <a class="el" href="FNetworkTestFeature_8cpp_source.html#l00087">FNetworkTestFeature::ExecuteApiRequest()</a>, <a class="el" href="ConsoleCurlCommand_8cpp.html#ab29f333204f47eb2e2d118066c613ecd">GCurlCommand()</a>.</p>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> 이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="ConsoleCurlCommand_8cpp_a88845a62bc20c97cff22d85c1cf071a6_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ab29f333204f47eb2e2d118066c613ecd" name="ab29f333204f47eb2e2d118066c613ecd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab29f333204f47eb2e2d118066c613ecd">&#9670;&#160;</a></span>GCurlCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static FAutoConsoleCommand GCurlCommand </td>
+          <td>(</td>
+          <td class="paramtype">TEXT(&quot;curl&quot;)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TEXT(&quot;Usage:\n  curl get &lt;url_or_endpoint&gt;\n  curl post &lt;url_or_endpoint&gt; {\&quot;k\&quot;:\&quot;v\&quot;}&quot;)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FConsoleCommandWithArgsDelegate::CreateStatic([](const TArray&lt; FString &gt; &amp;Args) { if(Args.Num()&lt; 2) { UE_LOG(LogTemp, Warning, TEXT(&quot;[curl] Usage:\n  curl get &lt;url_or_endpoint&gt;\n  curl post &lt;url_or_endpoint&gt; {json}&quot;));return;} const FString MethodLower=Args[0].ToLower();<a class="el" href="FApiSendInfo_8h.html#a91c8ce43a45ce633a1bee1c1e03e0a9d">EApiHttpMethod</a> Method=EApiHttpMethod::GET;if(MethodLower==TEXT(&quot;post&quot;)) { Method=EApiHttpMethod::POST;} else if(MethodLower !=TEXT(&quot;get&quot;)) { UE_LOG(LogTemp, Warning, TEXT(&quot;[curl] Unsupported method: %s&quot;), *Args[0]);return;} const FString UrlOrEndpoint=Args[1];const FString FullUrl=<a class="el" href="ConsoleCurlCommand_8cpp.html#a88845a62bc20c97cff22d85c1cf071a6">BuildFullUrl</a>(UrlOrEndpoint);FString JsonBodyText;if(Method==EApiHttpMethod::POST) { if(Args.Num()&lt; 3) { UE_LOG(LogTemp, Warning, TEXT(&quot;[curl] POST requires JSON body.\nExample: curl post /test/gpt {\&quot;text\&quot;:\&quot;안녕\&quot;}&quot;));return;} TArray&lt; FString &gt; Tail;for(int32 i=2;i&lt; Args.Num();++i) { Tail.Add(Args[i]);} JsonBodyText=FString::Join(Tail, TEXT(&quot; &quot;));if(!JsonBodyText.StartsWith(TEXT(&quot;{&quot;))||!JsonBodyText.EndsWith(TEXT(&quot;}&quot;))) { UE_LOG(LogTemp, Warning, TEXT(&quot;[curl] JSON body must start with '{' and end with '}'. Given: %s&quot;), *JsonBodyText);return;} } TSharedRef&lt; IHttpRequest, ESPMode::ThreadSafe &gt; Request=FHttpModule::Get().CreateRequest();Request-&gt;SetURL(FullUrl);Request-&gt;SetTimeout(60);Request-&gt;SetHeader(TEXT(&quot;Accept&quot;), <a class="el" href="ConsoleCurlCommand_8cpp.html#a21c971eef47473a678c47ead5cda7fb1">DefaultAccept</a>);if(Method==EApiHttpMethod::GET) { Request-&gt;SetVerb(TEXT(&quot;GET&quot;));} else { Request-&gt;SetVerb(TEXT(&quot;POST&quot;));Request-&gt;SetHeader(TEXT(&quot;Content-Type&quot;), <a class="el" href="ConsoleCurlCommand_8cpp.html#aebe31c794ee41d16a3a0bf25afa1a737">DefaultContentType</a>);Request-&gt;SetContentAsString(JsonBodyText);} Request-&gt;OnProcessRequestComplete().BindLambda([](FHttpRequestPtr Req, FHttpResponsePtr Res, bool bSuccess) { if(bSuccess &amp;&amp;Res.IsValid()) { UE_LOG(LogTemp, Log, TEXT(&quot;[curl] %s %s -&gt; %d\n[RES] %s&quot;), *Req-&gt;GetVerb(), *Req-&gt;GetURL(), Res-&gt;GetResponseCode(), *Res-&gt;GetContentAsString());} else { const int32 Code=(Res.IsValid() ? Res-&gt;GetResponseCode() :-1);UE_LOG(LogTemp, Error, TEXT(&quot;[curl] Request failed. Code=%d URL=%s&quot;), Code, Req.IsValid() ? *Req-&gt;GetURL() :TEXT(&quot;&lt;null&gt;&quot;));} });if(Method==EApiHttpMethod::POST &amp;&amp;!JsonBodyText.IsEmpty()) { UE_LOG(LogTemp, Log, TEXT(&quot;[curl] POST %s\n[BODY] %s&quot;), *FullUrl, *JsonBodyText);} else { UE_LOG(LogTemp, Log, TEXT(&quot;[curl] %s %s&quot;),(Method==EApiHttpMethod::GET ? TEXT(&quot;GET&quot;) :TEXT(&quot;POST&quot;)), *FullUrl);} Request-&gt;ProcessRequest();})&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">다음을 참조함 :  <a class="el" href="ConsoleCurlCommand_8cpp_source.html#l00020">BuildFullUrl()</a>, <a class="el" href="ConsoleCurlCommand_8cpp_source.html#l00016">DefaultAccept</a>, <a class="el" href="ConsoleCurlCommand_8cpp_source.html#l00017">DefaultContentType</a>.</p>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> 이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="ConsoleCurlCommand_8cpp_ab29f333204f47eb2e2d118066c613ecd_cgraph.svg" width="282" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a435cc71017f1d81e04cebf528ee3591e" name="a435cc71017f1d81e04cebf528ee3591e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a435cc71017f1d81e04cebf528ee3591e">&#9670;&#160;</a></span>ParseJsonToMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ParseJsonToMap </td>
+          <td>(</td>
+          <td class="paramtype">const FString &amp;&#160;</td>
+          <td class="paramname"><em>JsonText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TMap&lt; FString, FString &gt; &amp;&#160;</td>
+          <td class="paramname"><em>OutMap</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"><a class="el" href="ConsoleCurlCommand_8cpp_source.html">ConsoleCurlCommand.cpp</a> 파일의 <a class="el" href="ConsoleCurlCommand_8cpp_source.html#l00048">48</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><span class="lineno">   49</span>{</div>
+<div class="line"><span class="lineno">   50</span>    TSharedPtr&lt;FJsonObject&gt; Obj;</div>
+<div class="line"><span class="lineno">   51</span>    <span class="keyword">const</span> TSharedRef&lt;TJsonReader&lt;&gt;&gt; Reader = TJsonReaderFactory&lt;&gt;::Create(JsonText);</div>
+<div class="line"><span class="lineno">   52</span>    <span class="keywordflow">if</span> (!FJsonSerializer::Deserialize(Reader, Obj) || !Obj.IsValid())</div>
+<div class="line"><span class="lineno">   53</span>    {</div>
+<div class="line"><span class="lineno">   54</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   55</span>    }</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; It : Obj-&gt;Values)</div>
+<div class="line"><span class="lineno">   58</span>    {</div>
+<div class="line"><span class="lineno">   59</span>        <span class="keywordflow">if</span> (It.Value.IsValid())</div>
+<div class="line"><span class="lineno">   60</span>        {</div>
+<div class="line"><span class="lineno">   61</span>            <span class="comment">// 단순 문자열만 TMap에 채움 (필요 시 숫자/불리언 등 추가 변환 가능)</span></div>
+<div class="line"><span class="lineno">   62</span>            <span class="keywordflow">if</span> (It.Value-&gt;Type == EJson::String)</div>
+<div class="line"><span class="lineno">   63</span>            {</div>
+<div class="line"><span class="lineno">   64</span>                OutMap.Add(It.Key, It.Value-&gt;AsString());</div>
+<div class="line"><span class="lineno">   65</span>            }</div>
+<div class="line"><span class="lineno">   66</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   67</span>            {</div>
+<div class="line"><span class="lineno">   68</span>                <span class="comment">// 비문자형은 JSON으로 직렬화해 저장</span></div>
+<div class="line"><span class="lineno">   69</span>                FString AsString;</div>
+<div class="line"><span class="lineno">   70</span>                TSharedRef&lt;TJsonWriter&lt;&gt;&gt; W = TJsonWriterFactory&lt;&gt;::Create(&amp;AsString);</div>
+<div class="line"><span class="lineno">   71</span>                FJsonSerializer::Serialize(It.Value, TEXT(<span class="stringliteral">&quot;&quot;</span>), W);</div>
+<div class="line"><span class="lineno">   72</span>                OutMap.Add(It.Key, AsString);</div>
+<div class="line"><span class="lineno">   73</span>            }</div>
+<div class="line"><span class="lineno">   74</span>        }</div>
+<div class="line"><span class="lineno">   75</span>    }</div>
+<div class="line"><span class="lineno">   76</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   77</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">변수 문서화</h2>
+<a id="a21c971eef47473a678c47ead5cda7fb1" name="a21c971eef47473a678c47ead5cda7fb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21c971eef47473a678c47ead5cda7fb1">&#9670;&#160;</a></span>DefaultAccept</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const FString DefaultAccept = TEXT(&quot;application/json&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"><a class="el" href="ConsoleCurlCommand_8cpp_source.html">ConsoleCurlCommand.cpp</a> 파일의 <a class="el" href="ConsoleCurlCommand_8cpp_source.html#l00016">16</a> 번째 라인에서 정의되었습니다.</p>
+
+<p class="reference">다음에 의해서 참조됨 :  <a class="el" href="ConsoleCurlCommand_8cpp.html#ab29f333204f47eb2e2d118066c613ecd">GCurlCommand()</a>.</p>
+
+</div>
+</div>
+<a id="aebe31c794ee41d16a3a0bf25afa1a737" name="aebe31c794ee41d16a3a0bf25afa1a737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebe31c794ee41d16a3a0bf25afa1a737">&#9670;&#160;</a></span>DefaultContentType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const FString DefaultContentType = TEXT(&quot;application/json&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"><a class="el" href="ConsoleCurlCommand_8cpp_source.html">ConsoleCurlCommand.cpp</a> 파일의 <a class="el" href="ConsoleCurlCommand_8cpp_source.html#l00017">17</a> 번째 라인에서 정의되었습니다.</p>
+
+<p class="reference">다음에 의해서 참조됨 :  <a class="el" href="ConsoleCurlCommand_8cpp.html#ab29f333204f47eb2e2d118066c613ecd">GCurlCommand()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_74389ed8173ad57b461b9d623a1f3867.html">Source</a></li><li class="navelem"><a class="el" href="dir_64d53782dd23c34e270e016cddcba0f2.html">CoffeeToolbar</a></li><li class="navelem"><a class="el" href="dir_694584ba17985195ce961d5fae66b6d9.html">Private</a></li><li class="navelem"><a class="el" href="dir_5b6d341a6922255b34d4254d5bffef39.html">NetworkTest</a></li><li class="navelem"><a class="el" href="ConsoleCurlCommand_8cpp.html">ConsoleCurlCommand.cpp</a></li>
+    <li class="footer">생성시간 : 토 10월 11 2025 11:34:27, 프로젝트명 : Coffee Toolbar, 생성자 :  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

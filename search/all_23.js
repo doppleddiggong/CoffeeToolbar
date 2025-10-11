@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['셀렉터_20설정_20level_20selector_20configuration_0',['4. 레벨 셀렉터 설정 (Level Selector Configuration)',['../index.html#autotoc_md11',1,'']]]
+  ['사용법_0',['콘솔 커맨드 사용법',['../index.html#autotoc_md21',1,'']]],
+  ['사용법_20how_20to_20use_1',['사용법 (How to Use)',['../index.html#autotoc_md6',1,'']]]
 ];

@@ -1,17 +1,21 @@
-<map id="Source/CoffeeToolbar/Public/Settings/FFolderPathInfo.h" name="Source/CoffeeToolbar/Public/Settings/FFolderPathInfo.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="747,5,949,60"/>
-<area shape="rect" id="Node000002" href="$UToolbarSettings_8h.html" title="Coffee Toolbar 플러그인을 구성하기 위한 개발자 설정을 선언합니다." alt="" coords="724,108,972,148"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="851,74,851,108,845,108,845,74"/>
-<area shape="rect" id="Node000003" href="$FCommandFeature_8cpp.html" title="Coffee Toolbar용 명령 실행 보조 기능을 구현합니다." alt="" coords="5,196,304,236"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="711,149,305,199,304,194,710,144"/>
-<area shape="rect" id="Node000004" href="$FToolbarStyle_8cpp.html" title="Coffee Toolbar 플러그인의 Slate 스타일 등록을 구현합니다." alt="" coords="328,196,581,236"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="749,154,541,199,540,193,748,148"/>
-<area shape="rect" id="Node000005" href="$FolderFeature_8cpp.html" title=" " alt="" coords="606,196,861,236"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="813,158,760,198,757,194,810,154"/>
-<area shape="rect" id="Node000006" href="$FToolbar_8cpp.html" title="Coffee Toolbar 모듈의 라이프사이클과 메뉴 등록 로직을 구현합니다." alt="" coords="885,196,1043,236"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="886,154,940,194,937,198,883,158"/>
-<area shape="rect" id="Node000007" href="$FLevelFeature_8cpp.html" title="Coffee Toolbar에서 레벨 선택을 돕는 헬퍼 기능을 구현합니다." alt="" coords="1068,196,1303,236"/>
-<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="936,149,1112,193,1111,199,935,154"/>
-<area shape="rect" id="Node000008" href="$UToolbarSettings_8cpp.html" title="Coffee Toolbar 플러그인의 설정 헬퍼 기능을 구현합니다." alt="" coords="1326,196,1597,236"/>
-<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="986,146,1327,193,1326,199,985,151"/>
+<map id="Source/CoffeeToolbar/Public/Folder/FFolderPathInfo.h" name="Source/CoffeeToolbar/Public/Folder/FFolderPathInfo.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="923,5,1149,45"/>
+<area shape="rect" id="Node000002" href="$UToolbarSettings_8h.html" title="Coffee Toolbar 플러그인을 구성하기 위한 개발자 설정을 선언합니다." alt="" coords="912,93,1160,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1039,59,1039,93,1033,93,1033,59"/>
+<area shape="rect" id="Node000003" href="$FCommandFeature_8cpp.html" title="Coffee Toolbar용 명령 실행 보조 기능을 구현합니다." alt="" coords="5,189,304,229"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="898,127,629,150,316,184,265,191,264,186,316,179,628,145,898,122"/>
+<area shape="rect" id="Node000004" href="$FToolbarStyle_8cpp.html" title="Coffee Toolbar 플러그인의 Slate 스타일 등록을 구현합니다." alt="" coords="328,189,581,229"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="899,137,594,184,552,191,551,186,593,179,898,131"/>
+<area shape="rect" id="Node000005" href="$FToolbar_8cpp.html" title="Coffee Toolbar 모듈의 라이프사이클과 메뉴 등록 로직을 구현합니다." alt="" coords="606,189,765,229"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="948,139,777,184,750,191,749,186,775,179,947,134"/>
+<area shape="rect" id="Node000006" href="$FolderFeature_8cpp.html" title=" " alt="" coords="789,189,1025,229"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="1000,144,934,191,931,186,997,139"/>
+<area shape="rect" id="Node000007" href="$FLevelFeature_8cpp.html" title="Coffee Toolbar에서 레벨 선택을 돕는 헬퍼 기능을 구현합니다." alt="" coords="1048,189,1283,229"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="1075,139,1141,186,1138,191,1072,144"/>
+<area shape="rect" id="Node000008" href="$ConsoleCurlCommand_8cpp.html" title=" " alt="" coords="1306,181,1505,236"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="1125,134,1306,180,1305,185,1123,139"/>
+<area shape="rect" id="Node000009" href="$FNetworkTestFeature_8cpp.html" title=" " alt="" coords="1529,181,1719,236"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="1174,127,1339,149,1518,179,1529,181,1528,186,1517,184,1338,154,1173,133"/>
+<area shape="rect" id="Node000010" href="$UToolbarSettings_8cpp.html" title="Coffee Toolbar 플러그인의 설정 헬퍼 기능을 구현합니다." alt="" coords="1743,189,2014,229"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="1174,122,1433,145,1732,179,1780,186,1779,191,1732,184,1433,150,1173,127"/>
 </map>

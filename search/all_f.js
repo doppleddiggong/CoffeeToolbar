@@ -1,9 +1,12 @@
 var searchData=
 [
-  ['label_0',['label',['../structFFolderPathInfo.html#ab6909137387c7f455aecdf2185586c01',1,'FFolderPathInfo::Label'],['../structFToolbarButtonInfo.html#a02a7c7f401e21da6d1a56e561698cfb8',1,'FToolbarButtonInfo::Label']]],
-  ['level_20selector_20configuration_1',['4. 레벨 셀렉터 설정 (Level Selector Configuration)',['../index.html#autotoc_md11',1,'']]],
-  ['levelfeature_2',['LevelFeature',['../classFToolbar.html#a35f064f62e56e1e72a66e76403f2caa1',1,'FToolbar']]],
-  ['license_3',['라이선스 (License)',['../index.html#autotoc_md19',1,'']]],
-  ['loadselectedmap_4',['LoadSelectedMap',['../classFLevelFeature.html#a63493bc16dc28b58911d3b03c7833aee',1,'FLevelFeature']]],
-  ['loctext_5fnamespace_5',['loctext_namespace',['../FolderFeature_8cpp.html#a0de3ae51f3a629a8e5d113f1b9390da7',1,'LOCTEXT_NAMESPACE:&#160;FolderFeature.cpp'],['../FToolbarCommands_8cpp.html#a0de3ae51f3a629a8e5d113f1b9390da7',1,'LOCTEXT_NAMESPACE:&#160;FToolbarCommands.cpp'],['../FToolbar_8cpp.html#a0de3ae51f3a629a8e5d113f1b9390da7',1,'LOCTEXT_NAMESPACE:&#160;FToolbar.cpp']]]
+  ['icon_0',['Icon',['../structFToolbarButtonInfo.html#aaa5bee57fc94c8a85838984bd56c8b38',1,'FToolbarButtonInfo']]],
+  ['icon16x16_1',['Icon16x16',['../FToolbarStyle_8cpp.html#a96ce099dd39c1989a5ee5287e62e31d0',1,'FToolbarStyle.cpp']]],
+  ['icon20x20_2',['Icon20x20',['../FToolbarStyle_8cpp.html#a00bb33b9e673ad08782f7f01d6b75e7a',1,'FToolbarStyle.cpp']]],
+  ['id_3',['Id',['../structFToolbarButtonInfo.html#a81f4a02dc8823bb08fb28631925ebda3',1,'FToolbarButtonInfo']]],
+  ['ini_20설정_20예시_4',['ini 설정 예시',['../index.html#autotoc_md16',1,'.ini 설정 예시'],['../index.html#autotoc_md20',1,'.ini 설정 예시']]],
+  ['initialize_5',['Initialize',['../classFToolbarStyle.html#a5b48d0a9f7254d082193b3932bbd55bb',1,'FToolbarStyle']]],
+  ['installation_6',['설치 방법 (Installation)',['../index.html#autotoc_md2',1,'']]],
+  ['instance_7',['Instance',['../classFToolbarStyle.html#ab8a4d5d87c4b69e52bda20f07658d699',1,'FToolbarStyle']]],
+  ['isbuttontoggled_8',['IsButtonToggled',['../classFCommandFeature.html#a08ab22cf9f7960c9b8f73c1f80eb981e',1,'FCommandFeature']]]
 ];

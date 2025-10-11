@@ -1,19 +1,24 @@
 <map id="Source/CoffeeToolbar/Public/Settings/UToolbarSettings.h" name="Source/CoffeeToolbar/Public/Settings/UToolbarSettings.h">
-<area shape="rect" id="Node000001" title="Coffee Toolbar 플러그인을 구성하기 위한 개발자 설정을 선언합니다." alt="" coords="289,5,537,45"/>
+<area shape="rect" id="Node000001" title="Coffee Toolbar 플러그인을 구성하기 위한 개발자 설정을 선언합니다." alt="" coords="424,5,672,45"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="256,167,373,192"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="359,48,327,67,302,95,298,109,297,124,305,153,300,155,292,124,292,108,298,92,324,63,356,43"/>
-<area shape="rect" id="Node000003" href="$FToolbarButtonInfo_8h.html" title="커스터마이즈 가능한 Coffee Toolbar 버튼 정보를 선언합니다." alt="" coords="81,93,237,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="353,48,210,92,208,87,352,43"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="312,93,515,119"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="416,46,416,79,411,79,411,46"/>
-<area shape="rect" id="Node000006" href="$FFolderPathInfo_8h.html" title=" " alt="" coords="539,93,674,119"/>
-<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="461,43,567,86,565,91,459,48"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="698,93,913,119"/>
-<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="508,43,735,88,734,93,507,48"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="185,116,278,158,276,163,183,121"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="425,48,380,67,342,95,332,108,326,123,319,154,313,152,321,121,328,105,338,91,378,62,423,43"/>
+<area shape="rect" id="Node000003" href="$FToolbarButtonInfo_8h.html" title="커스터마이즈 가능한 Coffee Toolbar 버튼 정보를 선언합니다." alt="" coords="121,93,277,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="465,48,263,93,262,88,464,43"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="781,93,984,119"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="629,43,821,88,820,93,628,48"/>
+<area shape="rect" id="Node000006" href="$FFolderPathInfo_8h.html" title=" " alt="" coords="352,93,531,119"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="524,48,470,87,467,83,521,43"/>
+<area shape="rect" id="Node000008" href="$FApiSendInfo_8h.html" title="HTTP API 요청 정보를 정의합니다." alt="" coords="555,93,757,119"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="576,43,630,83,627,87,573,48"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1009,93,1223,119"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="673,41,1020,89,1019,94,672,46"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="219,116,285,157,283,162,216,121"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="5,167,232,192"/>
-<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="154,120,134,156,130,153,150,118"/>
-<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="560,121,376,166,374,161,559,116"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="504,167,709,192"/>
-<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="609,119,609,153,604,153,604,119"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="188,121,144,160,140,156,184,117"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="422,121,349,162,346,157,420,116"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="397,167,603,192"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="453,117,484,155,480,158,449,121"/>
+<area shape="poly" id="edge10_Node000008_Node000002" title=" " alt="" coords="602,121,384,166,383,161,601,116"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="627,167,815,192"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="669,117,703,155,700,158,665,121"/>
 </map>

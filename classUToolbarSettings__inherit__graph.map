@@ -1,5 +1,5 @@
 <map id="UToolbarSettings" name="UToolbarSettings">
-<area shape="rect" id="Node000001" title="툴바 버튼 배치와 기능 토글을 정의하는 개발자 설정입니다." alt="" coords="5,119,207,364"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="34,5,178,71"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,84,109,118,103,118,103,84"/>
+<area shape="rect" id="Node000001" title="툴바 버튼 배치와 기능 토글을 정의하는 개발자 설정입니다." alt="" coords="5,119,216,424"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="39,5,183,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,84,113,119,108,119,108,84"/>
 </map>

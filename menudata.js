@@ -37,6 +37,8 @@ var menudata={children:[
 {text:"g",url:"functions.html#index_g"},
 {text:"i",url:"functions.html#index_i"},
 {text:"l",url:"functions.html#index_l"},
+{text:"m",url:"functions.html#index_m"},
+{text:"n",url:"functions.html#index_n"},
 {text:"o",url:"functions.html#index_o"},
 {text:"p",url:"functions.html#index_p"},
 {text:"r",url:"functions.html#index_r"},
@@ -54,10 +56,23 @@ var menudata={children:[
 {text:"r",url:"functions_func.html#index_r"},
 {text:"s",url:"functions_func.html#index_s"},
 {text:"u",url:"functions_func.html#index_u"}]},
-{text:"변수",url:"functions_vars.html"}]}]},
+{text:"변수",url:"functions_vars.html",children:[
+{text:"b",url:"functions_vars.html#index_b"},
+{text:"c",url:"functions_vars.html#index_c"},
+{text:"e",url:"functions_vars.html#index_e"},
+{text:"f",url:"functions_vars.html#index_f"},
+{text:"i",url:"functions_vars.html#index_i"},
+{text:"l",url:"functions_vars.html#index_l"},
+{text:"m",url:"functions_vars.html#index_m"},
+{text:"n",url:"functions_vars.html#index_n"},
+{text:"p",url:"functions_vars.html#index_p"},
+{text:"s",url:"functions_vars.html#index_s"},
+{text:"t",url:"functions_vars.html#index_t"}]}]}]},
 {text:"파일들",url:"files.html",children:[
 {text:"파일 목록",url:"files.html"},
 {text:"파일 멤버",url:"globals.html",children:[
 {text:"모두",url:"globals.html"},
 {text:"함수",url:"globals_func.html"},
+{text:"변수",url:"globals_vars.html"},
+{text:"열거형 타입",url:"globals_enum.html"},
 {text:"매크로",url:"globals_defs.html"}]}]}]}

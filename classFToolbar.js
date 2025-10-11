@@ -6,5 +6,6 @@ var classFToolbar =
     [ "CommandFeature", "classFToolbar.html#a8a8448338249d16adc520e125def1cc5", null ],
     [ "FolderFeature", "classFToolbar.html#a1e79561ba9f65cd7b45b1b4fab110ae1", null ],
     [ "LevelFeature", "classFToolbar.html#a35f064f62e56e1e72a66e76403f2caa1", null ],
+    [ "NetworkTestFeature", "classFToolbar.html#a664c3d6c01528859155eadacdc4b479f", null ],
     [ "ScreenshotFeature", "classFToolbar.html#ae026dd2b2ac3de93e91cbb56221df7b5", null ]
 ];

@@ -18,9 +18,15 @@ var index =
       [ "6. 폴더 바로가기 설정 (Quick Folder Access)", "index.html#autotoc_md14", [
         [ "설정 옵션", "index.html#autotoc_md15", null ],
         [ ".ini 설정 예시", "index.html#autotoc_md16", null ]
+      ] ],
+      [ "7. 네트워크 API 테스트 (Network Test Feature)", "index.html#autotoc_md17", [
+        [ "제공 기능", "index.html#autotoc_md18", null ],
+        [ "설정 옵션", "index.html#autotoc_md19", null ],
+        [ ".ini 설정 예시", "index.html#autotoc_md20", null ],
+        [ "콘솔 커맨드 사용법", "index.html#autotoc_md21", null ]
       ] ]
     ] ],
-    [ "설정 상세 (Configuration Details)", "index.html#autotoc_md18", null ],
-    [ "라이선스 (License)", "index.html#autotoc_md19", null ],
-    [ "Author", "index.html#autotoc_md20", null ]
+    [ "설정 상세 (Configuration Details)", "index.html#autotoc_md23", null ],
+    [ "라이선스 (License)", "index.html#autotoc_md24", null ],
+    [ "Author", "index.html#autotoc_md25", null ]
 ];

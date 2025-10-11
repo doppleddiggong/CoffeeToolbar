@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['방법_20installation_0',['설치 방법 (Installation)',['../index.html#autotoc_md2',1,'']]]
+  ['레벨_20셀렉터_20설정_20level_20selector_20configuration_0',['4. 레벨 셀렉터 설정 (Level Selector Configuration)',['../index.html#autotoc_md11',1,'']]]
 ];

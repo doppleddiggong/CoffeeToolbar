@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['사용법_20how_20to_20use_0',['사용법 (How to Use)',['../index.html#autotoc_md6',1,'']]]
+  ['명령어_20추가_20adding_20custom_20commands_0',['3. 커스텀 명령어 추가 (Adding Custom Commands)',['../index.html#autotoc_md10',1,'']]]
 ];

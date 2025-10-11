@@ -41,6 +41,8 @@ var NAVTREE =
       [ "파일 멤버", "globals.html", [
         [ "모두", "globals.html", null ],
         [ "함수", "globals_func.html", null ],
+        [ "변수", "globals_vars.html", null ],
+        [ "열거형 타입", "globals_enum.html", null ],
         [ "매크로", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -49,7 +51,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"FCommandFeature_8cpp.html"
+"ConsoleCurlCommand_8cpp.html"
 ];
 
 var SYNCONMSG = '패널 동기화를 비활성화하기 위해 클릭하십시오';

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['라이선스_20license_0',['라이선스 (License)',['../index.html#autotoc_md19',1,'']]]
+  ['권장_0',['1. GitHub Release를 통한 설치 (권장)',['../index.html#autotoc_md3',1,'']]]
 ];

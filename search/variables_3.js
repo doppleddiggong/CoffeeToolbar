@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['folderfeature_0',['FolderFeature',['../classFToolbar.html#a1e79561ba9f65cd7b45b1b4fab110ae1',1,'FToolbar']]],
-  ['folderstoopen_1',['FoldersToOpen',['../classUToolbarSettings.html#a1c741c461e50bdbeb4d9b269814ee226',1,'UToolbarSettings']]]
+  ['endpoint_0',['Endpoint',['../structFApiSendInfo.html#a3805c35b75717a0e71469e148c4970ba',1,'FApiSendInfo']]],
+  ['extrasearchpaths_1',['ExtraSearchPaths',['../classUToolbarSettings.html#a78b489f3f1c8bdd76596ced194f25c3e',1,'UToolbarSettings']]]
 ];
