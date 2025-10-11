@@ -7,7 +7,8 @@
 #include "Level/FLevelFeature.h"
 #include "Screenshot/FScreenshotFeature.h"
 #include "Command/FCommandFeature.h"
-#include "Common/FolderFeature.h"
+#include "Folder/FolderFeature.h"
+#include "NetworkTest/FNetworkTestFeature.h"
 
 /**
  * @file FToolbar.h
@@ -41,4 +42,7 @@ private:
 
     /** @brief 폴더 열기 기능을 제공하는 모듈입니다. */
 	TUniquePtr<FFolderFeature> FolderFeature;
+
+	/** @brief 네트워크 API 테스트 기능을 제공하는 모듈입니다. */
+	TUniquePtr<FNetworkTestFeature> NetworkTestFeature;
 };
