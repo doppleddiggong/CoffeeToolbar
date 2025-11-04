@@ -115,11 +115,50 @@ This feature adds a dropdown menu to quickly open predefined project folders, su
   - **`Path`**: The path relative to the project root (e.g., "Saved/Logs").
 
 #### Example `.ini` Configuration
-You can also configure this directly in `YourProject/Config/DefaultToolbarSettings.ini`:
+You can also configure this directly in `YourProject/Config/DefaultToolbarSettings.ini`. Refer to the plugin's `Config/DefaultToolbarSettings.Sample.ini` file for sample configurations:
 ```ini
 bEnableFolderFeature=True
 +FoldersToOpen=(Label="Logs",Path="Saved/Logs")
 +FoldersToOpen=(Label="Documents",Path="Documents")
+```
+
+**Note**: The `Config/DefaultToolbarSettings.Sample.ini` file in the plugin folder contains sample configurations for all features.
+
+### 7. Network API Testing (Network Test Feature)
+
+The **Network Tests** feature allows you to execute HTTP API requests directly from the editor and view response results in the Output Log.
+
+#### Available Features
+- **GET/POST requests**: Supports HTTP GET and POST methods.
+- **JSON Body support**: Send JSON-formatted body parameters with POST requests.
+- **Console commands**: Test APIs from the console using the `curl` command.
+
+#### Configuration Options
+- **`bEnableNetworkTestFeature`**: Enables or disables this feature in the toolbar.
+- **`NetworkTestUrl`**: Sets the base URL for the API server (e.g., "http://127.0.0.1:8000").
+- **`NetworkTests`**: An array defining the list of API tests to execute.
+  - **`Label`**: The name displayed in the dropdown menu.
+  - **`Method`**: HTTP method (GET or POST).
+  - **`Endpoint`**: API endpoint path (e.g., "/health", "/test/gpt").
+  - **`BodyParams`**: JSON body parameters to send with POST requests.
+
+#### Example `.ini` Configuration
+You can also configure this directly in `YourProject/Config/DefaultToolbarSettings.ini`. Refer to the plugin's `Config/DefaultToolbarSettings.Sample.ini` file for sample configurations:
+```ini
+bEnableNetworkTestFeature=True
+NetworkTestUrl="http://127.0.0.1:8000"
+
++NetworkTests=(Label="Health Check",Method=GET,Endpoint="/health")
++NetworkTests=(Label="GPT Test",Method=POST,Endpoint="/test/gpt",BodyParams=((Key="text",Value="Hello")))
+```
+
+**Note**: The `Config/DefaultToolbarSettings.Sample.ini` file in the plugin folder contains sample configurations for all features.
+
+#### Console Command Usage
+You can use the `curl` command in the editor's **Output Log** window:
+```
+curl get /health
+curl post /test/gpt {"text":"Hello"}
 ```
 
 ---
@@ -131,7 +170,7 @@ Use the `Project Settings > Plugins > Coffee Toolbar` menu to fine-tune how the 
 * **Register console commands** – Add or edit the list of custom console commands available through the toolbar.
 * **Toggle toolbar features** – Choose which features appear in the toolbar.
 
-All configuration data is stored in the project’s `Config/ToolbarSettings.ini` file.
+All configuration data is stored in the project's `Config/DefaultToolbarSettings.ini` file. You can find sample configurations for all settings in the plugin's `Config/DefaultToolbarSettings.Sample.ini` file.
 
 ## License
 

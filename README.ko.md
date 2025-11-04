@@ -117,12 +117,14 @@
   - **`Path`**: 프로젝트 루트 기준의 상대 경로입니다. (예: "Saved/Logs")
 
 #### .ini 설정 예시
-프로젝트의 `Config/DefaultToolbarSettings.ini` 파일에서 직접 설정할 수도 있습니다:
+플러그인의 `Config/DefaultToolbarSettings.Sample.ini` 파일을 참고하여 프로젝트의 `Config/DefaultToolbarSettings.ini` 파일에서 직접 설정할 수도 있습니다:
 ```ini
 bEnableFolderFeature=True
 +FoldersToOpen=(Label="로그",Path="Saved/Logs")
 +FoldersToOpen=(Label="문서",Path="Documents")
 ```
+
+**참고**: 플러그인 폴더의 `Config/DefaultToolbarSettings.Sample.ini` 파일에 모든 기능에 대한 샘플 설정이 포함되어 있으니 참고하세요.
 
 ### 7. 네트워크 API 테스트 (Network Test Feature)
 
@@ -143,7 +145,7 @@ bEnableFolderFeature=True
   - **`BodyParams`**: POST 요청 시 전송할 JSON 바디 파라미터입니다.
 
 #### .ini 설정 예시
-프로젝트의 `Config/DefaultToolbarSettings.ini` 파일에서 직접 설정할 수도 있습니다:
+플러그인의 `Config/DefaultToolbarSettings.Sample.ini` 파일을 참고하여 프로젝트의 `Config/DefaultToolbarSettings.ini` 파일에서 직접 설정할 수도 있습니다:
 ```ini
 bEnableNetworkTestFeature=True
 NetworkTestUrl="http://127.0.0.1:8000"
@@ -151,6 +153,8 @@ NetworkTestUrl="http://127.0.0.1:8000"
 +NetworkTests=(Label="Health Check",Method=GET,Endpoint="/health")
 +NetworkTests=(Label="GPT Test",Method=POST,Endpoint="/test/gpt",BodyParams=((Key="text",Value="안녕하세요")))
 ```
+
+**참고**: 플러그인 폴더의 `Config/DefaultToolbarSettings.Sample.ini` 파일에 모든 기능에 대한 샘플 설정이 포함되어 있으니 참고하세요.
 
 #### 콘솔 커맨드 사용법
 에디터의 **Output Log** 창에서 `curl` 명령어를 사용할 수 있습니다:
@@ -168,7 +172,7 @@ curl post /test/gpt {"text":"안녕하세요"}
 *   **콘솔 명령어 등록**: 툴바를 통해 실행할 커스텀 콘솔 명령어 목록을 추가하거나 수정할 수 있습니다.
 *   **툴바 기능 활성화/비활성화**: 툴바에 표시할 개별 기능들을 선택적으로 켜고 끌 수 있습니다.
 
-설정된 내용은 프로젝트의 `Config/ToolbarSettings.ini` 파일에 저장됩니다.
+설정된 내용은 프로젝트의 `Config/DefaultToolbarSettings.ini` 파일에 저장됩니다. 플러그인 폴더의 `Config/DefaultToolbarSettings.Sample.ini` 파일에서 모든 설정 옵션의 샘플을 확인할 수 있습니다.
 
 
 ## 라이선스 (License)
