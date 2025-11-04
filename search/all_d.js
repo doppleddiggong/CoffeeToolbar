@@ -9,10 +9,11 @@ var searchData=
   ['get_6',['Get',['../classFToolbarStyle.html#a991868104917dfc66104bcdeceece9c6',1,'FToolbarStyle']]],
   ['getactivetargetworld_7',['GetActiveTargetWorld',['../classFCommon.html#ac247ef6e336abf6ca53b140d93ea07f9',1,'FCommon']]],
   ['getcategoryname_8',['GetCategoryName',['../classUToolbarSettings.html#aeed139171a668f2605053065edcc6c6c',1,'UToolbarSettings']]],
-  ['geticon_9',['GetIcon',['../classFCommon.html#a7f9a33df4cca4a9488e492d0043c284e',1,'FCommon']]],
-  ['getsearchroots_10',['GetSearchRoots',['../classUToolbarSettings.html#a839017a8f47a62d4127ad8527d2498ed',1,'UToolbarSettings']]],
-  ['getsectionname_11',['GetSectionName',['../classUToolbarSettings.html#a2f6e0fd2d6935824cea7495f06cf6810',1,'UToolbarSettings']]],
-  ['getstylesetname_12',['GetStyleSetName',['../classFToolbarStyle.html#a3437f8f3e4dcd2c7b68de7b28fc2a95a',1,'FToolbarStyle']]],
-  ['github_20release를_20통한_20설치_20권장_13',['1. GitHub Release를 통한 설치 (권장)',['../index.html#autotoc_md3',1,'']]],
-  ['guide_14',['설정 가이드 (Configuration Guide)',['../index.html#autotoc_md7',1,'']]]
+  ['getcontainername_9',['GetContainerName',['../classUToolbarSettings.html#a8e5feae579f59ad43163fd3d2bff193b',1,'UToolbarSettings']]],
+  ['geticon_10',['GetIcon',['../classFCommon.html#a7f9a33df4cca4a9488e492d0043c284e',1,'FCommon']]],
+  ['getsearchroots_11',['GetSearchRoots',['../classUToolbarSettings.html#a839017a8f47a62d4127ad8527d2498ed',1,'UToolbarSettings']]],
+  ['getsectionname_12',['GetSectionName',['../classUToolbarSettings.html#a2f6e0fd2d6935824cea7495f06cf6810',1,'UToolbarSettings']]],
+  ['getstylesetname_13',['GetStyleSetName',['../classFToolbarStyle.html#a3437f8f3e4dcd2c7b68de7b28fc2a95a',1,'FToolbarStyle']]],
+  ['github_20release를_20통한_20설치_20권장_14',['1. GitHub Release를 통한 설치 (권장)',['../index.html#autotoc_md3',1,'']]],
+  ['guide_15',['설정 가이드 (Configuration Guide)',['../index.html#autotoc_md7',1,'']]]
 ];

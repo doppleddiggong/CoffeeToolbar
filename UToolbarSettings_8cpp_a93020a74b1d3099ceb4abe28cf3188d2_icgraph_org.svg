@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title="사용자 입력 디렉터리 문자열을 콘텐츠 루트 형식으로 정규화합니다.">
+<g id="a_Node000001"><a xlink:title=" ">
 <polygon fill="#999999" stroke="#666666" points="894,-40 784,-40 784,-21 894,-21 894,-40"/>
 <text text-anchor="middle" x="839" y="-28" font-family="Malgun Gothic" font-size="10.00">NormalizeUserPath</text>
 </a>

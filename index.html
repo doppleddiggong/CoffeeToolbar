@@ -209,10 +209,11 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </ul>
 <h3><a class="anchor" id="autotoc_md16"></a>
 .ini 설정 예시</h3>
-<p>프로젝트의 <code>Config/DefaultToolbarSettings.ini</code> 파일에서 직접 설정할 수도 있습니다: </p><div class="fragment"><div class="line">bEnableFolderFeature=True</div>
+<p>플러그인의 <code>Config/DefaultToolbarSettings.Sample.ini</code> 파일을 참고하여 프로젝트의 <code>Config/DefaultToolbarSettings.ini</code> 파일에서 직접 설정할 수도 있습니다: </p><div class="fragment"><div class="line">bEnableFolderFeature=True</div>
 <div class="line">+FoldersToOpen=(Label=&quot;로그&quot;,Path=&quot;Saved/Logs&quot;)</div>
 <div class="line">+FoldersToOpen=(Label=&quot;문서&quot;,Path=&quot;Documents&quot;)</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md17"></a>
+</div><!-- fragment --><p><b>참고</b>: 플러그인 폴더의 <code>Config/DefaultToolbarSettings.Sample.ini</code> 파일에 모든 기능에 대한 샘플 설정이 포함되어 있으니 참고하세요.</p>
+<h2><a class="anchor" id="autotoc_md17"></a>
 7. 네트워크 API 테스트 (Network Test Feature)</h2>
 <p><b>Network Tests</b> 기능을 통해 HTTP API 요청을 에디터에서 직접 실행하고, 응답 결과를 Output Log에서 확인할 수 있습니다.</p>
 <h3><a class="anchor" id="autotoc_md18"></a>
@@ -237,12 +238,13 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </ul>
 <h3><a class="anchor" id="autotoc_md20"></a>
 .ini 설정 예시</h3>
-<p>프로젝트의 <code>Config/DefaultToolbarSettings.ini</code> 파일에서 직접 설정할 수도 있습니다: </p><div class="fragment"><div class="line">bEnableNetworkTestFeature=True</div>
+<p>플러그인의 <code>Config/DefaultToolbarSettings.Sample.ini</code> 파일을 참고하여 프로젝트의 <code>Config/DefaultToolbarSettings.ini</code> 파일에서 직접 설정할 수도 있습니다: </p><div class="fragment"><div class="line">bEnableNetworkTestFeature=True</div>
 <div class="line">NetworkTestUrl=&quot;http://127.0.0.1:8000&quot;</div>
 <div class="line"> </div>
 <div class="line">+NetworkTests=(Label=&quot;Health Check&quot;,Method=GET,Endpoint=&quot;/health&quot;)</div>
 <div class="line">+NetworkTests=(Label=&quot;GPT Test&quot;,Method=POST,Endpoint=&quot;/test/gpt&quot;,BodyParams=((Key=&quot;text&quot;,Value=&quot;안녕하세요&quot;)))</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md21"></a>
+</div><!-- fragment --><p><b>참고</b>: 플러그인 폴더의 <code>Config/DefaultToolbarSettings.Sample.ini</code> 파일에 모든 기능에 대한 샘플 설정이 포함되어 있으니 참고하세요.</p>
+<h3><a class="anchor" id="autotoc_md21"></a>
 콘솔 커맨드 사용법</h3>
 <p>에디터의 <b>Output Log</b> 창에서 <code>curl</code> 명령어를 사용할 수 있습니다: </p><div class="fragment"><div class="line">curl get /health</div>
 <div class="line">curl post /test/gpt {&quot;text&quot;:&quot;안녕하세요&quot;}</div>
@@ -254,7 +256,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li><b>콘솔 명령어 등록</b>: 툴바를 통해 실행할 커스텀 콘솔 명령어 목록을 추가하거나 수정할 수 있습니다.</li>
 <li><b>툴바 기능 활성화/비활성화</b>: 툴바에 표시할 개별 기능들을 선택적으로 켜고 끌 수 있습니다.</li>
 </ul>
-<p>설정된 내용은 프로젝트의 <code>Config/ToolbarSettings.ini</code> 파일에 저장됩니다.</p>
+<p>설정된 내용은 프로젝트의 <code>Config/DefaultToolbarSettings.ini</code> 파일에 저장됩니다. 플러그인 폴더의 <code>Config/DefaultToolbarSettings.Sample.ini</code> 파일에서 모든 설정 옵션의 샘플을 확인할 수 있습니다.</p>
 <h1><a class="anchor" id="autotoc_md24"></a>
 라이선스 (License)</h1>
 <p>본 플러그인은 MIT 라이선스 하에 배포됩니다. 자세한 내용은 <code>LICENSE</code> 파일을 참고하십시오.</p>
@@ -275,7 +277,7 @@ Author</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">생성시간 : 토 10월 11 2025 11:34:27, 프로젝트명 : Coffee Toolbar, 생성자 :  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">생성시간 : 화 11월 4 2025 13:49:59, 프로젝트명 : Coffee Toolbar, 생성자 :  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

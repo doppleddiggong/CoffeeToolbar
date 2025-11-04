@@ -126,7 +126,6 @@ $(document).ready(function(){initNavTree('UToolbarSettings_8cpp.html',''); initR
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 함수</h2></td></tr>
 <tr class="memitem:a93020a74b1d3099ceb4abe28cf3188d2" id="r_a93020a74b1d3099ceb4abe28cf3188d2"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="UToolbarSettings_8cpp.html#a93020a74b1d3099ceb4abe28cf3188d2">NormalizeUserPath</a> (const FString &amp;In, FName &amp;OutRoot)</td></tr>
-<tr class="memdesc:a93020a74b1d3099ceb4abe28cf3188d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">사용자 입력 디렉터리 문자열을 콘텐츠 루트 형식으로 정규화합니다.  <br /></td></tr>
 <tr class="separator:a93020a74b1d3099ceb4abe28cf3188d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">상세한 설명</h2>
@@ -167,38 +166,35 @@ $(document).ready(function(){initNavTree('UToolbarSettings_8cpp.html',''); initR
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>사용자 입력 디렉터리 문자열을 콘텐츠 루트 형식으로 정규화합니다. </p>
 <dl class="params"><dt>매개변수</dt><dd>
   <table class="params">
-    <tr><td class="paramname">In</td><td>사용자 입력 원본 경로 문자열. </td></tr>
     <tr><td class="paramname">OutRoot</td><td>에셋 레지스트리와 호환되는 정규화된 루트 경로입니다. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>반환값</dt><dd>정규화에 성공하여 OutRoot가 채워졌다면 true를 반환합니다. </dd></dl>
 
-<p class="definition"><a class="el" href="UToolbarSettings_8cpp_source.html">UToolbarSettings.cpp</a> 파일의 <a class="el" href="UToolbarSettings_8cpp_source.html#l00098">98</a> 번째 라인에서 정의되었습니다.</p>
-<div class="fragment"><div class="line"><span class="lineno">   99</span>{</div>
-<div class="line"><span class="lineno">  100</span>    FString S = In;</div>
-<div class="line"><span class="lineno">  101</span>    S.ReplaceInline(TEXT(<span class="stringliteral">&quot;\\&quot;</span>), TEXT(<span class="stringliteral">&quot;/&quot;</span>));</div>
-<div class="line"><span class="lineno">  102</span>    S.TrimStartAndEndInline();</div>
-<div class="line"><span class="lineno">  103</span> </div>
-<div class="line"><span class="lineno">  104</span>    <span class="keywordflow">if</span> (S.Contains(TEXT(<span class="stringliteral">&quot;:&quot;</span>)))</div>
-<div class="line"><span class="lineno">  105</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  106</span>    </div>
-<div class="line"><span class="lineno">  107</span>    <span class="keywordflow">if</span> (!S.StartsWith(TEXT(<span class="stringliteral">&quot;/&quot;</span>)))</div>
-<div class="line"><span class="lineno">  108</span>        S = TEXT(<span class="stringliteral">&quot;/&quot;</span>) + S;</div>
-<div class="line"><span class="lineno">  109</span> </div>
-<div class="line"><span class="lineno">  110</span>    <span class="keywordflow">if</span> (S.StartsWith(TEXT(<span class="stringliteral">&quot;/Content/&quot;</span>)))</div>
-<div class="line"><span class="lineno">  111</span>        S = S.Replace(TEXT(<span class="stringliteral">&quot;/Content/&quot;</span>), TEXT(<span class="stringliteral">&quot;/Game/&quot;</span>));</div>
-<div class="line"><span class="lineno">  112</span> </div>
-<div class="line"><span class="lineno">  113</span>    S.RemoveFromEnd(TEXT(<span class="stringliteral">&quot;/&quot;</span>));</div>
-<div class="line"><span class="lineno">  114</span>    OutRoot = FName(*S);</div>
-<div class="line"><span class="lineno">  115</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  116</span>}</div>
+<p class="definition"><a class="el" href="UToolbarSettings_8cpp_source.html">UToolbarSettings.cpp</a> 파일의 <a class="el" href="UToolbarSettings_8cpp_source.html#l00093">93</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><span class="lineno">   94</span>{</div>
+<div class="line"><span class="lineno">   95</span>    FString S = In;</div>
+<div class="line"><span class="lineno">   96</span>    S.ReplaceInline(TEXT(<span class="stringliteral">&quot;\\&quot;</span>), TEXT(<span class="stringliteral">&quot;/&quot;</span>));</div>
+<div class="line"><span class="lineno">   97</span>    S.TrimStartAndEndInline();</div>
+<div class="line"><span class="lineno">   98</span> </div>
+<div class="line"><span class="lineno">   99</span>    <span class="keywordflow">if</span> (S.Contains(TEXT(<span class="stringliteral">&quot;:&quot;</span>)))</div>
+<div class="line"><span class="lineno">  100</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  101</span>    </div>
+<div class="line"><span class="lineno">  102</span>    <span class="keywordflow">if</span> (!S.StartsWith(TEXT(<span class="stringliteral">&quot;/&quot;</span>)))</div>
+<div class="line"><span class="lineno">  103</span>        S = TEXT(<span class="stringliteral">&quot;/&quot;</span>) + S;</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>    <span class="keywordflow">if</span> (S.StartsWith(TEXT(<span class="stringliteral">&quot;/Content/&quot;</span>)))</div>
+<div class="line"><span class="lineno">  106</span>        S = S.Replace(TEXT(<span class="stringliteral">&quot;/Content/&quot;</span>), TEXT(<span class="stringliteral">&quot;/Game/&quot;</span>));</div>
+<div class="line"><span class="lineno">  107</span> </div>
+<div class="line"><span class="lineno">  108</span>    S.RemoveFromEnd(TEXT(<span class="stringliteral">&quot;/&quot;</span>));</div>
+<div class="line"><span class="lineno">  109</span>    OutRoot = FName(*S);</div>
+<div class="line"><span class="lineno">  110</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  111</span>}</div>
 </div><!-- fragment -->
-<p class="reference">다음에 의해서 참조됨 :  <a class="el" href="UToolbarSettings_8cpp_source.html#l00122">UToolbarSettings::GetSearchRoots()</a>.</p>
+<p class="reference">다음에 의해서 참조됨 :  <a class="el" href="UToolbarSettings_8cpp_source.html#l00117">UToolbarSettings::GetSearchRoots()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> 이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -215,7 +211,7 @@ $(document).ready(function(){initNavTree('UToolbarSettings_8cpp.html',''); initR
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_74389ed8173ad57b461b9d623a1f3867.html">Source</a></li><li class="navelem"><a class="el" href="dir_64d53782dd23c34e270e016cddcba0f2.html">CoffeeToolbar</a></li><li class="navelem"><a class="el" href="dir_694584ba17985195ce961d5fae66b6d9.html">Private</a></li><li class="navelem"><a class="el" href="dir_b32a1a6bbbe24ba71e2f22061efaf028.html">Settings</a></li><li class="navelem"><a class="el" href="UToolbarSettings_8cpp.html">UToolbarSettings.cpp</a></li>
-    <li class="footer">생성시간 : 토 10월 11 2025 11:34:27, 프로젝트명 : Coffee Toolbar, 생성자 :  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">생성시간 : 화 11월 4 2025 13:49:59, 프로젝트명 : Coffee Toolbar, 생성자 :  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

@@ -5,5 +5,6 @@ var searchData=
   ['ensuredefaultselection_2',['EnsureDefaultSelection',['../classFLevelFeature.html#abefcace2c5ea60b97089760e5c45ebb5',1,'FLevelFeature']]],
   ['ensurevalidselectedmap_3',['EnsureValidSelectedMap',['../classFLevelFeature.html#aad2ad775628a12e462c1e85e90060415',1,'FLevelFeature']]],
   ['executeapirequest_4',['ExecuteApiRequest',['../classFNetworkTestFeature.html#aaa8c7bcd54f9d2536389e8bc301392e2',1,'FNetworkTestFeature']]],
-  ['extrasearchpaths_5',['ExtraSearchPaths',['../classUToolbarSettings.html#a78b489f3f1c8bdd76596ced194f25c3e',1,'UToolbarSettings']]]
+  ['extrasearchpaths_5',['ExtraSearchPaths',['../classUToolbarSettings.html#a78b489f3f1c8bdd76596ced194f25c3e',1,'UToolbarSettings']]],
+  ['extrasearchpathsstrings_6',['ExtraSearchPathsStrings',['../classUToolbarSettings.html#a654dbad36a02a0f657e26a6a83aa727d',1,'UToolbarSettings']]]
 ];
